@@ -1,7 +1,7 @@
 # IELTS V3 数据规范（SCHEMA）
 
 > 所有 skill 写入 `~/.ielts/` 时必须遵守本规范。Dashboard 启动时按本规范扫描聚合。
-> 版本：V3.1.0（2026-04-23）
+> 版本：V3.2.0（2026-08-12）
 
 ---
 
@@ -36,8 +36,10 @@
 │   │   └── dayNN.md                    每天背词记录
 │   └── difficult.yaml                  难词池（单文件，状态需要单点维护）
 └── speaking/
-    └── stories/
-        └── story_NN_topic.md           每个万能故事一个文件
+    ├── stories/
+    │   └── story_NN_topic.md           每个万能故事一个文件
+    └── sessions/
+        └── YYYYMMDD_HHMMSSZ_ID_mode.md 每次语音训练一个文件
 ```
 
 ---
@@ -293,6 +295,71 @@ total_topics: 37                       # 官方 Part 2 话题总数
 covered_topics: 22
 coverage_rate: 0.59
 ```
+
+---
+
+### `speaking/sessions/YYYYMMDD_HHMMSSZ_ID_mode.md`
+
+每次网页语音训练产生一个原子记录。文件名和 `session_id` 只能由后端生成；原始录音不得进入 Git，`recording_id` 只保存本机媒体索引。
+
+```yaml
+---
+session_id: 123e4567-e89b-12d3-a456-426614174000
+date: 2026-08-12
+started_at: 2026-08-12T10:20:30.000Z
+source: openai_realtime              # openai_realtime | local_recording
+mode: full_mock                      # full_mock | part_1 | part_2 | part_3
+question_set_id: cam20-test1
+duration_sec: 742
+speaking_sec: 356
+model: gpt-realtime-2.1              # 本地模式为 null
+voice: marin                         # 本地模式为 null
+evidence: audio_and_transcript       # audio_and_transcript | transcript_only | audio_only
+score_provisional: true              # 口语 AI 估分永远标记为暂定
+scores:
+  fc: 5.5
+  lr: 5.5
+  gra: 5.0
+  pr: 5.5
+  overall: 5.5
+confidence: low                      # low | medium | high | null
+metrics:
+  word_count: 812                    # 无可靠转写则 null
+  fillers: 14                        # 只计可核验的 um/uh/erm/you know
+  long_pauses: null                  # 未实际测量时必须为 null
+  part2_speaking_sec: 107
+transcript_status: complete          # complete | partial | unavailable
+recording_id: spk_1723456789_abcd.webm  # 本机索引；可为 null
+action_items:
+  - criterion: fc                    # fc | lr | gra | pr | general
+    evidence: "I... I think..."
+    drill: "同题重答 60 秒，先直接表态再给原因"
+    target: "每题首句 3 秒内直接回答"
+question_source:
+  file: knowledge/剑20_视觉转录.md
+  start_line: 911
+  end_line: 961
+---
+# 训练信息
+（题源、时长、本机录音索引）
+
+# 本次题目
+（从 knowledge 转录版抽取的原题）
+
+# 逐字稿
+（Examiner / Candidate 分回合；不可用时明确写“未转写”）
+
+# AI 延迟复盘（暂定）
+（证据 → 原因 → 修复训练；不可靠指标写 N/A）
+```
+
+约束：
+
+- `scores.*` 为 `0.0–9.0`、`0.5` 步进或 `null`；四项不齐时 `overall` 必须为 `null`。
+- 没有原始音频证据时 `scores.pr` 必须为 `null`，禁止从文字转写反推发音。
+- Cambridge 题目只能从 `knowledge/` 转录版读取，并保存 `question_source` 行号；缺题时不得补造。
+- `~/.ielts-media/speaking-recordings/` 是本机媒体目录，不属于本仓库，也不参与 Git 同步。
+- 数据文件原子写入成功后运行 `sync.ps1`（Windows）或 `sync.sh`（其他平台）；同步失败不删除本地记录。
 
 ---
 

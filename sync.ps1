@@ -1,15 +1,28 @@
-# IELTS 数据同步：先拉后推，一条命令搞定
+$ErrorActionPreference = 'Stop'
+Set-StrictMode -Version Latest
 Set-Location $PSScriptRoot
 
-git pull --rebase --autostash
+function Invoke-Git {
+  param([string[]]$GitArgs)
+  & git @GitArgs
+  if ($LASTEXITCODE -ne 0) {
+    throw "git $($GitArgs -join ' ') failed with exit code $LASTEXITCODE"
+  }
+}
 
-$dirty = git status --porcelain
+Invoke-Git -GitArgs @('pull', '--rebase', '--autostash')
+
+$dirty = & git status --porcelain
+if ($LASTEXITCODE -ne 0) {
+  throw "git status failed with exit code $LASTEXITCODE"
+}
+
 if ($dirty) {
-  git add -A
-  git commit -m "practice: $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
-  git push
-  Write-Output "✓ 已同步（有新数据推送）"
+  Invoke-Git -GitArgs @('add', '-A')
+  Invoke-Git -GitArgs @('commit', '-m', "practice: $(Get-Date -Format 'yyyy-MM-dd HH:mm')")
+  Invoke-Git -GitArgs @('push')
+  Write-Output 'Sync complete: new data pushed.'
 } else {
-  git push 2>$null
-  Write-Output "✓ 已同步（无新数据）"
+  Invoke-Git -GitArgs @('push')
+  Write-Output 'Sync complete: no new data.'
 }
