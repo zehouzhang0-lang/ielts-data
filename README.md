@@ -31,6 +31,13 @@ git add -A && git commit -m "practice: $(date +%F)" && git push
 
 或直接跑仓库里的同步脚本：`./sync.sh`（Git Bash / Codex）或 `./sync.ps1`（PowerShell）。
 
+## 真题知识库（不在本仓库）
+
+剑桥雅思 10-20 真题知识库（825MB：人工转录 md + PDF + 扫描图）体积过大，不进 git。
+- 主力机（Windows）路径：`D:\ielts-knowledge-base\`
+- 其他环境需要真题时：自行拷贝该文件夹，并告知 AI 实际路径
+- 核心文件：`剑{N}_视觉转录.md`（含题目 + Answer Keys + Audioscripts）
+
 ## 数据规范
 
 所有 `.md` 文件带 YAML frontmatter，字段规范见 Claude skills 目录的 `SCHEMA.md`。
