@@ -1,0 +1,5 @@
+# 难词池 — 错了就进，连对3次才出
+# {word, added_day, review_count, correct_streak, last_correct, last_review}
+- {word: exacerbate, added_day: 2, review_count: 1, correct_streak: 0, last_correct: false, last_review: "2026-04-28"}
+- {word: ubiquitous,  added_day: 2, review_count: 1, correct_streak: 0, last_correct: false, last_review: "2026-04-28"}
+- {word: paradigm,    added_day: 2, review_count: 1, correct_streak: 0, last_correct: false, last_review: "2026-04-28"}
