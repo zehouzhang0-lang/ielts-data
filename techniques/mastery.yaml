@@ -1,0 +1,163 @@
+# 技巧掌握度追踪
+#
+# 状态流转：unknown → learned → applied → mastered
+#   unknown  = 还没学过这个技巧
+#   learned  = 已经学了（看过技巧卡/视频），但还没在真题里用
+#   applied  = 在练习中有意识地用过，但仍出错
+#   mastered = 连续 3 次该题型不再因这个原因失分
+#
+# 规则：
+#   - 每次做完题分析错因后，由对应 skill 更新本文件
+#   - 若某技巧状态是 learned/applied 却仍错 → 说明"知道但做不到"，需要专项练
+#   - 若某技巧 unknown 却错了 → 先学技巧卡，再练题（这就是"技巧先行"）
+
+updated_at: "2026-08-13"
+
+listening:
+  - id: s4_lecture_rhythm
+    name: Section 4 讲座节奏跟读
+    card: listening.md#section-4-专项
+    status: unknown
+    error_tags: [lost_in_lecture]
+    evidence: "cam15-T1 S4 错 7 题"
+    priority: 1
+
+  - id: abandon_and_move_on
+    name: 跟丢立刻放弃下一题
+    card: listening.md#通用铁律
+    status: unknown
+    error_tags: [lost_track_chain]
+    evidence: "cam15-T1 S2 Q17-20 连错 4 题"
+    priority: 1
+
+  - id: mc_distractor_traps
+    name: 选择题三陷阱（否定/过时/同义）
+    card: listening.md#multiple-choice
+    status: unknown
+    error_tags: [mc_distractor]
+    evidence: "3 次"
+    priority: 2
+
+  - id: completion_word_limit
+    name: 填空字数与拼写规范
+    card: listening.md#note--form--table-completion
+    status: unknown
+    error_tags: [spelling_or_word]
+    evidence: "3 次"
+    priority: 2
+
+  - id: map_directions
+    name: 地图题方位词
+    card: listening.md#map--plan-labelling
+    status: unknown
+    error_tags: []
+    evidence: "尚未测试，风险未知"
+    priority: 3
+
+reading:
+  - id: matching_one_letter_rule
+    name: Matching 每题只填一个字母
+    card: reading.md#matching-features
+    status: learned
+    error_tags: [rule_misunderstanding]
+    evidence: "cam15-T1 P3 因误解一次丢 6 题，已纠正认知"
+    note: "规则已懂，但还没在新题里验证 → 下次做 Matching 题后升级为 applied"
+    priority: 1
+
+  - id: matching_person_view
+    name: Matching 张冠李戴/否定改写/双条件
+    card: reading.md#matching-features
+    status: unknown
+    error_tags: [matching_wrong_person, matching_negative_paraphrase, matching_dual_condition]
+    evidence: "各 1 次"
+    priority: 1
+
+  - id: mcq_concession
+    name: 选择题让步陷阱
+    card: reading.md#multiple-choice
+    status: unknown
+    error_tags: [mcq_concession_trap, mcq_subject_confusion, mcq_emotional_distractor]
+    evidence: "各 1 次"
+    priority: 2
+
+  - id: tfng_boundary
+    name: FALSE 与 NOT GIVEN 的边界
+    card: reading.md#true--false--not-given
+    status: unknown
+    error_tags: []
+    evidence: "尚未专项测试"
+    priority: 2
+
+  - id: synonym_bank
+    name: 同义替换积累
+    card: reading.md#synonym-库的用法
+    status: applied
+    error_tags: []
+    evidence: "已积累 13 组，目标 100 组"
+    priority: 3
+
+writing:
+  - id: spelling_discipline
+    name: 拼写纪律（只用拼得对的词）
+    card: writing.md#第一优先级返璞归真
+    status: unknown
+    error_tags: [spelling]
+    evidence: "11 次，第一失分点"
+    priority: 1
+
+  - id: task1_overview
+    name: Task 1 必写 Overview 段
+    card: writing.md#overview-是-tr-的生命线
+    status: unknown
+    error_tags: [no_overview]
+    evidence: "1 次，直接封顶 Band 5"
+    priority: 1
+
+  - id: formal_register
+    name: 学术语域（去口语化）
+    card: writing.md#交卷前-3-分钟必做的检查清单
+    status: unknown
+    error_tags: [informal_register]
+    evidence: "4 次"
+    priority: 1
+
+  - id: task1_four_paragraph
+    name: Task 1 四段式结构
+    card: writing.md#task-1四段式结构必须严格执行
+    status: unknown
+    error_tags: [structure]
+    evidence: "1 次结构问题"
+    priority: 2
+
+  - id: chart_type_coverage
+    name: 七类图表全覆盖（各 2 篇）
+    card: writing.md#题型覆盖式练习不要随机刷
+    status: unknown
+    error_tags: []
+    evidence: "已练：柱状图 1 篇。剩余 6 类未练"
+    priority: 2
+
+speaking:
+  - id: part2_structure
+    name: Part 2 两分钟结构
+    card: speaking.md#part-2
+    status: applied
+    error_tags: []
+    evidence: "2026-08-12 说满 112s，时长达标"
+    priority: 2
+
+  - id: part3_frameworks
+    name: Part 3 万能应答框架
+    card: speaking.md#part-3
+    status: unknown
+    error_tags: []
+    evidence: "尚未练习"
+    priority: 2
+
+  - id: universal_stories
+    name: 万能故事库（5-7 个覆盖 50+ 话题）
+    card: speaking.md#万能故事策略
+    status: unknown
+    error_tags: []
+    evidence: "0 篇，投入产出比最高的未做动作"
+    priority: 1
