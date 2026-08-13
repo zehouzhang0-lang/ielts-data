@@ -34,7 +34,10 @@
 ├── vocab/
 │   ├── days/
 │   │   └── dayNN.md                    每天背词记录
-│   └── difficult.yaml                  难词池（单文件，状态需要单点维护）
+│   ├── difficult.yaml                  难词池（单文件，状态需要单点维护）
+│   ├── mastered.yaml                   已掌握词（单文件）
+│   └── banks/
+│       └── BANK_ID.yaml                静态候选词库；不代表学习进度
 └── speaking/
     ├── stories/
     │   └── story_NN_topic.md           每个万能故事一个文件
@@ -253,6 +256,57 @@ duration_min: 25
 - {word: ubiquitous,  mastered_day: 12, mastered_at: 2026-04-20, source: day12}
 - {word: exacerbate,  mastered_day: 12, mastered_at: 2026-04-20, source: day12}
 ```
+
+---
+
+### `vocab/banks/BANK_ID.yaml`
+
+静态候选词库。它与 `days/`、`difficult.yaml`、`mastered.yaml` 的学习记录分离：导入词库不等于推送、学过或掌握。
+
+```yaml
+schema_version: 1
+id: bbdc_ielts_vocabulary
+title: 雅思词汇真经
+item_type: word                       # word | phrase
+language: en-zh-CN
+source_record_count: 3519             # 主排序导出的原始记录数
+item_count: 3480                      # 合并完全重复词头后的词条数
+initial_status: unlearned
+source:
+  provider: 不背单词App
+  provider_url: https://bbdc.cn
+  imported_at: 2026-08-13
+  scope: user_provided_personal_study_export
+  files:
+    - name: export.pdf
+      role: canonical_term_and_meaning
+      pages: 176
+      sha256: abcdef...                # 64 位 SHA-256
+quality:
+  indexes_complete: true
+  empty_terms: 0
+  empty_meanings: 0
+  duplicate_records_collapsed: 39
+  normalization: NFKC + CJK radical mapping
+items:
+  - id: bbdc_ielts_vocabulary_0001
+    term: atmosphere
+    term_key: atmosphere              # 搜索/去重用规范键；文件内唯一
+    meaning: n. 气氛；大气层；空气；情调
+    labels: [n.]                       # 词性/用法标签，如 n. / usage. / phrv.
+    source_orders:
+      canonical: [1]
+      alternate: [834]                # 可选；另一导出排序的位置
+```
+
+约束：
+
+- `items[].id` 和 `items[].term_key` 在单个词库内必须唯一。
+- `source_record_count` 等于所有 `source_orders.canonical` 的数量之和；alternate 排序不重复计数。
+- `item_count` 等于 `items` 长度。
+- 同一词头若只是导出中的完全重复项，合并为一个 item，并把全部原序号保留在 `source_orders`。
+- 原 PDF、音频、二维码资源不进入 Git；只保存用户个人学习所需的规范化数据和来源哈希。
+- `initial_status: unlearned` 只描述导入初始状态。真实学习状态仍以 `days/`、`difficult.yaml`、`mastered.yaml` 为准。
 
 ---
 

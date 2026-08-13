@@ -7,7 +7,7 @@ user_weak_types: [matching_features, multiple_choice]
 
 # 阅读题型技巧卡
 
-> 用户现状：R6.5 → 目标 7.5。Passage 3 正确率 57%，其中 6 题因**规则误解**丢分（已纠正）。
+> 用户现状：R6.5 → 目标 7.5。Passage 3 正确率 57%；Matching Features 5 题错 3 题，且复盘发现规则误解（已纠正认知，尚待新题验证）。
 > 推荐配套：B站「Sun 老师教雅思」阅读技巧（作者称"受用最大的一集"，我未验证）
 
 ---
@@ -18,7 +18,7 @@ user_weak_types: [matching_features, multiple_choice]
 2. **题目顺序 ≈ 原文顺序**（除 Matching Headings 和 Matching Features 外）
 3. **同义替换是全部考点**。题干里的词几乎不会原样出现在原文
 4. **先做定位容易的题型**（有数字、专有名词、大写词的），再做费时的
-5. 时间分配：Passage 1 / 2 / 3 = 16 / 20 / 24 分钟，**最后 3 分钟必须涂完答题卡**
+5. 机考练习可把 Passage 1 / 2 / 3 暂定为 16 / 20 / 24 分钟；这是训练配速，不是固定规则，最后必须留时间检查所有作答框
 
 ---
 
@@ -30,7 +30,7 @@ user_weak_types: [matching_features, multiple_choice]
 > = **同一个字母可以在不同题里重复使用**
 > ≠ 一道题可以填多个字母
 
-**每题永远只填一个字母。** 用户曾按"多选"理解，一次丢 6 题。
+本组题每题只填一个字母。用户把 NB 误读成“单题多选”；该组实际 5 题错 3 题，整篇另有 3 道 MCQ 错题。
 
 ### 核心技巧
 - 先把**选项列表（人名/理论名）在原文中全部圈出来**，标好位置
@@ -59,7 +59,7 @@ user_weak_types: [matching_features, multiple_choice]
 | `mcq_subject_confusion` (Q29) | 主语混淆：说的是谁做的？ | 圈出每句的真主语 |
 | `mcq_emotional_distractor` (Q32) | 情感干扰：选项情绪比原文强烈 | 原文说 "some concerns"，选项说 "strongly opposed" → 过度 |
 
-> **通用判断**：选项里出现 `all / never / only / must` 等绝对词，八成是错的；`some / may / tend to` 等软化词更可能对。
+> **核查信号**：选项出现 `all / never / only / must` 等绝对词时，必须回原文核对范围；不能仅凭措辞强弱猜答案。
 
 ---
 
@@ -83,7 +83,7 @@ user_weak_types: [matching_features, multiple_choice]
 
 ## Matching Headings（段落大意）
 
-- **只读段落的首句和末句**，中间跳过
+- 先读首句、末句和转折句建立主旨假设；若仍不确定，必须读中部论证，不能机械跳过
 - 先做最有把握的，用排除法收窄
 - 小心"段落里出现最多的词"——那往往是细节不是主旨
 - 例子（`for example`）后面的内容不是段落主旨
@@ -102,7 +102,7 @@ user_weak_types: [matching_features, multiple_choice]
 
 每次精读把**错题定位句 vs 题干**的同义替换提取出来，存进 `reading/synonyms/`。
 
-积累到 100 组以后会有质变——因为雅思的同义替换是**高度重复**的（`increase→rise/surge`、`important→significant/crucial`、`cause→trigger/lead to`）。
+持续积累并复测同义替换；当前 13 组，只能作为起点，尚无数据支持“达到某个固定数量就质变”。
 
 用户当前积累：13 组。
 

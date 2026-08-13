@@ -13,6 +13,7 @@
 | [writing.md](writing.md) | 写作技巧卡（深度内容在 skills 目录的 task1-course.md） |
 | [speaking.md](speaking.md) | 口语技巧卡（目标 6.0 的达标策略） |
 | [mastery.yaml](mastery.yaml) | **技巧掌握度追踪** — unknown → learned → applied → mastered |
+| [course-fast-track.md](course-fast-track.md) | **网课速通流程** — 定位片段、提炼技巧、真题验证、采纳/淘汰 |
 | [_source-xhs-6.5.md](_source-xhs-6.5.md) | 原始素材（小红书 6.5 经验帖，含 B站资源清单） |
 
 ## 核心工作流

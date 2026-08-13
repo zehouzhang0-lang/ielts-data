@@ -1,0 +1,6844 @@
+schema_version: 1
+id: "bbdc_ielts_core_phrases"
+title: "雅思真题核心词组"
+item_type: "phrase"
+language: "en-zh-CN"
+source_record_count: 755
+item_count: 755
+initial_status: "unlearned"
+source:
+  provider: "不背单词App"
+  provider_url: "https://bbdc.cn"
+  imported_at: "2026-08-13"
+  scope: "user_provided_personal_study_export"
+  files:
+    - name: "bbdc_10284408_20260812185918.pdf"
+      role: "canonical_term_and_meaning"
+      pages: 38
+      sha256: "4191ecb4e19e0b8d59844ab99e6a02920326488a7b15f2db320f9194d08fa0d0"
+    - name: "bbdc_10284408_20260812185931.pdf"
+      role: "meaning_only_companion"
+      pages: 19
+      sha256: "d713f4358dc89cc772314706af82f73a00bb3057c1b306c47a9bff7a8db09d36"
+    - name: "bbdc_10284408_20260812185942.pdf"
+      role: "term_only_companion"
+      pages: 19
+      sha256: "938c2942ca2f13d47904b0e78a6307c176e21bc0731c692b8f9baa6d30323a7b"
+quality:
+  indexes_complete: true
+  empty_terms: 0
+  empty_meanings: 0
+  duplicate_records_collapsed: 0
+  normalization: "NFKC + CJK radical mapping + 㬵→胶"
+items:
+  - id: "bbdc_ielts_core_phrases_0001"
+    term: "for the purpose of"
+    term_key: "for the purpose of"
+    meaning: "collocation. 为了...目标,出于...目的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 1
+  - id: "bbdc_ielts_core_phrases_0002"
+    term: "enable sb to do"
+    term_key: "enable sb to do"
+    meaning: "usage. 使某人能够做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 2
+  - id: "bbdc_ielts_core_phrases_0003"
+    term: "be fair to do"
+    term_key: "be fair to do"
+    meaning: "usage. 做...是恰当的 (或合理的)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 3
+  - id: "bbdc_ielts_core_phrases_0004"
+    term: "seek to do"
+    term_key: "seek to do"
+    meaning: "usage. 试图做某事,设法做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 4
+  - id: "bbdc_ielts_core_phrases_0005"
+    term: "on the point of..."
+    term_key: "on the point of..."
+    meaning: "collocation. 在...的时刻,在...的关头"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 5
+  - id: "bbdc_ielts_core_phrases_0006"
+    term: "refer to"
+    term_key: "refer to"
+    meaning: "phrv. 提到,谈及 phrv. 指的是,描述,关于;参考,查阅"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 6
+  - id: "bbdc_ielts_core_phrases_0007"
+    term: "to some extent"
+    term_key: "to some extent"
+    meaning: "collocation. 在某种程度上"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 7
+  - id: "bbdc_ielts_core_phrases_0008"
+    term: "scores of"
+    term_key: "scores of"
+    meaning: "usage. 大量,很多"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 8
+  - id: "bbdc_ielts_core_phrases_0009"
+    term: "persuade sb to do"
+    term_key: "persuade sb to do"
+    meaning: "usage. 劝说某人做..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 9
+  - id: "bbdc_ielts_core_phrases_0010"
+    term: "be willing to do"
+    term_key: "be willing to do"
+    meaning: "usage. 乐意做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 10
+  - id: "bbdc_ielts_core_phrases_0011"
+    term: "suffer from sth"
+    term_key: "suffer from sth"
+    meaning: "usage. 经受 (疼痛、疾病) usage. 遭受,蒙受 (不愉快的事)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 11
+  - id: "bbdc_ielts_core_phrases_0012"
+    term: "couple... with..."
+    term_key: "couple... with..."
+    meaning: "phrv. 把...与...结合"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 12
+  - id: "bbdc_ielts_core_phrases_0013"
+    term: "a couple of"
+    term_key: "a couple of"
+    meaning: "usage. 两个,几个"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 13
+  - id: "bbdc_ielts_core_phrases_0014"
+    term: "at the expense of"
+    term_key: "at the expense of"
+    meaning: "idm. 以...为代价,在牺牲...的情况下"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 14
+  - id: "bbdc_ielts_core_phrases_0015"
+    term: "originate in"
+    term_key: "originate in"
+    meaning: "collocation. 起源于,开始于"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 15
+  - id: "bbdc_ielts_core_phrases_0016"
+    term: "exchange A for B"
+    term_key: "exchange a for b"
+    meaning: "usage. 用 A 换取 B"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 16
+  - id: "bbdc_ielts_core_phrases_0017"
+    term: "be unique to"
+    term_key: "be unique to"
+    meaning: "usage. 为...所特有的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 17
+  - id: "bbdc_ielts_core_phrases_0018"
+    term: "with one's bare hands"
+    term_key: "with one's bare hands"
+    meaning: "idm. 徒手,赤手空拳"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 18
+  - id: "bbdc_ielts_core_phrases_0019"
+    term: "in general"
+    term_key: "in general"
+    meaning: "idm. 通常,在多数情况下 idm. 整体上看,总体来说"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 19
+  - id: "bbdc_ielts_core_phrases_0020"
+    term: "range from A to B"
+    term_key: "range from a to b"
+    meaning: "usage. (在从 A 到 B 的范围内) 变化 usage. 包括 (从 A 到 B 的) 各类事物"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 20
+  - id: "bbdc_ielts_core_phrases_0021"
+    term: "credit A with B"
+    term_key: "credit a with b"
+    meaning: "usage. 认为 B 是 A 的功劳"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 21
+  - id: "bbdc_ielts_core_phrases_0022"
+    term: "in particular"
+    term_key: "in particular"
+    meaning: "idm. 尤其,特别,格外 idm. 特殊的,专门的,具体的"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 22
+  - id: "bbdc_ielts_core_phrases_0023"
+    term: "entitle sb to sth"
+    term_key: "entitle sb to sth"
+    meaning: "usage. 给予某人...权利 (或资格)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 23
+  - id: "bbdc_ielts_core_phrases_0024"
+    term: "entitle sb to do"
+    term_key: "entitle sb to do"
+    meaning: "usage. 赋予某人做某事的权利 (或资格)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 24
+  - id: "bbdc_ielts_core_phrases_0025"
+    term: "cope with"
+    term_key: "cope with"
+    meaning: "usage. (成功地) 应付,处理"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 25
+  - id: "bbdc_ielts_core_phrases_0026"
+    term: "for one's benefit"
+    term_key: "for one's benefit"
+    meaning: "idm. 为某人好,为了帮助某人"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 26
+  - id: "bbdc_ielts_core_phrases_0027"
+    term: "not necessarily"
+    term_key: "not necessarily"
+    meaning: "idm. 未必,不一定"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 27
+  - id: "bbdc_ielts_core_phrases_0028"
+    term: "intend to do"
+    term_key: "intend to do"
+    meaning: "usage. 打算做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 28
+  - id: "bbdc_ielts_core_phrases_0029"
+    term: "carry out"
+    term_key: "carry out"
+    meaning: "phrv. 实施 (计划),兑现 (诺言) phrv. 完成 (任务)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 29
+  - id: "bbdc_ielts_core_phrases_0030"
+    term: "carry on"
+    term_key: "carry on"
+    meaning: "phrv. 继续前进;继续做"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 30
+  - id: "bbdc_ielts_core_phrases_0031"
+    term: "in response to"
+    term_key: "in response to"
+    meaning: "collocation. 对...的回答 (或答复) collocation. 对...的反应 (或响应)"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 31
+  - id: "bbdc_ielts_core_phrases_0032"
+    term: "compare A to B"
+    term_key: "compare a to b"
+    meaning: "usage. 将 A 和 B 作比较 usage. 认为 A 与 B 相似,将 A 比作 B"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 32
+  - id: "bbdc_ielts_core_phrases_0033"
+    term: "infer sth from sth"
+    term_key: "infer sth from sth"
+    meaning: "usage. 从...推断,从...推理"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 33
+  - id: "bbdc_ielts_core_phrases_0034"
+    term: "with reference to"
+    term_key: "with reference to"
+    meaning: "idm. (所述内容) 关于"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 34
+  - id: "bbdc_ielts_core_phrases_0035"
+    term: "give priority to"
+    term_key: "give priority to"
+    meaning: "collocation. 优先考虑...,给...优先权"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 35
+  - id: "bbdc_ielts_core_phrases_0036"
+    term: "distinguish A from B"
+    term_key: "distinguish a from b"
+    meaning: "usage. 区分 A 和 B"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 36
+  - id: "bbdc_ielts_core_phrases_0037"
+    term: "by/in comparison"
+    term_key: "by/in comparison"
+    meaning: "idm. 比较起来,相比之下;相比较"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 37
+  - id: "bbdc_ielts_core_phrases_0038"
+    term: "depend on"
+    term_key: "depend on"
+    meaning: "phrv. 依靠,信赖;受...影响,取决于"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 38
+  - id: "bbdc_ielts_core_phrases_0039"
+    term: "devote... to..."
+    term_key: "devote... to..."
+    meaning: "usage. 献身于...,致力于...;把...用于 ..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 39
+  - id: "bbdc_ielts_core_phrases_0040"
+    term: "proceed to do"
+    term_key: "proceed to do"
+    meaning: "usage. (做完某事后) 接着做..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 40
+  - id: "bbdc_ielts_core_phrases_0041"
+    term: "and so forth"
+    term_key: "and so forth"
+    meaning: "idm. 等等,诸如此类"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 41
+  - id: "bbdc_ielts_core_phrases_0042"
+    term: "equip... with sth"
+    term_key: "equip... with sth"
+    meaning: "usage. 给...装备,给...配备"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 42
+  - id: "bbdc_ielts_core_phrases_0043"
+    term: "deprive sb of sth"
+    term_key: "deprive sb of sth"
+    meaning: "phrv. 剥夺某人的某事物"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 43
+  - id: "bbdc_ielts_core_phrases_0044"
+    term: "remind sb of..."
+    term_key: "remind sb of..."
+    meaning: "phrv. 使某人想起..."
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 44
+  - id: "bbdc_ielts_core_phrases_0045"
+    term: "data on sth"
+    term_key: "data on sth"
+    meaning: "usage. 关于...的数据"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 45
+  - id: "bbdc_ielts_core_phrases_0046"
+    term: "in relation to"
+    term_key: "in relation to"
+    meaning: "collocation. 关于...,涉及..."
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 46
+  - id: "bbdc_ielts_core_phrases_0047"
+    term: "be native to"
+    term_key: "be native to"
+    meaning: "usage. (动植物) 原产于某地的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 47
+  - id: "bbdc_ielts_core_phrases_0048"
+    term: "be anxious to do"
+    term_key: "be anxious to do"
+    meaning: "usage. 渴望做某事,非常希望做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 48
+  - id: "bbdc_ielts_core_phrases_0049"
+    term: "make an impression"
+    term_key: "make an impression"
+    meaning: "collocation. 留下深刻印象,留下好印象"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 49
+  - id: "bbdc_ielts_core_phrases_0050"
+    term: "combine sth with sth"
+    term_key: "combine sth with sth"
+    meaning: "usage. 使...结合,使...组合"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 50
+  - id: "bbdc_ielts_core_phrases_0051"
+    term: "be bound to do"
+    term_key: "be bound to do"
+    meaning: "usage. 一定会,很可能会"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 51
+  - id: "bbdc_ielts_core_phrases_0052"
+    term: "be bound up with"
+    term_key: "be bound up with"
+    meaning: "idm. 和...密切相关"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 52
+  - id: "bbdc_ielts_core_phrases_0053"
+    term: "attribute sth to sth"
+    term_key: "attribute sth to sth"
+    meaning: "usage. 把...归因于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 53
+  - id: "bbdc_ielts_core_phrases_0054"
+    term: "complain about/of"
+    term_key: "complain about/of"
+    meaning: "usage. 抱怨..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 54
+  - id: "bbdc_ielts_core_phrases_0055"
+    term: "given that"
+    term_key: "given that"
+    meaning: "usage. 考虑到...,鉴于..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 55
+  - id: "bbdc_ielts_core_phrases_0056"
+    term: "be vulnerable to"
+    term_key: "be vulnerable to"
+    meaning: "usage. 易受...伤害的,易受...影响的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 56
+  - id: "bbdc_ielts_core_phrases_0057"
+    term: "recognize... as sth"
+    term_key: "recognize... as sth"
+    meaning: "usage. 承认...是...;正式认可...是..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 57
+  - id: "bbdc_ielts_core_phrases_0058"
+    term: "register for sth"
+    term_key: "register for sth"
+    meaning: "usage. 登记,注册 (信息)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 58
+  - id: "bbdc_ielts_core_phrases_0059"
+    term: "make an appointment"
+    term_key: "make an appointment"
+    meaning: "collocation. 预约,约会"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 59
+  - id: "bbdc_ielts_core_phrases_0060"
+    term: "take sth into account"
+    term_key: "take sth into account"
+    meaning: "idm. 考虑到,顾及"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 60
+  - id: "bbdc_ielts_core_phrases_0061"
+    term: "attach sth to..."
+    term_key: "attach sth to..."
+    meaning: "usage. 把...固定在...上,把...附在...上 usage. 与...有关联,使与...有联系"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 61
+  - id: "bbdc_ielts_core_phrases_0062"
+    term: "suspend... from sth"
+    term_key: "suspend... from sth"
+    meaning: "usage. 把...悬挂在,把...吊在"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 62
+  - id: "bbdc_ielts_core_phrases_0063"
+    term: "a clue to sth"
+    term_key: "a clue to sth"
+    meaning: "usage. ...的线索"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 63
+  - id: "bbdc_ielts_core_phrases_0064"
+    term: "donate sth to..."
+    term_key: "donate sth to..."
+    meaning: "usage. 把...捐赠给 (慈善机构) usage. 向...献 (血),向...捐献 (器官)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 64
+  - id: "bbdc_ielts_core_phrases_0065"
+    term: "regardless of sth"
+    term_key: "regardless of sth"
+    meaning: "usage. 不管,无论"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 65
+  - id: "bbdc_ielts_core_phrases_0066"
+    term: "in addition"
+    term_key: "in addition"
+    meaning: "idm. 此外,另外"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 66
+  - id: "bbdc_ielts_core_phrases_0067"
+    term: "tend to do"
+    term_key: "tend to do"
+    meaning: "usage. 倾向于做某事,易于做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 67
+  - id: "bbdc_ielts_core_phrases_0068"
+    term: "in contrast to"
+    term_key: "in contrast to"
+    meaning: "collocation. 与...形成对照"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 68
+  - id: "bbdc_ielts_core_phrases_0069"
+    term: "in contrast"
+    term_key: "in contrast"
+    meaning: "collocation. 与此相反,相反地"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 69
+  - id: "bbdc_ielts_core_phrases_0070"
+    term: "in effect"
+    term_key: "in effect"
+    meaning: "idm. 实际上,事实上 idm. (法律或规则) 在实施中,有效"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 70
+  - id: "bbdc_ielts_core_phrases_0071"
+    term: "greenhouse effect"
+    term_key: "greenhouse effect"
+    meaning: "n. 温室效应"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 71
+  - id: "bbdc_ielts_core_phrases_0072"
+    term: "stem from sth"
+    term_key: "stem from sth"
+    meaning: "phrv. 起源于,由...造成"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 72
+  - id: "bbdc_ielts_core_phrases_0073"
+    term: "vice versa"
+    term_key: "vice versa"
+    meaning: "usage. 反之亦然,反过来也一样"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 73
+  - id: "bbdc_ielts_core_phrases_0074"
+    term: "be aware of"
+    term_key: "be aware of"
+    meaning: "usage. 知道...的,意识到...的 usage. 察觉到...的,注意到...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 74
+  - id: "bbdc_ielts_core_phrases_0075"
+    term: "check on"
+    term_key: "check on"
+    meaning: "phrv. 核实,检查 (是否一切正常)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 75
+  - id: "bbdc_ielts_core_phrases_0076"
+    term: "check with sb"
+    term_key: "check with sb"
+    meaning: "usage. 与某人核实,与某人商量"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 76
+  - id: "bbdc_ielts_core_phrases_0077"
+    term: "describe... as sth"
+    term_key: "describe... as sth"
+    meaning: "usage. 把...描述为,把...描写为"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 77
+  - id: "bbdc_ielts_core_phrases_0078"
+    term: "introduce... to..."
+    term_key: "introduce... to..."
+    meaning: "usage. 把...介绍给...;推行,实施 usage. 使初次了解,使尝试 usage. 引进 (动植物),传入 (疾病)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 78
+  - id: "bbdc_ielts_core_phrases_0079"
+    term: "in the course of"
+    term_key: "in the course of"
+    meaning: "idm. 在...期间,在...的时候"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 79
+  - id: "bbdc_ielts_core_phrases_0080"
+    term: "evidence of sth"
+    term_key: "evidence of sth"
+    meaning: "usage. ...的证据,...的证明"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 80
+  - id: "bbdc_ielts_core_phrases_0081"
+    term: "commit a crime"
+    term_key: "commit a crime"
+    meaning: "collocation. 犯罪"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 81
+  - id: "bbdc_ielts_core_phrases_0082"
+    term: "crash into sth"
+    term_key: "crash into sth"
+    meaning: "usage. (因失控而) 撞上某物"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 82
+  - id: "bbdc_ielts_core_phrases_0083"
+    term: "on the assumption that"
+    term_key: "on the assumption that"
+    meaning: "collocation. 假设,在...的假设下"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 83
+  - id: "bbdc_ielts_core_phrases_0084"
+    term: "assign sth to sb"
+    term_key: "assign sth to sb"
+    meaning: "usage. 分配 (或分派) 某物给某人"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 84
+  - id: "bbdc_ielts_core_phrases_0085"
+    term: "be reluctant to do"
+    term_key: "be reluctant to do"
+    meaning: "usage. 不情愿做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 85
+  - id: "bbdc_ielts_core_phrases_0086"
+    term: "an integral part of sth"
+    term_key: "an integral part of sth"
+    meaning: "collocation. 必不可少的一部分"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 86
+  - id: "bbdc_ielts_core_phrases_0087"
+    term: "dispense with"
+    term_key: "dispense with"
+    meaning: "phrv. 摒弃,不再需要"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 87
+  - id: "bbdc_ielts_core_phrases_0088"
+    term: "on behalf of sb"
+    term_key: "on behalf of sb"
+    meaning: "idm. 代表某人;为了某人的利益"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 88
+  - id: "bbdc_ielts_core_phrases_0089"
+    term: "attend to"
+    term_key: "attend to"
+    meaning: "phrv. 处理 (某事),照顾 (某人) phrv. 注意,专心"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 89
+  - id: "bbdc_ielts_core_phrases_0090"
+    term: "be designed to do"
+    term_key: "be designed to do"
+    meaning: "usage. 为...而设计的,旨在,目的是"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 90
+  - id: "bbdc_ielts_core_phrases_0091"
+    term: "be consistent with sth"
+    term_key: "be consistent with sth"
+    meaning: "usage. 与...相符的,与...一致的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 91
+  - id: "bbdc_ielts_core_phrases_0092"
+    term: "be sympathetic to"
+    term_key: "be sympathetic to"
+    meaning: "usage. 对...表示赞成的 (或支持的) usage. 对...同情的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 92
+  - id: "bbdc_ielts_core_phrases_0093"
+    term: "consist of"
+    term_key: "consist of"
+    meaning: "phrv. 由...组成 (或构成),包括"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 93
+  - id: "bbdc_ielts_core_phrases_0094"
+    term: "expose... to..."
+    term_key: "expose... to..."
+    meaning: "usage. 向...暴露,向...显露 usage. 使...遭受;使...接触,使...体验"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 94
+  - id: "bbdc_ielts_core_phrases_0095"
+    term: "discriminate against sb"
+    term_key: "discriminate against sb"
+    meaning: "usage. 区别对待某人,歧视某人"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 95
+  - id: "bbdc_ielts_core_phrases_0096"
+    term: "separate... from..."
+    term_key: "separate... from..."
+    meaning: "usage. 使...从...分开;把...和...隔开 usage. 使...与...分离,使...与...分散 usage. 将...和...区分开"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 96
+  - id: "bbdc_ielts_core_phrases_0097"
+    term: "under pressure"
+    term_key: "under pressure"
+    meaning: "idm. (液体或气体) 受压力,压缩 idm. 在压力下,承受着压力"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 97
+  - id: "bbdc_ielts_core_phrases_0098"
+    term: "be to blame"
+    term_key: "be to blame"
+    meaning: "idm. 对 (坏事) 负有责任"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 98
+  - id: "bbdc_ielts_core_phrases_0099"
+    term: "reliance on"
+    term_key: "reliance on"
+    meaning: "usage. 对...的依赖 (或依靠)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 99
+  - id: "bbdc_ielts_core_phrases_0100"
+    term: "an alternative to sth"
+    term_key: "an alternative to sth"
+    meaning: "usage. ...的替代物"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 100
+  - id: "bbdc_ielts_core_phrases_0101"
+    term: "access to sth"
+    term_key: "access to sth"
+    meaning: "usage. 进入 (权),进入...的通道 usage. 查阅 (或使用) 的机会 (或权利)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 101
+  - id: "bbdc_ielts_core_phrases_0102"
+    term: "associate... with..."
+    term_key: "associate... with..."
+    meaning: "usage. 把...和...联系起来"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 102
+  - id: "bbdc_ielts_core_phrases_0103"
+    term: "in contact"
+    term_key: "in contact"
+    meaning: "collocation. 与...有联络"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 103
+  - id: "bbdc_ielts_core_phrases_0104"
+    term: "engage in sth"
+    term_key: "engage in sth"
+    meaning: "phrv. 从事,参加"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 104
+  - id: "bbdc_ielts_core_phrases_0105"
+    term: "engage with"
+    term_key: "engage with"
+    meaning: "usage. 与...建立密切关系,尽力理解"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 105
+  - id: "bbdc_ielts_core_phrases_0106"
+    term: "supply sth to..."
+    term_key: "supply sth to..."
+    meaning: "usage. 向...供应"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 106
+  - id: "bbdc_ielts_core_phrases_0107"
+    term: "be distinct from"
+    term_key: "be distinct from"
+    meaning: "usage. 与...有区别的,与...截然不同的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 107
+  - id: "bbdc_ielts_core_phrases_0108"
+    term: "in the context of"
+    term_key: "in the context of"
+    meaning: "collocation. 在...的背景下,在...的环境 下"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 108
+  - id: "bbdc_ielts_core_phrases_0109"
+    term: "masses of sth"
+    term_key: "masses of sth"
+    meaning: "usage. 大量的东西"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 109
+  - id: "bbdc_ielts_core_phrases_0110"
+    term: "improve on sth"
+    term_key: "improve on sth"
+    meaning: "phrv. 改进,做出比...更好的东西"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 110
+  - id: "bbdc_ielts_core_phrases_0111"
+    term: "adaptation to sth"
+    term_key: "adaptation to sth"
+    meaning: "usage. 适应,作出调整"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 111
+  - id: "bbdc_ielts_core_phrases_0112"
+    term: "application form"
+    term_key: "application form"
+    meaning: "collocation. 申请,申请书,申请表"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 112
+  - id: "bbdc_ielts_core_phrases_0113"
+    term: "compete with/against"
+    term_key: "compete with/against"
+    meaning: "usage. 与...竞争,与...对抗"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 113
+  - id: "bbdc_ielts_core_phrases_0114"
+    term: "a source of income"
+    term_key: "a source of income"
+    meaning: "collocation. 收入来源"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 114
+  - id: "bbdc_ielts_core_phrases_0115"
+    term: "a bit"
+    term_key: "a bit"
+    meaning: "usage. 有点儿,稍微;一会儿,短距离"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 115
+  - id: "bbdc_ielts_core_phrases_0116"
+    term: "a bit of a..."
+    term_key: "a bit of a..."
+    meaning: "idm. 有点儿"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 116
+  - id: "bbdc_ielts_core_phrases_0117"
+    term: "in existence"
+    term_key: "in existence"
+    meaning: "collocation. 现有的,现实存在的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 117
+  - id: "bbdc_ielts_core_phrases_0118"
+    term: "apply to"
+    term_key: "apply to"
+    meaning: "usage. 向...申请;对...适用"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 118
+  - id: "bbdc_ielts_core_phrases_0119"
+    term: "attempt to do"
+    term_key: "attempt to do"
+    meaning: "usage. 试图做 (尤指做困难的事)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 119
+  - id: "bbdc_ielts_core_phrases_0120"
+    term: "be subject to"
+    term_key: "be subject to"
+    meaning: "usage. 可能遭受...影响的 usage. 取决于,视...而定;受...支配"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 120
+  - id: "bbdc_ielts_core_phrases_0121"
+    term: "indicate that..."
+    term_key: "indicate that..."
+    meaning: "usage. 表明,标示,显示"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 121
+  - id: "bbdc_ielts_core_phrases_0122"
+    term: "cover sth with sth"
+    term_key: "cover sth with sth"
+    meaning: "usage. 以...掩蔽,用...遮盖"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 122
+  - id: "bbdc_ielts_core_phrases_0123"
+    term: "integrate into"
+    term_key: "integrate into"
+    meaning: "usage. (使) 合并,与...成为一体 usage. (使) 融入群体,(使) 融入社会"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 123
+  - id: "bbdc_ielts_core_phrases_0124"
+    term: "endangered species"
+    term_key: "endangered species"
+    meaning: "n. 濒危物种"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 124
+  - id: "bbdc_ielts_core_phrases_0125"
+    term: "appeal to sb"
+    term_key: "appeal to sb"
+    meaning: "usage. 吸引某人,引起某人的兴趣 usage. 向某人呼吁,恳请某人"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 125
+  - id: "bbdc_ielts_core_phrases_0126"
+    term: "on average"
+    term_key: "on average"
+    meaning: "collocation. 平均"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 126
+  - id: "bbdc_ielts_core_phrases_0127"
+    term: "an average of"
+    term_key: "an average of"
+    meaning: "collocation. 平均为...的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 127
+  - id: "bbdc_ielts_core_phrases_0128"
+    term: "in the form of"
+    term_key: "in the form of"
+    meaning: "collocation. 以...的形式"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 128
+  - id: "bbdc_ielts_core_phrases_0129"
+    term: "lead to sth"
+    term_key: "lead to sth"
+    meaning: "usage. 导致,引起"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 129
+  - id: "bbdc_ielts_core_phrases_0130"
+    term: "lead sb to do"
+    term_key: "lead sb to do"
+    meaning: "usage. 引导某人做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 130
+  - id: "bbdc_ielts_core_phrases_0131"
+    term: "take the lead"
+    term_key: "take the lead"
+    meaning: "collocation. 带头 (做某事)"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 131
+  - id: "bbdc_ielts_core_phrases_0132"
+    term: "define sth as sth"
+    term_key: "define sth as sth"
+    meaning: "usage. 把...定义为"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 132
+  - id: "bbdc_ielts_core_phrases_0133"
+    term: "figure out"
+    term_key: "figure out"
+    meaning: "phrv. 弄懂,弄清楚,想出 phrv. 计算出 (数量或成本)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 133
+  - id: "bbdc_ielts_core_phrases_0134"
+    term: "respond to"
+    term_key: "respond to"
+    meaning: "usage. 回复...,回答...;对...作出回应"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 134
+  - id: "bbdc_ielts_core_phrases_0135"
+    term: "on the horizon"
+    term_key: "on the horizon"
+    meaning: "idm. 已露端倪的,即将发生的"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 135
+  - id: "bbdc_ielts_core_phrases_0136"
+    term: "in conjunction with"
+    term_key: "in conjunction with"
+    meaning: "idm. 连同...,与...共同"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 136
+  - id: "bbdc_ielts_core_phrases_0137"
+    term: "rely on"
+    term_key: "rely on"
+    meaning: "phrv. 依赖,依靠;信赖,信任"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 137
+  - id: "bbdc_ielts_core_phrases_0138"
+    term: "focus on"
+    term_key: "focus on"
+    meaning: "usage. 集中 (注意力、精力等) 于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 138
+  - id: "bbdc_ielts_core_phrases_0139"
+    term: "in the event of sth"
+    term_key: "in the event of sth"
+    meaning: "idm. 如果...发生,万一,倘若"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 139
+  - id: "bbdc_ielts_core_phrases_0140"
+    term: "on stage"
+    term_key: "on stage"
+    meaning: "collocation. 在舞台上"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 140
+  - id: "bbdc_ielts_core_phrases_0141"
+    term: "apart from"
+    term_key: "apart from"
+    meaning: "phr. 除...以外;除了...还"
+    labels:
+      - "phr."
+    source_orders:
+      canonical:
+        - 141
+  - id: "bbdc_ielts_core_phrases_0142"
+    term: "in demand"
+    term_key: "in demand"
+    meaning: "idm. 很受欢迎,需求量大"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 142
+  - id: "bbdc_ielts_core_phrases_0143"
+    term: "be vital to sth"
+    term_key: "be vital to sth"
+    meaning: "usage. 对...至关重要的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 143
+  - id: "bbdc_ielts_core_phrases_0144"
+    term: "at... intervals"
+    term_key: "at... intervals"
+    meaning: "idm. 每隔...时间;每隔...距离"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 144
+  - id: "bbdc_ielts_core_phrases_0145"
+    term: "arrange for sth"
+    term_key: "arrange for sth"
+    meaning: "usage. 安排,筹备,准备"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 145
+  - id: "bbdc_ielts_core_phrases_0146"
+    term: "in stock"
+    term_key: "in stock"
+    meaning: "collocation. 有库存的,有现货的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 146
+  - id: "bbdc_ielts_core_phrases_0147"
+    term: "avoid doing sth"
+    term_key: "avoid doing sth"
+    meaning: "usage. 回避做某事,避免 (坏事发生)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 147
+  - id: "bbdc_ielts_core_phrases_0148"
+    term: "succumb to sth"
+    term_key: "succumb to sth"
+    meaning: "usage. 屈服于,抵挡不住"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 148
+  - id: "bbdc_ielts_core_phrases_0149"
+    term: "confine... to sth"
+    term_key: "confine... to sth"
+    meaning: "usage. 使...局限于,把...限制于 usage. 监禁,关押,困...于某处"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 149
+  - id: "bbdc_ielts_core_phrases_0150"
+    term: "translate into sth"
+    term_key: "translate into sth"
+    meaning: "usage. 转变为,转化为"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 150
+  - id: "bbdc_ielts_core_phrases_0151"
+    term: "threaten to do"
+    term_key: "threaten to do"
+    meaning: "usage. 威胁要...,扬言要... usage. (坏事) 可能发生,可能引发"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 151
+  - id: "bbdc_ielts_core_phrases_0152"
+    term: "in detail"
+    term_key: "in detail"
+    meaning: "collocation. 详细地"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 152
+  - id: "bbdc_ielts_core_phrases_0153"
+    term: "an array of"
+    term_key: "an array of"
+    meaning: "usage. 一大批,一大群"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 153
+  - id: "bbdc_ielts_core_phrases_0154"
+    term: "be worthy of"
+    term_key: "be worthy of"
+    meaning: "usage. 值得...的,应该获得...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 154
+  - id: "bbdc_ielts_core_phrases_0155"
+    term: "in advance"
+    term_key: "in advance"
+    meaning: "idm. 事先,提前"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 155
+  - id: "bbdc_ielts_core_phrases_0156"
+    term: "consult sb about sth"
+    term_key: "consult sb about sth"
+    meaning: "usage. 向...咨询,求教,请教"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 156
+  - id: "bbdc_ielts_core_phrases_0157"
+    term: "force sb to do"
+    term_key: "force sb to do"
+    meaning: "usage. 强迫某人做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 157
+  - id: "bbdc_ielts_core_phrases_0158"
+    term: "impress sb with..."
+    term_key: "impress sb with..."
+    meaning: "usage. 用...给某人留下深刻的印象"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 158
+  - id: "bbdc_ielts_core_phrases_0159"
+    term: "extract sth from..."
+    term_key: "extract sth from..."
+    meaning: "usage. 从...榨取,从...提炼;从...获取 usage. 从...摘录,从...选录 usage. 从...使劲拔出;从...中推断出"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 159
+  - id: "bbdc_ielts_core_phrases_0160"
+    term: "transform... into sth"
+    term_key: "transform... into sth"
+    meaning: "usage. 把...转换为,把...改变为"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 160
+  - id: "bbdc_ielts_core_phrases_0161"
+    term: "a host of"
+    term_key: "a host of"
+    meaning: "usage. 许多,大量"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 161
+  - id: "bbdc_ielts_core_phrases_0162"
+    term: "enroll in sth"
+    term_key: "enroll in sth"
+    meaning: "usage. 加入,注册"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 162
+  - id: "bbdc_ielts_core_phrases_0163"
+    term: "on board"
+    term_key: "on board"
+    meaning: "idm. 在船上 (或飞机上、火车上);支持"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 163
+  - id: "bbdc_ielts_core_phrases_0164"
+    term: "beyond the scope of"
+    term_key: "beyond the scope of"
+    meaning: "collocation. 超出...的范围,不在...范围 之内"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 164
+  - id: "bbdc_ielts_core_phrases_0165"
+    term: "cooperate with sb"
+    term_key: "cooperate with sb"
+    meaning: "usage. 与...合作,与...协作"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 165
+  - id: "bbdc_ielts_core_phrases_0166"
+    term: "be responsible for"
+    term_key: "be responsible for"
+    meaning: "usage. 对...负责的,对...承担义务的 usage. 对...应承担责任的 usage. 引起...的,导致...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 166
+  - id: "bbdc_ielts_core_phrases_0167"
+    term: "interact with"
+    term_key: "interact with"
+    meaning: "usage. 相互交流,相互沟通 usage. 相互作用,相互影响"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 167
+  - id: "bbdc_ielts_core_phrases_0168"
+    term: "be descended from sb"
+    term_key: "be descended from sb"
+    meaning: "phrv. 是某人的后裔"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 168
+  - id: "bbdc_ielts_core_phrases_0169"
+    term: "in theory"
+    term_key: "in theory"
+    meaning: "idm. 从理论上说,按理说"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 169
+  - id: "bbdc_ielts_core_phrases_0170"
+    term: "afford to do"
+    term_key: "afford to do"
+    meaning: "usage. 买得起,负担得起 usage. 承担得起,经得起"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 170
+  - id: "bbdc_ielts_core_phrases_0171"
+    term: "participate in sth"
+    term_key: "participate in sth"
+    meaning: "usage. 参与 (某活动)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 171
+  - id: "bbdc_ielts_core_phrases_0172"
+    term: "due to"
+    term_key: "due to"
+    meaning: "prep. 由于,因为"
+    labels:
+      - "prep."
+    source_orders:
+      canonical:
+        - 172
+  - id: "bbdc_ielts_core_phrases_0173"
+    term: "labour market"
+    term_key: "labour market"
+    meaning: "collocation. 劳动力市场"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 173
+  - id: "bbdc_ielts_core_phrases_0174"
+    term: "have an impact on"
+    term_key: "have an impact on"
+    meaning: "collocation. 对...有影响"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 174
+  - id: "bbdc_ielts_core_phrases_0175"
+    term: "a rare breed"
+    term_key: "a rare breed"
+    meaning: "collocation. 稀有品种"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 175
+  - id: "bbdc_ielts_core_phrases_0176"
+    term: "on display"
+    term_key: "on display"
+    meaning: "idm. 在展出"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 176
+  - id: "bbdc_ielts_core_phrases_0177"
+    term: "inform sb of sth"
+    term_key: "inform sb of sth"
+    meaning: "usage. 通知,告知某人某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 177
+  - id: "bbdc_ielts_core_phrases_0178"
+    term: "be suitable for"
+    term_key: "be suitable for"
+    meaning: "usage. 适合...的,对...来说恰当的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 178
+  - id: "bbdc_ielts_core_phrases_0179"
+    term: "incorporate sth into sth"
+    term_key: "incorporate sth into sth"
+    meaning: "usage. 把...并入,把...包含进"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 179
+  - id: "bbdc_ielts_core_phrases_0180"
+    term: "charge for"
+    term_key: "charge for"
+    meaning: "usage. 收费,要价"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 180
+  - id: "bbdc_ielts_core_phrases_0181"
+    term: "in charge of"
+    term_key: "in charge of"
+    meaning: "collocation. 负责...的,主管...的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 181
+  - id: "bbdc_ielts_core_phrases_0182"
+    term: "jump to conclusions"
+    term_key: "jump to conclusions"
+    meaning: "idm. 贸然下结论"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 182
+  - id: "bbdc_ielts_core_phrases_0183"
+    term: "be analogous to"
+    term_key: "be analogous to"
+    meaning: "usage. 与...相似的,与...类似的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 183
+  - id: "bbdc_ielts_core_phrases_0184"
+    term: "compensate for sth"
+    term_key: "compensate for sth"
+    meaning: "usage. 弥补,补偿"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 184
+  - id: "bbdc_ielts_core_phrases_0185"
+    term: "compensate sb for sth"
+    term_key: "compensate sb for sth"
+    meaning: "usage. 因为某事给某人赔偿"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 185
+  - id: "bbdc_ielts_core_phrases_0186"
+    term: "in... respect"
+    term_key: "in... respect"
+    meaning: "collocation. 在...方面"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 186
+  - id: "bbdc_ielts_core_phrases_0187"
+    term: "on campus"
+    term_key: "on campus"
+    meaning: "collocation. 在校内"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 187
+  - id: "bbdc_ielts_core_phrases_0188"
+    term: "interfere with sth"
+    term_key: "interfere with sth"
+    meaning: "phrv. 妨碍某事,干扰某事;弄坏 (器材)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 188
+  - id: "bbdc_ielts_core_phrases_0189"
+    term: "take... for granted"
+    term_key: "take... for granted"
+    meaning: "idm. 认为...理所当然"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 189
+  - id: "bbdc_ielts_core_phrases_0190"
+    term: "be relevant to"
+    term_key: "be relevant to"
+    meaning: "usage. 与...有关的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 190
+  - id: "bbdc_ielts_core_phrases_0191"
+    term: "convert sth into sth"
+    term_key: "convert sth into sth"
+    meaning: "usage. 使...转变为,使...转化为"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 191
+  - id: "bbdc_ielts_core_phrases_0192"
+    term: "in connection with"
+    term_key: "in connection with"
+    meaning: "idm. 与...有关"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 192
+  - id: "bbdc_ielts_core_phrases_0193"
+    term: "hang on"
+    term_key: "hang on"
+    meaning: "phrv. 等一下;别挂电话 phrv. (在逆境中) 坚持,不放弃"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 193
+  - id: "bbdc_ielts_core_phrases_0194"
+    term: "an advantage over sb"
+    term_key: "an advantage over sb"
+    meaning: "usage. 相对某人而言的优势"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 194
+  - id: "bbdc_ielts_core_phrases_0195"
+    term: "take advantage of"
+    term_key: "take advantage of"
+    meaning: "idm. 利用某物 (做某事) idm. 利用某人,占某人的便宜"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 195
+  - id: "bbdc_ielts_core_phrases_0196"
+    term: "be relative to"
+    term_key: "be relative to"
+    meaning: "usage. 关于...的,涉及...的 usage. 与...相比,按...的比例"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 196
+  - id: "bbdc_ielts_core_phrases_0197"
+    term: "at random"
+    term_key: "at random"
+    meaning: "idm. 随便地,随机地"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 197
+  - id: "bbdc_ielts_core_phrases_0198"
+    term: "adjust sth to sth"
+    term_key: "adjust sth to sth"
+    meaning: "usage. 调整...以适应..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 198
+  - id: "bbdc_ielts_core_phrases_0199"
+    term: "feed on/off sth"
+    term_key: "feed on/off sth"
+    meaning: "phrv. 因...而壮大,从...中得到滋养 phrv. (动物) 以...为食"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 199
+  - id: "bbdc_ielts_core_phrases_0200"
+    term: "come naturally"
+    term_key: "come naturally"
+    meaning: "idm. 对...而言轻而易举"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 200
+  - id: "bbdc_ielts_core_phrases_0201"
+    term: "discourage sb from doing sth"
+    term_key: "discourage sb from doing sth"
+    meaning: "usage. 打消某人做某事的念头"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 201
+  - id: "bbdc_ielts_core_phrases_0202"
+    term: "be supposed to do"
+    term_key: "be supposed to do"
+    meaning: "idm. 应该做,预计是 idm. 一般认为,人们普遍觉得"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 202
+  - id: "bbdc_ielts_core_phrases_0203"
+    term: "a period of"
+    term_key: "a period of"
+    meaning: "usage. 一段 (时间)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 203
+  - id: "bbdc_ielts_core_phrases_0204"
+    term: "consider... to be sth"
+    term_key: "consider... to be sth"
+    meaning: "usage. 认为...是"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 204
+  - id: "bbdc_ielts_core_phrases_0205"
+    term: "consider... as sth"
+    term_key: "consider... as sth"
+    meaning: "usage. 认为...是"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 205
+  - id: "bbdc_ielts_core_phrases_0206"
+    term: "be prone to do"
+    term_key: "be prone to do"
+    meaning: "usage. 有做 (坏事) 的倾向"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 206
+  - id: "bbdc_ielts_core_phrases_0207"
+    term: "be prone to sth"
+    term_key: "be prone to sth"
+    meaning: "usage. 易于遭受...的,有...倾向的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 207
+  - id: "bbdc_ielts_core_phrases_0208"
+    term: "draw up"
+    term_key: "draw up"
+    meaning: "phrv. 拟定,制订,起草;停下"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 208
+  - id: "bbdc_ielts_core_phrases_0209"
+    term: "draw sb to sth"
+    term_key: "draw sb to sth"
+    meaning: "usage. 吸引某人,使某人对...感兴趣"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 209
+  - id: "bbdc_ielts_core_phrases_0210"
+    term: "draw sth from..."
+    term_key: "draw sth from..."
+    meaning: "phrv. 从...中得到,从...中获得 usage. 从...中推断出;从...取钱"
+    labels:
+      - "phrv."
+      - "usage."
+    source_orders:
+      canonical:
+        - 210
+  - id: "bbdc_ielts_core_phrases_0211"
+    term: "draw sth out"
+    term_key: "draw sth out"
+    meaning: "usage. 提取出,支取出"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 211
+  - id: "bbdc_ielts_core_phrases_0212"
+    term: "have no idea"
+    term_key: "have no idea"
+    meaning: "idm. 丝毫不知道"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 212
+  - id: "bbdc_ielts_core_phrases_0213"
+    term: "in the long run"
+    term_key: "in the long run"
+    meaning: "idm. 从长远来看"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 213
+  - id: "bbdc_ielts_core_phrases_0214"
+    term: "no longer"
+    term_key: "no longer"
+    meaning: "idm. 不再,再也不"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 214
+  - id: "bbdc_ielts_core_phrases_0215"
+    term: "make progress"
+    term_key: "make progress"
+    meaning: "collocation. 取得进步,取得进展"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 215
+  - id: "bbdc_ielts_core_phrases_0216"
+    term: "return to sth"
+    term_key: "return to sth"
+    meaning: "usage. 回到...;恢复到...的状态 usage. 重新开始做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 216
+  - id: "bbdc_ielts_core_phrases_0217"
+    term: "in return"
+    term_key: "in return"
+    meaning: "idm. 作为回报,作为交换;作为回应"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 217
+  - id: "bbdc_ielts_core_phrases_0218"
+    term: "put together"
+    term_key: "put together"
+    meaning: "idm. 合计,加起来 phrv. 组装,汇集"
+    labels:
+      - "idm."
+      - "phrv."
+    source_orders:
+      canonical:
+        - 218
+  - id: "bbdc_ielts_core_phrases_0219"
+    term: "put forward"
+    term_key: "put forward"
+    meaning: "phrv. 提出 (计划、建议、意见等)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 219
+  - id: "bbdc_ielts_core_phrases_0220"
+    term: "put up"
+    term_key: "put up"
+    meaning: "phrv. 建造,搭建;张贴,公布 phrv. 提高 (价格等);提供 (资金等) phrv. 留某人在家中过夜"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 220
+  - id: "bbdc_ielts_core_phrases_0221"
+    term: "in the first place"
+    term_key: "in the first place"
+    meaning: "idm. 当初,一开始;(用于句首) 第一"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 221
+  - id: "bbdc_ielts_core_phrases_0222"
+    term: "take one's place"
+    term_key: "take one's place"
+    meaning: "idm. 代替,取代"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 222
+  - id: "bbdc_ielts_core_phrases_0223"
+    term: "in place"
+    term_key: "in place"
+    meaning: "idm. 在合适的位置,到位 idm. 被启用,在工作"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 223
+  - id: "bbdc_ielts_core_phrases_0224"
+    term: "take place"
+    term_key: "take place"
+    meaning: "idm. 发生,进行"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 224
+  - id: "bbdc_ielts_core_phrases_0225"
+    term: "research into/on"
+    term_key: "research into/on"
+    meaning: "usage. 关于...的研究 (或调查) usage. 对...做研究 (或调查)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 225
+  - id: "bbdc_ielts_core_phrases_0226"
+    term: "make friends with sb"
+    term_key: "make friends with sb"
+    meaning: "idm. 与某人交朋友"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 226
+  - id: "bbdc_ielts_core_phrases_0227"
+    term: "as far as... is concerned"
+    term_key: "as far as... is concerned"
+    meaning: "idm. 就某事而言 idm. 在某人看来,就某人而言"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 227
+  - id: "bbdc_ielts_core_phrases_0228"
+    term: "keep to sth"
+    term_key: "keep to sth"
+    meaning: "phrv. 不偏离道路等;不偏离 (主题) phrv. 遵守 (诺言等);坚守,不离开"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 228
+  - id: "bbdc_ielts_core_phrases_0229"
+    term: "keep up with"
+    term_key: "keep up with"
+    meaning: "phrv. (与...) 齐步前进,并驾齐驱 phrv. 熟悉,了解 (消息等);继续做"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 229
+  - id: "bbdc_ielts_core_phrases_0230"
+    term: "have... in mind"
+    term_key: "have... in mind"
+    meaning: "idm. 心中有适当人选 (或想做的事等)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 230
+  - id: "bbdc_ielts_core_phrases_0231"
+    term: "once again"
+    term_key: "once again"
+    meaning: "idm. 再一次,再次"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 231
+  - id: "bbdc_ielts_core_phrases_0232"
+    term: "for the most part"
+    term_key: "for the most part"
+    meaning: "idm. 多半,大体上,通常"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 232
+  - id: "bbdc_ielts_core_phrases_0233"
+    term: "in part"
+    term_key: "in part"
+    meaning: "idm. 部分地,在某种程度上"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 233
+  - id: "bbdc_ielts_core_phrases_0234"
+    term: "in the heart of sth"
+    term_key: "in the heart of sth"
+    meaning: "collocation. 在...中心,在...中央"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 234
+  - id: "bbdc_ielts_core_phrases_0235"
+    term: "lie at the heart of sth"
+    term_key: "lie at the heart of sth"
+    meaning: "collocation. 是...的重点,是...的核心"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 235
+  - id: "bbdc_ielts_core_phrases_0236"
+    term: "be likely to do"
+    term_key: "be likely to do"
+    meaning: "usage. 很可能做"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 236
+  - id: "bbdc_ielts_core_phrases_0237"
+    term: "be good for"
+    term_key: "be good for"
+    meaning: "usage. 对...有好处"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 237
+  - id: "bbdc_ielts_core_phrases_0238"
+    term: "be no good"
+    term_key: "be no good"
+    meaning: "idm. 没什么用处 (或好处)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 238
+  - id: "bbdc_ielts_core_phrases_0239"
+    term: "a reason for"
+    term_key: "a reason for"
+    meaning: "usage. ...的原因"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 239
+  - id: "bbdc_ielts_core_phrases_0240"
+    term: "within reason"
+    term_key: "within reason"
+    meaning: "collocation. 合情合理地"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 240
+  - id: "bbdc_ielts_core_phrases_0241"
+    term: "as it were"
+    term_key: "as it were"
+    meaning: "idm. 可以说,在一定程度上"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 241
+  - id: "bbdc_ielts_core_phrases_0242"
+    term: "as for"
+    term_key: "as for"
+    meaning: "idm. 关于,至于"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 242
+  - id: "bbdc_ielts_core_phrases_0243"
+    term: "as... as..."
+    term_key: "as... as..."
+    meaning: "usage. 像...一样,如同"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 243
+  - id: "bbdc_ielts_core_phrases_0244"
+    term: "as yet"
+    term_key: "as yet"
+    meaning: "idm. 到现在为止"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 244
+  - id: "bbdc_ielts_core_phrases_0245"
+    term: "hand out"
+    term_key: "hand out"
+    meaning: "phrv. 分发 (某物)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 245
+  - id: "bbdc_ielts_core_phrases_0246"
+    term: "by hand"
+    term_key: "by hand"
+    meaning: "idm. 手工地;(信件) 亲手交付"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 246
+  - id: "bbdc_ielts_core_phrases_0247"
+    term: "on the other hand"
+    term_key: "on the other hand"
+    meaning: "idm. 另一方面..."
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 247
+  - id: "bbdc_ielts_core_phrases_0248"
+    term: "on hand"
+    term_key: "on hand"
+    meaning: "idm. 在手头,在近旁"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 248
+  - id: "bbdc_ielts_core_phrases_0249"
+    term: "hand in"
+    term_key: "hand in"
+    meaning: "phrv. 提交,呈交,上交"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 249
+  - id: "bbdc_ielts_core_phrases_0250"
+    term: "pick up"
+    term_key: "pick up"
+    meaning: "phrv. 拿起;接电话;(开车) 接人 phrv. 得到,学会;改善,增强;辨认 phrv. 收集;接收 (信号等);买到 phrv. 感染,得到;找到,跟踪;收拾"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 250
+  - id: "bbdc_ielts_core_phrases_0251"
+    term: "now that"
+    term_key: "now that"
+    meaning: "usage. 既然,由于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 251
+  - id: "bbdc_ielts_core_phrases_0252"
+    term: "day and night"
+    term_key: "day and night"
+    meaning: "idm. 日日夜夜,夜以继日"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 252
+  - id: "bbdc_ielts_core_phrases_0253"
+    term: "in so far as"
+    term_key: "in so far as"
+    meaning: "idm. 只要,到...的程度"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 253
+  - id: "bbdc_ielts_core_phrases_0254"
+    term: "so far"
+    term_key: "so far"
+    meaning: "idm. 到目前为止,迄今为止 idm. 仅到一定程度,只在有限范围内"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 254
+  - id: "bbdc_ielts_core_phrases_0255"
+    term: "by far"
+    term_key: "by far"
+    meaning: "idm. 到目前为止,...得多,最"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 255
+  - id: "bbdc_ielts_core_phrases_0256"
+    term: "far too"
+    term_key: "far too"
+    meaning: "collocation. 非常,很大程度上"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 256
+  - id: "bbdc_ielts_core_phrases_0257"
+    term: "a far cry from sth"
+    term_key: "a far cry from sth"
+    meaning: "idm. 和...相去甚远,与...大相径庭"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 257
+  - id: "bbdc_ielts_core_phrases_0258"
+    term: "as far as"
+    term_key: "as far as"
+    meaning: "collocation. (谈及程度时说) 直至 collocation. (谈及距离时说) 远至"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 258
+  - id: "bbdc_ielts_core_phrases_0259"
+    term: "in the public eye"
+    term_key: "in the public eye"
+    meaning: "idm. 广为人知的;众人瞩目的"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 259
+  - id: "bbdc_ielts_core_phrases_0260"
+    term: "be blessed with"
+    term_key: "be blessed with"
+    meaning: "idm. 赋有 (能力等),享有 (幸福等)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 260
+  - id: "bbdc_ielts_core_phrases_0261"
+    term: "rob sb of sth"
+    term_key: "rob sb of sth"
+    meaning: "usage. 抢劫,剥夺"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 261
+  - id: "bbdc_ielts_core_phrases_0262"
+    term: "break through"
+    term_key: "break through"
+    meaning: "phrv. 冲破,突破;克服,战胜"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 262
+  - id: "bbdc_ielts_core_phrases_0263"
+    term: "take a break"
+    term_key: "take a break"
+    meaning: "collocation. 休息一下"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 263
+  - id: "bbdc_ielts_core_phrases_0264"
+    term: "break down"
+    term_key: "break down"
+    meaning: "phrv. 出故障,坏掉;失败;垮掉 phrv. 破坏,消除;情不自禁地哭起来 phrv. 把...分类;使分解,使变化"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 264
+  - id: "bbdc_ielts_core_phrases_0265"
+    term: "break up"
+    term_key: "break up"
+    meaning: "phrv. 粉碎,破碎;结束;分手,绝交 phrv. 解散,散会;拆开,打散"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 265
+  - id: "bbdc_ielts_core_phrases_0266"
+    term: "break into sth"
+    term_key: "break into sth"
+    meaning: "phrv. 强行闯入,撬开 (汽车等) phrv. 突然开始 (笑、唱等);突然快跑 phrv. 启用 (应急备用品);成功参与"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 266
+  - id: "bbdc_ielts_core_phrases_0267"
+    term: "break in"
+    term_key: "break in"
+    meaning: "phrv. 强行进入,破门而入"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 267
+  - id: "bbdc_ielts_core_phrases_0268"
+    term: "over the years"
+    term_key: "over the years"
+    meaning: "collocation. 几年来,多年来"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 268
+  - id: "bbdc_ielts_core_phrases_0269"
+    term: "mortality rate"
+    term_key: "mortality rate"
+    meaning: "n. 死亡率"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 269
+  - id: "bbdc_ielts_core_phrases_0270"
+    term: "look at"
+    term_key: "look at"
+    meaning: "usage. 看,瞧;(仔细) 检查 phrv. 思考,考虑;(用某种方式) 看待"
+    labels:
+      - "phrv."
+      - "usage."
+    source_orders:
+      canonical:
+        - 270
+  - id: "bbdc_ielts_core_phrases_0271"
+    term: "look through sth"
+    term_key: "look through sth"
+    meaning: "phrv. 浏览,快速看"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 271
+  - id: "bbdc_ielts_core_phrases_0272"
+    term: "look into sth"
+    term_key: "look into sth"
+    meaning: "phrv. 考察,调查,研究"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 272
+  - id: "bbdc_ielts_core_phrases_0273"
+    term: "look after"
+    term_key: "look after"
+    meaning: "phrv. 照料,照顾,照管"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 273
+  - id: "bbdc_ielts_core_phrases_0274"
+    term: "play an important role in"
+    term_key: "play an important role in"
+    meaning: "collocation. 起着重要作用"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 274
+  - id: "bbdc_ielts_core_phrases_0275"
+    term: "at a rate of sth"
+    term_key: "at a rate of sth"
+    meaning: "collocation. 以...的速度,以...的比率"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 275
+  - id: "bbdc_ielts_core_phrases_0276"
+    term: "fine art"
+    term_key: "fine art"
+    meaning: "usage. 艺术,美术 (尤指绘画和雕塑)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 276
+  - id: "bbdc_ielts_core_phrases_0277"
+    term: "meet one's need"
+    term_key: "meet one's need"
+    meaning: "collocation. 满足某人的需求"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 277
+  - id: "bbdc_ielts_core_phrases_0278"
+    term: "in need of"
+    term_key: "in need of"
+    meaning: "collocation. 需要...的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 278
+  - id: "bbdc_ielts_core_phrases_0279"
+    term: "be no need to do"
+    term_key: "be no need to do"
+    meaning: "collocation. 做...是没必要的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 279
+  - id: "bbdc_ielts_core_phrases_0280"
+    term: "allow for"
+    term_key: "allow for"
+    meaning: "usage. 使...可能 phrv. 考虑到,把...算在内"
+    labels:
+      - "phrv."
+      - "usage."
+    source_orders:
+      canonical:
+        - 280
+  - id: "bbdc_ielts_core_phrases_0281"
+    term: "allow sb to do"
+    term_key: "allow sb to do"
+    meaning: "usage. 允许某人做某事 usage. 使某人做某事成为可能"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 281
+  - id: "bbdc_ielts_core_phrases_0282"
+    term: "in the long term"
+    term_key: "in the long term"
+    meaning: "idm. 从长远来看"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 282
+  - id: "bbdc_ielts_core_phrases_0283"
+    term: "in the short term"
+    term_key: "in the short term"
+    meaning: "idm. 在短期内"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 283
+  - id: "bbdc_ielts_core_phrases_0284"
+    term: "come up with sth"
+    term_key: "come up with sth"
+    meaning: "phrv. 想出 (答案等),拿出 (钱款等)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 284
+  - id: "bbdc_ielts_core_phrases_0285"
+    term: "come about"
+    term_key: "come about"
+    meaning: "phrv. 发生"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 285
+  - id: "bbdc_ielts_core_phrases_0286"
+    term: "come back to sth"
+    term_key: "come back to sth"
+    meaning: "phrv. 回到 (主题、想法等) 上来"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 286
+  - id: "bbdc_ielts_core_phrases_0287"
+    term: "come along"
+    term_key: "come along"
+    meaning: "phrv. 到达,抵达,出现 phrv. 跟随,跟着来;进步,进展"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 287
+  - id: "bbdc_ielts_core_phrases_0288"
+    term: "come in"
+    term_key: "come in"
+    meaning: "collocation. 进入 (某地);到达,被收到 phrv. 取得 (某名次);变时髦,流行 phrv. 在...中起作用,参与;涨潮"
+    labels:
+      - "collocation."
+      - "phrv."
+    source_orders:
+      canonical:
+        - 288
+  - id: "bbdc_ielts_core_phrases_0289"
+    term: "when it comes to"
+    term_key: "when it comes to"
+    meaning: "idm. 当涉及...时,说到"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 289
+  - id: "bbdc_ielts_core_phrases_0290"
+    term: "come across"
+    term_key: "come across"
+    meaning: "phrv. 给人以...印象,使产生...印象 phrv. (偶然) 遇见,碰见,发现"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 290
+  - id: "bbdc_ielts_core_phrases_0291"
+    term: "by no means"
+    term_key: "by no means"
+    meaning: "idm. 决不,一点也不"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 291
+  - id: "bbdc_ielts_core_phrases_0292"
+    term: "go on"
+    term_key: "go on"
+    meaning: "phrv. 发生;(形势等) 继续下去 phrv. (停顿后) 继续说;继续做 (某事)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 292
+  - id: "bbdc_ielts_core_phrases_0293"
+    term: "go on sth"
+    term_key: "go on sth"
+    meaning: "usage. 去做 (某事)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 293
+  - id: "bbdc_ielts_core_phrases_0294"
+    term: "go over"
+    term_key: "go over"
+    meaning: "phrv. 仔细检查;反复研究,仔细琢磨 phrv. 从一处到 (另一处)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 294
+  - id: "bbdc_ielts_core_phrases_0295"
+    term: "go out"
+    term_key: "go out"
+    meaning: "phrv. 外出交际,出门参加社交活动 phrv. (火或灯光) 熄灭;过时,不再流行"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 295
+  - id: "bbdc_ielts_core_phrases_0296"
+    term: "go about sth"
+    term_key: "go about sth"
+    meaning: "phrv. 继续做某事,忙于某事 phrv. 着手做某事,开始做某事"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 296
+  - id: "bbdc_ielts_core_phrases_0297"
+    term: "go up"
+    term_key: "go up"
+    meaning: "phrv. (物价等) 上涨,(温度等) 上升 phrv. 被兴建,被建造;(剧院幕布) 升起"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 297
+  - id: "bbdc_ielts_core_phrases_0298"
+    term: "go on to do"
+    term_key: "go on to do"
+    meaning: "phrv. (完成某事后) 接着做另一事"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 298
+  - id: "bbdc_ielts_core_phrases_0299"
+    term: "go on to sth"
+    term_key: "go on to sth"
+    meaning: "phrv. 进而转入另外一件事"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 299
+  - id: "bbdc_ielts_core_phrases_0300"
+    term: "go by"
+    term_key: "go by"
+    meaning: "phrv. (时间) 流逝,过去 phrv. 遵循 (或依照) 某事"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 300
+  - id: "bbdc_ielts_core_phrases_0301"
+    term: "go into sth"
+    term_key: "go into sth"
+    meaning: "phrv. 加入某组织,从事某职业 phrv. 开始,进入 ( 某种状态或情况) phrv. 详细解释;(金钱等) 投入某事"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 301
+  - id: "bbdc_ielts_core_phrases_0302"
+    term: "go through"
+    term_key: "go through"
+    meaning: "phrv. 经历,遭受;通过 (障碍、测试) phrv. 仔细察看;(反复地) 详细研究 phrv. (合同等) 通过,达成;执行某行动"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 302
+  - id: "bbdc_ielts_core_phrases_0303"
+    term: "happen to"
+    term_key: "happen to"
+    meaning: "phrv. 发生在...身上"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 303
+  - id: "bbdc_ielts_core_phrases_0304"
+    term: "happen to do"
+    term_key: "happen to do"
+    meaning: "usage. 碰巧...,恰好..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 304
+  - id: "bbdc_ielts_core_phrases_0305"
+    term: "be harmful to"
+    term_key: "be harmful to"
+    meaning: "usage. 对...有害的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 305
+  - id: "bbdc_ielts_core_phrases_0306"
+    term: "of all time"
+    term_key: "of all time"
+    meaning: "idm. 有史以来,一直,始终"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 306
+  - id: "bbdc_ielts_core_phrases_0307"
+    term: "at all times"
+    term_key: "at all times"
+    meaning: "idm. 总是,永远"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 307
+  - id: "bbdc_ielts_core_phrases_0308"
+    term: "at any time"
+    term_key: "at any time"
+    meaning: "idm. 随时,在任何时候"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 308
+  - id: "bbdc_ielts_core_phrases_0309"
+    term: "on time"
+    term_key: "on time"
+    meaning: "phr. 准时,按时"
+    labels:
+      - "phr."
+    source_orders:
+      canonical:
+        - 309
+  - id: "bbdc_ielts_core_phrases_0310"
+    term: "over time"
+    term_key: "over time"
+    meaning: "collocation. 渐渐地,随着时间的流逝"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 310
+  - id: "bbdc_ielts_core_phrases_0311"
+    term: "time off"
+    term_key: "time off"
+    meaning: "collocation. 休息 (或休假) 时间"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 311
+  - id: "bbdc_ielts_core_phrases_0312"
+    term: "at one time"
+    term_key: "at one time"
+    meaning: "collocation. 过去某个时期,曾经"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 312
+  - id: "bbdc_ielts_core_phrases_0313"
+    term: "at times"
+    term_key: "at times"
+    meaning: "idm. 有时,偶尔"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 313
+  - id: "bbdc_ielts_core_phrases_0314"
+    term: "in person"
+    term_key: "in person"
+    meaning: "idm. 当面,亲自"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 314
+  - id: "bbdc_ielts_core_phrases_0315"
+    term: "guard against sth"
+    term_key: "guard against sth"
+    meaning: "phrv. 防止,防范,提防 (某事)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 315
+  - id: "bbdc_ielts_core_phrases_0316"
+    term: "hunt for sth"
+    term_key: "hunt for sth"
+    meaning: "usage. 搜寻,搜索"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 316
+  - id: "bbdc_ielts_core_phrases_0317"
+    term: "no problem"
+    term_key: "no problem"
+    meaning: "idm. 没问题;不客气,没什么"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 317
+  - id: "bbdc_ielts_core_phrases_0318"
+    term: "in one's opinion"
+    term_key: "in one's opinion"
+    meaning: "collocation. 在某人看来"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 318
+  - id: "bbdc_ielts_core_phrases_0319"
+    term: "at work"
+    term_key: "at work"
+    meaning: "collocation. 在工作,在上班 idm. 起作用;忙着 (做某事)"
+    labels:
+      - "collocation."
+      - "idm."
+    source_orders:
+      canonical:
+        - 319
+  - id: "bbdc_ielts_core_phrases_0320"
+    term: "work out"
+    term_key: "work out"
+    meaning: "phrv. 锻炼身体,做运动;进展顺利 phrv. 计算,算出;算下来是 phrv. 找...的答案,解决;计划,思考"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 320
+  - id: "bbdc_ielts_core_phrases_0321"
+    term: "by air"
+    term_key: "by air"
+    meaning: "collocation. 乘飞机,通过航空途径"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 321
+  - id: "bbdc_ielts_core_phrases_0322"
+    term: "come to light"
+    term_key: "come to light"
+    meaning: "idm. 为人所知,变得众所周知,暴露"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 322
+  - id: "bbdc_ielts_core_phrases_0323"
+    term: "on foot"
+    term_key: "on foot"
+    meaning: "collocation. 步行"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 323
+  - id: "bbdc_ielts_core_phrases_0324"
+    term: "turn up"
+    term_key: "turn up"
+    meaning: "phrv. 开大,调高 (音量等);露面,出现 phrv. (尤指失去后偶然) 被发现 phrv. (机会) 偶然出现,到来"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 324
+  - id: "bbdc_ielts_core_phrases_0325"
+    term: "turn to"
+    term_key: "turn to"
+    meaning: "phrv. 转向,改用;向...求助"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 325
+  - id: "bbdc_ielts_core_phrases_0326"
+    term: "turn down"
+    term_key: "turn down"
+    meaning: "phrv. 把...调低,关小;拒绝"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 326
+  - id: "bbdc_ielts_core_phrases_0327"
+    term: "in turn"
+    term_key: "in turn"
+    meaning: "idm. 依次,轮流,逐个;相应地,转而"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 327
+  - id: "bbdc_ielts_core_phrases_0328"
+    term: "turn out"
+    term_key: "turn out"
+    meaning: "phrv. 最后结果是,最终成为 phrv. 制造,生产,培养出"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 328
+  - id: "bbdc_ielts_core_phrases_0329"
+    term: "turn around"
+    term_key: "turn around"
+    meaning: "phrv. (使) 转身,(使) 翻转 phrv. (使) 好转,扭转;换个角度考虑"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 329
+  - id: "bbdc_ielts_core_phrases_0330"
+    term: "bring up"
+    term_key: "bring up"
+    meaning: "phrv. 抚养,养育,教养;提出 (讨论等)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 330
+  - id: "bbdc_ielts_core_phrases_0331"
+    term: "bring about"
+    term_key: "bring about"
+    meaning: "phrv. 导致,引起"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 331
+  - id: "bbdc_ielts_core_phrases_0332"
+    term: "bring in"
+    term_key: "bring in"
+    meaning: "phrv. 吸引,引入,带来;赚得,挣 phrv. 请...做,让...参与"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 332
+  - id: "bbdc_ielts_core_phrases_0333"
+    term: "hope for sth"
+    term_key: "hope for sth"
+    meaning: "usage. 希望...,期望..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 333
+  - id: "bbdc_ielts_core_phrases_0334"
+    term: "do business with"
+    term_key: "do business with"
+    meaning: "collocation. 和...做生意"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 334
+  - id: "bbdc_ielts_core_phrases_0335"
+    term: "in business"
+    term_key: "in business"
+    meaning: "collocation. 在经营中,在商界"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 335
+  - id: "bbdc_ielts_core_phrases_0336"
+    term: "none of your business"
+    term_key: "none of your business"
+    meaning: "collocation. 不关你的事"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 336
+  - id: "bbdc_ielts_core_phrases_0337"
+    term: "on business"
+    term_key: "on business"
+    meaning: "collocation. 因公,为了公事"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 337
+  - id: "bbdc_ielts_core_phrases_0338"
+    term: "as opposed to"
+    term_key: "as opposed to"
+    meaning: "idm. (表示对比) 而不是"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 338
+  - id: "bbdc_ielts_core_phrases_0339"
+    term: "in some cases"
+    term_key: "in some cases"
+    meaning: "collocation. 在某些情况下"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 339
+  - id: "bbdc_ielts_core_phrases_0340"
+    term: "in case"
+    term_key: "in case"
+    meaning: "idm. 以防,万一,如果"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 340
+  - id: "bbdc_ielts_core_phrases_0341"
+    term: "in that case"
+    term_key: "in that case"
+    meaning: "idm. 既然那样,那样的话"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 341
+  - id: "bbdc_ielts_core_phrases_0342"
+    term: "be the case"
+    term_key: "be the case"
+    meaning: "usage. 事实如此"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 342
+  - id: "bbdc_ielts_core_phrases_0343"
+    term: "direct sb to sth"
+    term_key: "direct sb to sth"
+    meaning: "usage. 给某人指路,为某人领路"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 343
+  - id: "bbdc_ielts_core_phrases_0344"
+    term: "set off"
+    term_key: "set off"
+    meaning: "phrv. 出发,动身,启程 phrv. 使 (炸弹等) 爆炸;触响 (警报) phrv. 引发,激起 (尤指意外事件)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 344
+  - id: "bbdc_ielts_core_phrases_0345"
+    term: "set out"
+    term_key: "set out"
+    meaning: "phrv. 出发,动身,启程;开始做某事 phrv. (有条理地) 陈述,阐明"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 345
+  - id: "bbdc_ielts_core_phrases_0346"
+    term: "set aside"
+    term_key: "set aside"
+    meaning: "phrv. 把...放到一旁;省出,留出 (钱等) phrv. 暂时不考虑,把...先放一放"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 346
+  - id: "bbdc_ielts_core_phrases_0347"
+    term: "under fire"
+    term_key: "under fire"
+    meaning: "idm. 受到严厉批评,遭到猛烈批判"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 347
+  - id: "bbdc_ielts_core_phrases_0348"
+    term: "in short"
+    term_key: "in short"
+    meaning: "idm. 简而言之,总之"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 348
+  - id: "bbdc_ielts_core_phrases_0349"
+    term: "in short supply"
+    term_key: "in short supply"
+    meaning: "idm. 短缺,供应不足"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 349
+  - id: "bbdc_ielts_core_phrases_0350"
+    term: "on offer"
+    term_key: "on offer"
+    meaning: "idm. 提供的,可买到的,可使用的 idm. 特价出售的"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 350
+  - id: "bbdc_ielts_core_phrases_0351"
+    term: "no doubt"
+    term_key: "no doubt"
+    meaning: "idm. 毫无疑问,肯定"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 351
+  - id: "bbdc_ielts_core_phrases_0352"
+    term: "sort out"
+    term_key: "sort out"
+    meaning: "phrv. 整理,规整;解决,处理 (难题) phrv. (从 ... 中) 区分出来,辨别出来"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 352
+  - id: "bbdc_ielts_core_phrases_0353"
+    term: "sort of"
+    term_key: "sort of"
+    meaning: "idm. 有点,好像,可以说是"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 353
+  - id: "bbdc_ielts_core_phrases_0354"
+    term: "a sort of sth"
+    term_key: "a sort of sth"
+    meaning: "idm. (表示不十分准确) 有点像是某物"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 354
+  - id: "bbdc_ielts_core_phrases_0355"
+    term: "take up"
+    term_key: "take up"
+    meaning: "phrv. 占用 (时间),占据 (空间) phrv. (尤指为消遣) 学着做;开始从事 phrv. 接受 (建议等);继续 (未完之事)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 355
+  - id: "bbdc_ielts_core_phrases_0356"
+    term: "take in"
+    term_key: "take in"
+    meaning: "phrv. 吸入,吞入 (体内);理解,领会 phrv. 收留,收养;观看;欺骗,蒙骗"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 356
+  - id: "bbdc_ielts_core_phrases_0357"
+    term: "take over"
+    term_key: "take over"
+    meaning: "phrv. 取而代之;接任,接替;接管"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 357
+  - id: "bbdc_ielts_core_phrases_0358"
+    term: "take off"
+    term_key: "take off"
+    meaning: "phrv. 起飞;匆匆离去;休假,请假 phrv. (产品等) 突然成功;脱下;模仿"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 358
+  - id: "bbdc_ielts_core_phrases_0359"
+    term: "take down"
+    term_key: "take down"
+    meaning: "phrv. 拆掉,拆除,拆卸;写下,记录"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 359
+  - id: "bbdc_ielts_core_phrases_0360"
+    term: "take out"
+    term_key: "take out"
+    meaning: "phrv. 带某人出去 (到餐馆、剧院等) phrv. 领到 (贷款、执照、保单等);取款 phrv. 毁灭,杀死"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 360
+  - id: "bbdc_ielts_core_phrases_0361"
+    term: "take on"
+    term_key: "take on"
+    meaning: "phrv. 聘用,雇用;开始呈现 (某特征等) phrv. 承担 (责任),同意负责 (工作) phrv. 接纳 (乘客),装载"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 361
+  - id: "bbdc_ielts_core_phrases_0362"
+    term: "by mistake"
+    term_key: "by mistake"
+    meaning: "idm. 错误地,无意中"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 362
+  - id: "bbdc_ielts_core_phrases_0363"
+    term: "what is more"
+    term_key: "what is more"
+    meaning: "idm. 而且,更为重要的是"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 363
+  - id: "bbdc_ielts_core_phrases_0364"
+    term: "more or less"
+    term_key: "more or less"
+    meaning: "idm. 几乎;大概,大约"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 364
+  - id: "bbdc_ielts_core_phrases_0365"
+    term: "the more... the more..."
+    term_key: "the more... the more..."
+    meaning: "idm. 越...,越..."
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 365
+  - id: "bbdc_ielts_core_phrases_0366"
+    term: "send out"
+    term_key: "send out"
+    meaning: "phrv. 分发,散发;发出 (光、信号等)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 366
+  - id: "bbdc_ielts_core_phrases_0367"
+    term: "if necessary"
+    term_key: "if necessary"
+    meaning: "collocation. 如果有必要的话"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 367
+  - id: "bbdc_ielts_core_phrases_0368"
+    term: "treat... as sth"
+    term_key: "treat... as sth"
+    meaning: "usage. 把...当作...对待,把...当...处理"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 368
+  - id: "bbdc_ielts_core_phrases_0369"
+    term: "treat... with sth"
+    term_key: "treat... with sth"
+    meaning: "usage. 以...对待,以...看待 usage. 以...医治,用...治疗;用...处理"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 369
+  - id: "bbdc_ielts_core_phrases_0370"
+    term: "the same as"
+    term_key: "the same as"
+    meaning: "usage. (和...) 一样的事物 (或人)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 370
+  - id: "bbdc_ielts_core_phrases_0371"
+    term: "anything like"
+    term_key: "anything like"
+    meaning: "idm. (用于疑问句和否定句) 和...相像"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 371
+  - id: "bbdc_ielts_core_phrases_0372"
+    term: "as follows"
+    term_key: "as follows"
+    meaning: "collocation. 如下"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 372
+  - id: "bbdc_ielts_core_phrases_0373"
+    term: "follow up"
+    term_key: "follow up"
+    meaning: "phrv. 对...采取进一步行动 phrv. 跟进,追查 (更多的信息)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 373
+  - id: "bbdc_ielts_core_phrases_0374"
+    term: "at present"
+    term_key: "at present"
+    meaning: "collocation. 现在,目前"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 374
+  - id: "bbdc_ielts_core_phrases_0375"
+    term: "take measures to do"
+    term_key: "take measures to do"
+    meaning: "collocation. 采取措施做某事"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 375
+  - id: "bbdc_ielts_core_phrases_0376"
+    term: "in writing"
+    term_key: "in writing"
+    meaning: "idm. 以书面形式 (作为凭证)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 376
+  - id: "bbdc_ielts_core_phrases_0377"
+    term: "be full of sth"
+    term_key: "be full of sth"
+    meaning: "usage. 满是...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 377
+  - id: "bbdc_ielts_core_phrases_0378"
+    term: "in full"
+    term_key: "in full"
+    meaning: "idm. 整个地,全部地"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 378
+  - id: "bbdc_ielts_core_phrases_0379"
+    term: "carbon dioxide"
+    term_key: "carbon dioxide"
+    meaning: "n. 二氧化碳"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 379
+  - id: "bbdc_ielts_core_phrases_0380"
+    term: "in between"
+    term_key: "in between"
+    meaning: "usage. 在中间,当中"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 380
+  - id: "bbdc_ielts_core_phrases_0381"
+    term: "leave... behind"
+    term_key: "leave... behind"
+    meaning: "phrv. 把...抛在后面,超过;永久离开 collocation. 忘了带,丢下"
+    labels:
+      - "collocation."
+      - "phrv."
+    source_orders:
+      canonical:
+        - 381
+  - id: "bbdc_ielts_core_phrases_0382"
+    term: "leave sb with sth"
+    term_key: "leave sb with sth"
+    meaning: "usage. 给某人留下..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 382
+  - id: "bbdc_ielts_core_phrases_0383"
+    term: "in and out"
+    term_key: "in and out"
+    meaning: "idm. 时常出入"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 383
+  - id: "bbdc_ielts_core_phrases_0384"
+    term: "in that"
+    term_key: "in that"
+    meaning: "idm. 原因是,因为"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 384
+  - id: "bbdc_ielts_core_phrases_0385"
+    term: "in the field of"
+    term_key: "in the field of"
+    meaning: "collocation. 在...领域,在...界"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 385
+  - id: "bbdc_ielts_core_phrases_0386"
+    term: "last but not least"
+    term_key: "last but not least"
+    meaning: "idm. 最后但同样重要的 (一点)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 386
+  - id: "bbdc_ielts_core_phrases_0387"
+    term: "in itself"
+    term_key: "in itself"
+    meaning: "idm. 它本身,本质上"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 387
+  - id: "bbdc_ielts_core_phrases_0388"
+    term: "back up"
+    term_key: "back up"
+    meaning: "phrv. 支持,证实 (某人所言);支援"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 388
+  - id: "bbdc_ielts_core_phrases_0389"
+    term: "on a diet"
+    term_key: "on a diet"
+    meaning: "collocation. 节食"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 389
+  - id: "bbdc_ielts_core_phrases_0390"
+    term: "react to sth"
+    term_key: "react to sth"
+    meaning: "usage. 对...作出反应"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 390
+  - id: "bbdc_ielts_core_phrases_0391"
+    term: "decide on sth"
+    term_key: "decide on sth"
+    meaning: "usage. 决定,选定"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 391
+  - id: "bbdc_ielts_core_phrases_0392"
+    term: "make sense"
+    term_key: "make sense"
+    meaning: "idm. 讲得通,合乎情理"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 392
+  - id: "bbdc_ielts_core_phrases_0393"
+    term: "in a sense"
+    term_key: "in a sense"
+    meaning: "collocation. 从某种意义上说"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 393
+  - id: "bbdc_ielts_core_phrases_0394"
+    term: "be/have to do with"
+    term_key: "be/have to do with"
+    meaning: "idm. 关于,与...有关"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 394
+  - id: "bbdc_ielts_core_phrases_0395"
+    term: "in favor of"
+    term_key: "in favor of"
+    meaning: "idm. 赞同,支持"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 395
+  - id: "bbdc_ielts_core_phrases_0396"
+    term: "take notes"
+    term_key: "take notes"
+    meaning: "collocation. 记笔记,做记录"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 396
+  - id: "bbdc_ielts_core_phrases_0397"
+    term: "make a note"
+    term_key: "make a note"
+    meaning: "collocation. 记笔记,做记录"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 397
+  - id: "bbdc_ielts_core_phrases_0398"
+    term: "change one's mind"
+    term_key: "change one's mind"
+    meaning: "idm. 改变某人的决定 (或看法、主意)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 398
+  - id: "bbdc_ielts_core_phrases_0399"
+    term: "add sth to sth"
+    term_key: "add sth to sth"
+    meaning: "usage. 把...增加到;补充;添加 (特色)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 399
+  - id: "bbdc_ielts_core_phrases_0400"
+    term: "add up"
+    term_key: "add up"
+    meaning: "phrv. 积少成多;把...加起来"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 400
+  - id: "bbdc_ielts_core_phrases_0401"
+    term: "add in"
+    term_key: "add in"
+    meaning: "phrv. 把...加进去,把...包括在内"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 401
+  - id: "bbdc_ielts_core_phrases_0402"
+    term: "be similar to"
+    term_key: "be similar to"
+    meaning: "usage. 与...相似的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 402
+  - id: "bbdc_ielts_core_phrases_0403"
+    term: "dozens of"
+    term_key: "dozens of"
+    meaning: "usage. 大量,许多"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 403
+  - id: "bbdc_ielts_core_phrases_0404"
+    term: "make up"
+    term_key: "make up"
+    meaning: "phrv. 形成,构成;编造 (故事等) phrv. 补上,补偿;化妆;和好,和解"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 404
+  - id: "bbdc_ielts_core_phrases_0405"
+    term: "make the most of"
+    term_key: "make the most of"
+    meaning: "idm. 充分利用,尽情享受"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 405
+  - id: "bbdc_ielts_core_phrases_0406"
+    term: "for the moment"
+    term_key: "for the moment"
+    meaning: "idm. 目前,暂时"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 406
+  - id: "bbdc_ielts_core_phrases_0407"
+    term: "at the moment"
+    term_key: "at the moment"
+    meaning: "collocation. 此刻,目前,眼下"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 407
+  - id: "bbdc_ielts_core_phrases_0408"
+    term: "together with"
+    term_key: "together with"
+    meaning: "idm. 包括...在内;同...一起,连同"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 408
+  - id: "bbdc_ielts_core_phrases_0409"
+    term: "inside out"
+    term_key: "inside out"
+    meaning: "idm. 里面朝外地"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 409
+  - id: "bbdc_ielts_core_phrases_0410"
+    term: "pile up"
+    term_key: "pile up"
+    meaning: "phrv. 积累,堆积"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 410
+  - id: "bbdc_ielts_core_phrases_0411"
+    term: "give up"
+    term_key: "give up"
+    meaning: "phrv. 投降,认输,放弃"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 411
+  - id: "bbdc_ielts_core_phrases_0412"
+    term: "fall into sth"
+    term_key: "fall into sth"
+    meaning: "usage. 进入某状态,开始变成某事物 phrv. 可以分为,能够分成"
+    labels:
+      - "phrv."
+      - "usage."
+    source_orders:
+      canonical:
+        - 412
+  - id: "bbdc_ielts_core_phrases_0413"
+    term: "dry out"
+    term_key: "dry out"
+    meaning: "phrv. (使) 变干,干透"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 413
+  - id: "bbdc_ielts_core_phrases_0414"
+    term: "support for sth"
+    term_key: "support for sth"
+    meaning: "usage. 对...的支持"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 414
+  - id: "bbdc_ielts_core_phrases_0415"
+    term: "word for word"
+    term_key: "word for word"
+    meaning: "idm. 一字不差地,(翻译时) 逐字地"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 415
+  - id: "bbdc_ielts_core_phrases_0416"
+    term: "in other words"
+    term_key: "in other words"
+    meaning: "idm. 换句话说,也就是说,换言之"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 416
+  - id: "bbdc_ielts_core_phrases_0417"
+    term: "but then"
+    term_key: "but then"
+    meaning: "idm. 然而,另一方面"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 417
+  - id: "bbdc_ielts_core_phrases_0418"
+    term: "wear sb out"
+    term_key: "wear sb out"
+    meaning: "phrv. 使某人筋疲力尽,使某人厌烦"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 418
+  - id: "bbdc_ielts_core_phrases_0419"
+    term: "wear out"
+    term_key: "wear out"
+    meaning: "phrv. 穿破,磨损,用坏"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 419
+  - id: "bbdc_ielts_core_phrases_0420"
+    term: "be related to"
+    term_key: "be related to"
+    meaning: "usage. 与...相关的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 420
+  - id: "bbdc_ielts_core_phrases_0421"
+    term: "lose weight"
+    term_key: "lose weight"
+    meaning: "collocation. 减肥,减轻体重"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 421
+  - id: "bbdc_ielts_core_phrases_0422"
+    term: "pay for sth"
+    term_key: "pay for sth"
+    meaning: "usage. (为...) 付费"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 422
+  - id: "bbdc_ielts_core_phrases_0423"
+    term: "pay off"
+    term_key: "pay off"
+    meaning: "phrv. 取得成功,得到好结果;付清"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 423
+  - id: "bbdc_ielts_core_phrases_0424"
+    term: "search for"
+    term_key: "search for"
+    meaning: "usage. 搜寻,查找,搜查;思索,细想"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 424
+  - id: "bbdc_ielts_core_phrases_0425"
+    term: "in search of"
+    term_key: "in search of"
+    meaning: "collocation. 为寻找..."
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 425
+  - id: "bbdc_ielts_core_phrases_0426"
+    term: "a search for"
+    term_key: "a search for"
+    meaning: "usage. 对...的搜查,对...的寻找"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 426
+  - id: "bbdc_ielts_core_phrases_0427"
+    term: "search out"
+    term_key: "search out"
+    meaning: "phrv. 找出,查到,搜寻到"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 427
+  - id: "bbdc_ielts_core_phrases_0428"
+    term: "achieve one's goal"
+    term_key: "achieve one's goal"
+    meaning: "collocation. 达成目标"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 428
+  - id: "bbdc_ielts_core_phrases_0429"
+    term: "move on"
+    term_key: "move on"
+    meaning: "usage. 前进,进步,进展 phrv. 开始做 (别的事),换话题"
+    labels:
+      - "phrv."
+      - "usage."
+    source_orders:
+      canonical:
+        - 429
+  - id: "bbdc_ielts_core_phrases_0430"
+    term: "wipe out"
+    term_key: "wipe out"
+    meaning: "phrv. 彻底消灭,全部摧毁;使疲惫不堪"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 430
+  - id: "bbdc_ielts_core_phrases_0431"
+    term: "care for sb"
+    term_key: "care for sb"
+    meaning: "phrv. 照顾,照料某人 phrv. 深爱,非常喜欢某人"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 431
+  - id: "bbdc_ielts_core_phrases_0432"
+    term: "be close to"
+    term_key: "be close to"
+    meaning: "usage. 靠近...的;快要 (处于某种状态) usage. 与...亲密的,与...密切的 idm. 几乎是,差不多是;近乎"
+    labels:
+      - "idm."
+      - "usage."
+    source_orders:
+      canonical:
+        - 432
+  - id: "bbdc_ielts_core_phrases_0433"
+    term: "escape from"
+    term_key: "escape from"
+    meaning: "usage. (从监禁或管制中) 逃跑,逃出 usage. (从危险处境中) 逃脱,摆脱"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 433
+  - id: "bbdc_ielts_core_phrases_0434"
+    term: "later on"
+    term_key: "later on"
+    meaning: "idm. 后来,以后,随后"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 434
+  - id: "bbdc_ielts_core_phrases_0435"
+    term: "be surprised at/by"
+    term_key: "be surprised at/by"
+    meaning: "usage. 对...感到惊讶的 (或意外的)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 435
+  - id: "bbdc_ielts_core_phrases_0436"
+    term: "be better off"
+    term_key: "be better off"
+    meaning: "idm. 比较富裕,经济情况较好 idm. 境况更好,更幸福,更满意"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 436
+  - id: "bbdc_ielts_core_phrases_0437"
+    term: "for the better"
+    term_key: "for the better"
+    meaning: "idm. 有所好转"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 437
+  - id: "bbdc_ielts_core_phrases_0438"
+    term: "artificial intelligence"
+    term_key: "artificial intelligence"
+    meaning: "n. 人工智能"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 438
+  - id: "bbdc_ielts_core_phrases_0439"
+    term: "sure thing"
+    term_key: "sure thing"
+    meaning: "idm. (答应建议或要求) 当然,没问题"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 439
+  - id: "bbdc_ielts_core_phrases_0440"
+    term: "be sure to do"
+    term_key: "be sure to do"
+    meaning: "usage. 一定会做 (或发生某事) idm. 务必做某事,一定要做某事"
+    labels:
+      - "idm."
+      - "usage."
+    source_orders:
+      canonical:
+        - 440
+  - id: "bbdc_ielts_core_phrases_0441"
+    term: "make sure"
+    term_key: "make sure"
+    meaning: "idm. 查明,核实,确保"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 441
+  - id: "bbdc_ielts_core_phrases_0442"
+    term: "worry about"
+    term_key: "worry about"
+    meaning: "usage. 为...担心,为...发愁"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 442
+  - id: "bbdc_ielts_core_phrases_0443"
+    term: "in accordance with"
+    term_key: "in accordance with"
+    meaning: "idm. 按照,依据"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 443
+  - id: "bbdc_ielts_core_phrases_0444"
+    term: "take no notice"
+    term_key: "take no notice"
+    meaning: "collocation. 不理会,不予理睬"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 444
+  - id: "bbdc_ielts_core_phrases_0445"
+    term: "show signs of"
+    term_key: "show signs of"
+    meaning: "collocation. 显示出,流露出"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 445
+  - id: "bbdc_ielts_core_phrases_0446"
+    term: "Ice Age"
+    term_key: "ice age"
+    meaning: "n. 冰期,冰川期,冰河时代"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 446
+  - id: "bbdc_ielts_core_phrases_0447"
+    term: "mix A with B"
+    term_key: "mix a with b"
+    meaning: "usage. 使 A 和 B 混合"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 447
+  - id: "bbdc_ielts_core_phrases_0448"
+    term: "for instance"
+    term_key: "for instance"
+    meaning: "idm. 例如,比如说"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 448
+  - id: "bbdc_ielts_core_phrases_0449"
+    term: "from then on"
+    term_key: "from then on"
+    meaning: "collocation. 从那时起"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 449
+  - id: "bbdc_ielts_core_phrases_0450"
+    term: "all walks of life"
+    term_key: "all walks of life"
+    meaning: "idm. 各行各业"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 450
+  - id: "bbdc_ielts_core_phrases_0451"
+    term: "in fact"
+    term_key: "in fact"
+    meaning: "idm. 确切地说,实际上"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 451
+  - id: "bbdc_ielts_core_phrases_0452"
+    term: "fit in"
+    term_key: "fit in"
+    meaning: "phrv. 合得来,适应"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 452
+  - id: "bbdc_ielts_core_phrases_0453"
+    term: "hundreds of thousands of"
+    term_key: "hundreds of thousands of"
+    meaning: "collocation. 几十万"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 453
+  - id: "bbdc_ielts_core_phrases_0454"
+    term: "result in sth"
+    term_key: "result in sth"
+    meaning: "phrv. 导致,造成"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 454
+  - id: "bbdc_ielts_core_phrases_0455"
+    term: "result from sth"
+    term_key: "result from sth"
+    meaning: "usage. 由...造成,因...而产生"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 455
+  - id: "bbdc_ielts_core_phrases_0456"
+    term: "run through sth"
+    term_key: "run through sth"
+    meaning: "phrv. 匆匆讨论,快速浏览;迅速传遍 phrv. 遍布,贯穿;排练,反复练习"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 456
+  - id: "bbdc_ielts_core_phrases_0457"
+    term: "run off"
+    term_key: "run off"
+    meaning: "phrv. 跑掉,离弃"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 457
+  - id: "bbdc_ielts_core_phrases_0458"
+    term: "feel free to do"
+    term_key: "feel free to do"
+    meaning: "collocation. 请随意做某事"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 458
+  - id: "bbdc_ielts_core_phrases_0459"
+    term: "for free"
+    term_key: "for free"
+    meaning: "collocation. 免费的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 459
+  - id: "bbdc_ielts_core_phrases_0460"
+    term: "at first glance"
+    term_key: "at first glance"
+    meaning: "idm. 乍一看,乍看之下"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 460
+  - id: "bbdc_ielts_core_phrases_0461"
+    term: "have trouble doing sth"
+    term_key: "have trouble doing sth"
+    meaning: "usage. 做...有困难"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 461
+  - id: "bbdc_ielts_core_phrases_0462"
+    term: "waste disposal"
+    term_key: "waste disposal"
+    meaning: "n. 废物处理,垃圾处理"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 462
+  - id: "bbdc_ielts_core_phrases_0463"
+    term: "paid holiday"
+    term_key: "paid holiday"
+    meaning: "n. 带薪休假"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 463
+  - id: "bbdc_ielts_core_phrases_0464"
+    term: "at the beginning of"
+    term_key: "at the beginning of"
+    meaning: "collocation. 在...的开头,在...的起点"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 464
+  - id: "bbdc_ielts_core_phrases_0465"
+    term: "be able to do"
+    term_key: "be able to do"
+    meaning: "usage. 能做某事的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 465
+  - id: "bbdc_ielts_core_phrases_0466"
+    term: "on one's own"
+    term_key: "on one's own"
+    meaning: "idm. 独自,单独;独立地"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 466
+  - id: "bbdc_ielts_core_phrases_0467"
+    term: "date from"
+    term_key: "date from"
+    meaning: "phrv. 追溯到,始于,自 ... 至今"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 467
+  - id: "bbdc_ielts_core_phrases_0468"
+    term: "to date"
+    term_key: "to date"
+    meaning: "idm. 到目前为止"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 468
+  - id: "bbdc_ielts_core_phrases_0469"
+    term: "a great many"
+    term_key: "a great many"
+    meaning: "collocation. 许多"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 469
+  - id: "bbdc_ielts_core_phrases_0470"
+    term: "with regard to"
+    term_key: "with regard to"
+    meaning: "idm. 关于,至于"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 470
+  - id: "bbdc_ielts_core_phrases_0471"
+    term: "regard... as sth"
+    term_key: "regard... as sth"
+    meaning: "usage. 把...视为...,认为...是..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 471
+  - id: "bbdc_ielts_core_phrases_0472"
+    term: "all of a sudden"
+    term_key: "all of a sudden"
+    meaning: "idm. 突然间,一下子"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 472
+  - id: "bbdc_ielts_core_phrases_0473"
+    term: "all but"
+    term_key: "all but"
+    meaning: "idm. 几乎,差不多;除...外全部"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 473
+  - id: "bbdc_ielts_core_phrases_0474"
+    term: "all in all"
+    term_key: "all in all"
+    meaning: "idm. 从各方面考虑,总的说来"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 474
+  - id: "bbdc_ielts_core_phrases_0475"
+    term: "in all"
+    term_key: "in all"
+    meaning: "idm. 总共,共计"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 475
+  - id: "bbdc_ielts_core_phrases_0476"
+    term: "a matter of time"
+    term_key: "a matter of time"
+    meaning: "idm. 早晚的事,只是时间问题"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 476
+  - id: "bbdc_ielts_core_phrases_0477"
+    term: "no matter..."
+    term_key: "no matter..."
+    meaning: "idm. 无论,不管"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 477
+  - id: "bbdc_ielts_core_phrases_0478"
+    term: "fill in"
+    term_key: "fill in"
+    meaning: "phrv. 填写 (正式文件、表格等) phrv. 填满,塞满;暂时代替"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 478
+  - id: "bbdc_ielts_core_phrases_0479"
+    term: "fill out"
+    term_key: "fill out"
+    meaning: "phrv. 填写 (表格等);扩张,长胖"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 479
+  - id: "bbdc_ielts_core_phrases_0480"
+    term: "rule out"
+    term_key: "rule out"
+    meaning: "phrv. 把...排除在外 phrv. 防止...发生,阻止某人做某事"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 480
+  - id: "bbdc_ielts_core_phrases_0481"
+    term: "life expectancy"
+    term_key: "life expectancy"
+    meaning: "usage. 预期寿命"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 481
+  - id: "bbdc_ielts_core_phrases_0482"
+    term: "late in life"
+    term_key: "late in life"
+    meaning: "collocation. 在晚年"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 482
+  - id: "bbdc_ielts_core_phrases_0483"
+    term: "may well"
+    term_key: "may well"
+    meaning: "usage. 很可能"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 483
+  - id: "bbdc_ielts_core_phrases_0484"
+    term: "no way"
+    term_key: "no way"
+    meaning: "idm. 不可能,决不,没门儿"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 484
+  - id: "bbdc_ielts_core_phrases_0485"
+    term: "in the way"
+    term_key: "in the way"
+    meaning: "idm. 妨碍,挡着...的路"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 485
+  - id: "bbdc_ielts_core_phrases_0486"
+    term: "not only... but also..."
+    term_key: "not only... but also..."
+    meaning: "idm. 不仅...而且..."
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 486
+  - id: "bbdc_ielts_core_phrases_0487"
+    term: "die out"
+    term_key: "die out"
+    meaning: "phrv. 灭绝,消失"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 487
+  - id: "bbdc_ielts_core_phrases_0488"
+    term: "it is just as well that..."
+    term_key: "it is just as well that..."
+    meaning: "idm. (...) 倒也不错,还可以"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 488
+  - id: "bbdc_ielts_core_phrases_0489"
+    term: "for certain"
+    term_key: "for certain"
+    meaning: "idm. 确定地,无疑地"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 489
+  - id: "bbdc_ielts_core_phrases_0490"
+    term: "look on the bright side"
+    term_key: "look on the bright side"
+    meaning: "idm. 持乐观态度,看到光明的一面"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 490
+  - id: "bbdc_ielts_core_phrases_0491"
+    term: "in a minute"
+    term_key: "in a minute"
+    meaning: "collocation. 马上,很快"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 491
+  - id: "bbdc_ielts_core_phrases_0492"
+    term: "be familiar with sth"
+    term_key: "be familiar with sth"
+    meaning: "usage. 对...熟知的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 492
+  - id: "bbdc_ielts_core_phrases_0493"
+    term: "come to life"
+    term_key: "come to life"
+    meaning: "idm. (仿佛活着) 开始动起来"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 493
+  - id: "bbdc_ielts_core_phrases_0494"
+    term: "whether or not"
+    term_key: "whether or not"
+    meaning: "collocation. 是否...;不管,无论"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 494
+  - id: "bbdc_ielts_core_phrases_0495"
+    term: "take... seriously"
+    term_key: "take... seriously"
+    meaning: "idm. 认真对待...,把...看得很重要"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 495
+  - id: "bbdc_ielts_core_phrases_0496"
+    term: "up and down"
+    term_key: "up and down"
+    meaning: "idm. 起伏,上下波动 idm. 来来回回,往返地;时好时坏"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 496
+  - id: "bbdc_ielts_core_phrases_0497"
+    term: "up to sth"
+    term_key: "up to sth"
+    meaning: "idm. 到达 (某数量、程度等),多达 idm. 直到,不迟于;与...一样好 idm. 正在干,从事着;能胜任"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 497
+  - id: "bbdc_ielts_core_phrases_0498"
+    term: "deal with"
+    term_key: "deal with"
+    meaning: "phrv. 处理,应付;涉及,关于 phrv. 与...做生意"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 498
+  - id: "bbdc_ielts_core_phrases_0499"
+    term: "a great deal"
+    term_key: "a great deal"
+    meaning: "usage. 大量,很多"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 499
+  - id: "bbdc_ielts_core_phrases_0500"
+    term: "on the road"
+    term_key: "on the road"
+    meaning: "idm. 在途中,长途旅行中;漂泊 idm. (汽车) (状况良好) 可行驶"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 500
+  - id: "bbdc_ielts_core_phrases_0501"
+    term: "pass on"
+    term_key: "pass on"
+    meaning: "phrv. 传递,传达"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 501
+  - id: "bbdc_ielts_core_phrases_0502"
+    term: "pass through sth"
+    term_key: "pass through sth"
+    meaning: "phrv. 经过,路过"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 502
+  - id: "bbdc_ielts_core_phrases_0503"
+    term: "on top of"
+    term_key: "on top of"
+    meaning: "idm. 在...上面,在...顶部;除...之外 idm. 紧挨着,紧靠着;控制着,掌握着"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 503
+  - id: "bbdc_ielts_core_phrases_0504"
+    term: "cut down"
+    term_key: "cut down"
+    meaning: "phrv. 砍倒;削减,缩小 (尺寸、数量)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 504
+  - id: "bbdc_ielts_core_phrases_0505"
+    term: "in question"
+    term_key: "in question"
+    meaning: "idm. 正被讨论的;有疑问的,不确定的"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 505
+  - id: "bbdc_ielts_core_phrases_0506"
+    term: "limit... to..."
+    term_key: "limit... to..."
+    meaning: "usage. 限制,限定 phrv. 使某事只在...存在 (或发生) usage. 限量,减量"
+    labels:
+      - "phrv."
+      - "usage."
+    source_orders:
+      canonical:
+        - 506
+  - id: "bbdc_ielts_core_phrases_0507"
+    term: "within limits"
+    term_key: "within limits"
+    meaning: "idm. 在某种程度上,有一定限制"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 507
+  - id: "bbdc_ielts_core_phrases_0508"
+    term: "ever so"
+    term_key: "ever so"
+    meaning: "idm. 很,确实"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 508
+  - id: "bbdc_ielts_core_phrases_0509"
+    term: "as a whole"
+    term_key: "as a whole"
+    meaning: "idm. 作为一个整体,总体上"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 509
+  - id: "bbdc_ielts_core_phrases_0510"
+    term: "on the whole"
+    term_key: "on the whole"
+    meaning: "idm. 总的说来,大体上,基本上"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 510
+  - id: "bbdc_ielts_core_phrases_0511"
+    term: "be about to do"
+    term_key: "be about to do"
+    meaning: "idm. 正要做某事"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 511
+  - id: "bbdc_ielts_core_phrases_0512"
+    term: "mean to do"
+    term_key: "mean to do"
+    meaning: "usage. 打算做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 512
+  - id: "bbdc_ielts_core_phrases_0513"
+    term: "in order to do"
+    term_key: "in order to do"
+    meaning: "idm. 为了做某事,目的是"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 513
+  - id: "bbdc_ielts_core_phrases_0514"
+    term: "take sb by surprise"
+    term_key: "take sb by surprise"
+    meaning: "idm. 突袭,出其不意地抓获 idm. 出乎某人意料"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 514
+  - id: "bbdc_ielts_core_phrases_0515"
+    term: "not yet"
+    term_key: "not yet"
+    meaning: "collocation. 还没,尚未"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 515
+  - id: "bbdc_ielts_core_phrases_0516"
+    term: "straight away"
+    term_key: "straight away"
+    meaning: "idm. 马上,立刻"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 516
+  - id: "bbdc_ielts_core_phrases_0517"
+    term: "in the face of sth"
+    term_key: "in the face of sth"
+    meaning: "idm. 面对某事物 (指问题、困难等)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 517
+  - id: "bbdc_ielts_core_phrases_0518"
+    term: "be faced with sth"
+    term_key: "be faced with sth"
+    meaning: "usage. 面临,必须对付 (某情况)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 518
+  - id: "bbdc_ielts_core_phrases_0519"
+    term: "fall into disuse"
+    term_key: "fall into disuse"
+    meaning: "collocation. 被弃用,被废弃"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 519
+  - id: "bbdc_ielts_core_phrases_0520"
+    term: "get going"
+    term_key: "get going"
+    meaning: "usage. 开始,动身"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 520
+  - id: "bbdc_ielts_core_phrases_0521"
+    term: "per capita"
+    term_key: "per capita"
+    meaning: "usage. 人均 (的),平均每人 (的)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 521
+  - id: "bbdc_ielts_core_phrases_0522"
+    term: "report on sth"
+    term_key: "report on sth"
+    meaning: "usage. 汇报...,报告...;报道...,公布 ..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 522
+  - id: "bbdc_ielts_core_phrases_0523"
+    term: "be booked up"
+    term_key: "be booked up"
+    meaning: "collocation. (酒店、餐馆等) 被订满"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 523
+  - id: "bbdc_ielts_core_phrases_0524"
+    term: "sign up"
+    term_key: "sign up"
+    meaning: "phrv. 报名加入 (某项有组织的活动)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 524
+  - id: "bbdc_ielts_core_phrases_0525"
+    term: "arrive at/in"
+    term_key: "arrive at/in"
+    meaning: "usage. 到达 (某地),寄到 (某地)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 525
+  - id: "bbdc_ielts_core_phrases_0526"
+    term: "communicate with"
+    term_key: "communicate with"
+    meaning: "usage. 与...交流,与...沟通"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 526
+  - id: "bbdc_ielts_core_phrases_0527"
+    term: "play a role in sth"
+    term_key: "play a role in sth"
+    meaning: "usage. 在...中起作用,对...有影响"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 527
+  - id: "bbdc_ielts_core_phrases_0528"
+    term: "be tolerant of"
+    term_key: "be tolerant of"
+    meaning: "usage. 对...宽容的,能容忍...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 528
+  - id: "bbdc_ielts_core_phrases_0529"
+    term: "view... as sth"
+    term_key: "view... as sth"
+    meaning: "usage. 把...视为,以...看待"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 529
+  - id: "bbdc_ielts_core_phrases_0530"
+    term: "box office"
+    term_key: "box office"
+    meaning: "n. 售票处;票房收入"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 530
+  - id: "bbdc_ielts_core_phrases_0531"
+    term: "with the help of"
+    term_key: "with the help of"
+    meaning: "collocation. 在...的帮助下"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 531
+  - id: "bbdc_ielts_core_phrases_0532"
+    term: "too... to do"
+    term_key: "too... to do"
+    meaning: "collocation. 太...以至于不能"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 532
+  - id: "bbdc_ielts_core_phrases_0533"
+    term: "be of importance"
+    term_key: "be of importance"
+    meaning: "collocation. 重要的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 533
+  - id: "bbdc_ielts_core_phrases_0534"
+    term: "be interested in"
+    term_key: "be interested in"
+    meaning: "usage. 对...感兴趣的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 534
+  - id: "bbdc_ielts_core_phrases_0535"
+    term: "in nature"
+    term_key: "in nature"
+    meaning: "collocation. 本质上;在大自然中"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 535
+  - id: "bbdc_ielts_core_phrases_0536"
+    term: "by nature"
+    term_key: "by nature"
+    meaning: "collocation. 天生地"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 536
+  - id: "bbdc_ielts_core_phrases_0537"
+    term: "apologize for sth"
+    term_key: "apologize for sth"
+    meaning: "usage. 为...道歉,为...认错"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 537
+  - id: "bbdc_ielts_core_phrases_0538"
+    term: "apologize to sb"
+    term_key: "apologize to sb"
+    meaning: "usage. 向某人道歉,向某人认错"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 538
+  - id: "bbdc_ielts_core_phrases_0539"
+    term: "take steps"
+    term_key: "take steps"
+    meaning: "collocation. 采取措施"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 539
+  - id: "bbdc_ielts_core_phrases_0540"
+    term: "on/at the edge of"
+    term_key: "on/at the edge of"
+    meaning: "collocation. 在...的边缘"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 540
+  - id: "bbdc_ielts_core_phrases_0541"
+    term: "go without saying"
+    term_key: "go without saying"
+    meaning: "idm. 不用说,显而易见"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 541
+  - id: "bbdc_ielts_core_phrases_0542"
+    term: "find out"
+    term_key: "find out"
+    meaning: "phrv. 查明,弄清 (情况)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 542
+  - id: "bbdc_ielts_core_phrases_0543"
+    term: "if possible"
+    term_key: "if possible"
+    meaning: "collocation. 如果可能的话"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 543
+  - id: "bbdc_ielts_core_phrases_0544"
+    term: "or so"
+    term_key: "or so"
+    meaning: "idm. 大约,左右"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 544
+  - id: "bbdc_ielts_core_phrases_0545"
+    term: "hardly ever"
+    term_key: "hardly ever"
+    meaning: "collocation. 几乎从不,很少"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 545
+  - id: "bbdc_ielts_core_phrases_0546"
+    term: "a number of"
+    term_key: "a number of"
+    meaning: "collocation. 一些,若干"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 546
+  - id: "bbdc_ielts_core_phrases_0547"
+    term: "make use of"
+    term_key: "make use of"
+    meaning: "idm. 使用,利用 (以谋私利等)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 547
+  - id: "bbdc_ielts_core_phrases_0548"
+    term: "in use"
+    term_key: "in use"
+    meaning: "collocation. 在使用中"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 548
+  - id: "bbdc_ielts_core_phrases_0549"
+    term: "on sale"
+    term_key: "on sale"
+    meaning: "idm. (在商店) 上市,出售 idm. 折价销售,减价出售"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 549
+  - id: "bbdc_ielts_core_phrases_0550"
+    term: "on the market"
+    term_key: "on the market"
+    meaning: "idm. 出售,上市,有现货供应"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 550
+  - id: "bbdc_ielts_core_phrases_0551"
+    term: "try out"
+    term_key: "try out"
+    meaning: "phrv. 试用 (某人),测试 (某物)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 551
+  - id: "bbdc_ielts_core_phrases_0552"
+    term: "specialize in sth"
+    term_key: "specialize in sth"
+    meaning: "usage. 专门研究 (或从事),专攻"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 552
+  - id: "bbdc_ielts_core_phrases_0553"
+    term: "to begin with"
+    term_key: "to begin with"
+    meaning: "idm. 起初,开始;首先,第一点"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 553
+  - id: "bbdc_ielts_core_phrases_0554"
+    term: "in shape"
+    term_key: "in shape"
+    meaning: "collocation. 身体或事物状况良好"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 554
+  - id: "bbdc_ielts_core_phrases_0555"
+    term: "get hold of sth"
+    term_key: "get hold of sth"
+    meaning: "idm. 找到所需要的东西;学会,理解"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 555
+  - id: "bbdc_ielts_core_phrases_0556"
+    term: "hold up"
+    term_key: "hold up"
+    meaning: "phrv. 支撑,举起;支持住,承受住 phrv. 耽搁,阻延;持枪抢劫 phrv. 举出 (例子), (作为榜样) 提出"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 556
+  - id: "bbdc_ielts_core_phrases_0557"
+    term: "in recent years"
+    term_key: "in recent years"
+    meaning: "collocation. 在最近几年中,近年来"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 557
+  - id: "bbdc_ielts_core_phrases_0558"
+    term: "be rooted in sth"
+    term_key: "be rooted in sth"
+    meaning: "phrv. 起源于某事物"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 558
+  - id: "bbdc_ielts_core_phrases_0559"
+    term: "lie in sth"
+    term_key: "lie in sth"
+    meaning: "usage. 位于,坐落于;存在于,在于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 559
+  - id: "bbdc_ielts_core_phrases_0560"
+    term: "above all"
+    term_key: "above all"
+    meaning: "idm. 最重要的是,尤其是"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 560
+  - id: "bbdc_ielts_core_phrases_0561"
+    term: "at first"
+    term_key: "at first"
+    meaning: "idm. 起初,起先"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 561
+  - id: "bbdc_ielts_core_phrases_0562"
+    term: "first of all"
+    term_key: "first of all"
+    meaning: "idm. 第一,首先"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 562
+  - id: "bbdc_ielts_core_phrases_0563"
+    term: "in front of"
+    term_key: "in front of"
+    meaning: "prep. 在...前面;当着...的面,在...面前"
+    labels:
+      - "prep."
+    source_orders:
+      canonical:
+        - 563
+  - id: "bbdc_ielts_core_phrases_0564"
+    term: "be worried about"
+    term_key: "be worried about"
+    meaning: "usage. 为...担心的,为...焦虑的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 564
+  - id: "bbdc_ielts_core_phrases_0565"
+    term: "for a while"
+    term_key: "for a while"
+    meaning: "collocation. 一会儿,一段时间"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 565
+  - id: "bbdc_ielts_core_phrases_0566"
+    term: "build sth in sth"
+    term_key: "build sth in sth"
+    meaning: "phrv. 把...建造在 (较大的建筑物) 里 phrv. 使...成为 (体系等的) 组成部分"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 566
+  - id: "bbdc_ielts_core_phrases_0567"
+    term: "build up"
+    term_key: "build up"
+    meaning: "phrv. 加大,加强,逐渐增多 phrv. 增强...的体质,使更加强壮 phrv. 使...增高,使...增强;创建,开发"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 567
+  - id: "bbdc_ielts_core_phrases_0568"
+    term: "build on sth"
+    term_key: "build on sth"
+    meaning: "phrv. 在...的基础上发展"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 568
+  - id: "bbdc_ielts_core_phrases_0569"
+    term: "manage to do"
+    term_key: "manage to do"
+    meaning: "usage. 成功做到,设法完成,能够对付"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 569
+  - id: "bbdc_ielts_core_phrases_0570"
+    term: "suit sth to..."
+    term_key: "suit sth to..."
+    meaning: "phrv. 使...适合...,使...适应..."
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 570
+  - id: "bbdc_ielts_core_phrases_0571"
+    term: "believe in"
+    term_key: "believe in"
+    meaning: "phrv. 信任 (某人);相信...有用 phrv. 相信...的存在"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 571
+  - id: "bbdc_ielts_core_phrases_0572"
+    term: "fail to do"
+    term_key: "fail to do"
+    meaning: "usage. 未能做成某事;未履行某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 572
+  - id: "bbdc_ielts_core_phrases_0573"
+    term: "be determined to do"
+    term_key: "be determined to do"
+    meaning: "usage. 下定决心做...的,决意做...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 573
+  - id: "bbdc_ielts_core_phrases_0574"
+    term: "raise money"
+    term_key: "raise money"
+    meaning: "collocation. 筹款,募捐"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 574
+  - id: "bbdc_ielts_core_phrases_0575"
+    term: "quite a few"
+    term_key: "quite a few"
+    meaning: "idm. 相当多,不少"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 575
+  - id: "bbdc_ielts_core_phrases_0576"
+    term: "the open air"
+    term_key: "the open air"
+    meaning: "collocation. 露天,户外"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 576
+  - id: "bbdc_ielts_core_phrases_0577"
+    term: "according to"
+    term_key: "according to"
+    meaning: "usage. 据...所说,按...所报道 usage. 依照,按照,根据"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 577
+  - id: "bbdc_ielts_core_phrases_0578"
+    term: "up to date"
+    term_key: "up to date"
+    meaning: "usage. 现代的,最新的,时髦的 usage. 拥有 (或包含) 最新信息的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 578
+  - id: "bbdc_ielts_core_phrases_0579"
+    term: "head for/towards"
+    term_key: "head for/towards"
+    meaning: "collocation. 朝...行进"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 579
+  - id: "bbdc_ielts_core_phrases_0580"
+    term: "on duty"
+    term_key: "on duty"
+    meaning: "idm. 在值班 (或上班)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 580
+  - id: "bbdc_ielts_core_phrases_0581"
+    term: "for ages"
+    term_key: "for ages"
+    meaning: "collocation. 很长时间,很久"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 581
+  - id: "bbdc_ielts_core_phrases_0582"
+    term: "natural selection"
+    term_key: "natural selection"
+    meaning: "n. 自然选择,物竞天择"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 582
+  - id: "bbdc_ielts_core_phrases_0583"
+    term: "thanks to"
+    term_key: "thanks to"
+    meaning: "idm. 幸亏,由于"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 583
+  - id: "bbdc_ielts_core_phrases_0584"
+    term: "make a difference"
+    term_key: "make a difference"
+    meaning: "idm. 有影响,起作用"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 584
+  - id: "bbdc_ielts_core_phrases_0585"
+    term: "early on"
+    term_key: "early on"
+    meaning: "idm. 在初期,在开始阶段,早先"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 585
+  - id: "bbdc_ielts_core_phrases_0586"
+    term: "on a daily basis"
+    term_key: "on a daily basis"
+    meaning: "collocation. 每天"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 586
+  - id: "bbdc_ielts_core_phrases_0587"
+    term: "meet with sb"
+    term_key: "meet with sb"
+    meaning: "phrv. 和某人会晤 (商讨问题等)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 587
+  - id: "bbdc_ielts_core_phrases_0588"
+    term: "with the exception of"
+    term_key: "with the exception of"
+    meaning: "idm. 除...之外,不包括...在内"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 588
+  - id: "bbdc_ielts_core_phrases_0589"
+    term: "catch fire"
+    term_key: "catch fire"
+    meaning: "usage. 烧着,着火"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 589
+  - id: "bbdc_ielts_core_phrases_0590"
+    term: "have sth in common"
+    term_key: "have sth in common"
+    meaning: "idm. 有共同之处"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 590
+  - id: "bbdc_ielts_core_phrases_0591"
+    term: "let alone"
+    term_key: "let alone"
+    meaning: "idm. 更不用说"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 591
+  - id: "bbdc_ielts_core_phrases_0592"
+    term: "keep in touch"
+    term_key: "keep in touch"
+    meaning: "idm. 保持联系;了解...的最新情况"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 592
+  - id: "bbdc_ielts_core_phrases_0593"
+    term: "on record"
+    term_key: "on record"
+    meaning: "collocation. 记录在案的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 593
+  - id: "bbdc_ielts_core_phrases_0594"
+    term: "think of"
+    term_key: "think of"
+    meaning: "phrv. 关心,替...着想;考虑,打算 phrv. 想到,想象;构思出;想起;看待"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 594
+  - id: "bbdc_ielts_core_phrases_0595"
+    term: "dispose of"
+    term_key: "dispose of"
+    meaning: "phrv. 丢掉,清除;解决,处理"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 595
+  - id: "bbdc_ielts_core_phrases_0596"
+    term: "base sth on sth"
+    term_key: "base sth on sth"
+    meaning: "phrv. 以...为基础 (或根据)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 596
+  - id: "bbdc_ielts_core_phrases_0597"
+    term: "the key to sth"
+    term_key: "the key to sth"
+    meaning: "usage. ...的关键"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 597
+  - id: "bbdc_ielts_core_phrases_0598"
+    term: "by chance"
+    term_key: "by chance"
+    meaning: "collocation. 偶然,碰巧,意外"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 598
+  - id: "bbdc_ielts_core_phrases_0599"
+    term: "slow down"
+    term_key: "slow down"
+    meaning: "usage. (使) 放慢速度,减速"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 599
+  - id: "bbdc_ielts_core_phrases_0600"
+    term: "pose a threat"
+    term_key: "pose a threat"
+    meaning: "collocation. 构成威胁"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 600
+  - id: "bbdc_ielts_core_phrases_0601"
+    term: "in total"
+    term_key: "in total"
+    meaning: "collocation. 总共,总计"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 601
+  - id: "bbdc_ielts_core_phrases_0602"
+    term: "at/from the outset"
+    term_key: "at/from the outset"
+    meaning: "usage. 在开始时"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 602
+  - id: "bbdc_ielts_core_phrases_0603"
+    term: "around the corner"
+    term_key: "around the corner"
+    meaning: "idm. 在附近,即将发生"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 603
+  - id: "bbdc_ielts_core_phrases_0604"
+    term: "be taken aback"
+    term_key: "be taken aback"
+    meaning: "idm. 被...吓了一跳,大吃一惊"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 604
+  - id: "bbdc_ielts_core_phrases_0605"
+    term: "make money"
+    term_key: "make money"
+    meaning: "idm. 赚钱,获利"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 605
+  - id: "bbdc_ielts_core_phrases_0606"
+    term: "federal government"
+    term_key: "federal government"
+    meaning: "n. 联邦政府"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 606
+  - id: "bbdc_ielts_core_phrases_0607"
+    term: "be different from"
+    term_key: "be different from"
+    meaning: "usage. 与...不同的,与...有差别的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 607
+  - id: "bbdc_ielts_core_phrases_0608"
+    term: "hear from sb"
+    term_key: "hear from sb"
+    meaning: "phrv. 得到某人的消息"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 608
+  - id: "bbdc_ielts_core_phrases_0609"
+    term: "be true of"
+    term_key: "be true of"
+    meaning: "usage. 适用于,对...适用"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 609
+  - id: "bbdc_ielts_core_phrases_0610"
+    term: "point of view"
+    term_key: "point of view"
+    meaning: "usage. 观点,看法,意见;视角"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 610
+  - id: "bbdc_ielts_core_phrases_0611"
+    term: "speed up"
+    term_key: "speed up"
+    meaning: "phrv. (使) 加速"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 611
+  - id: "bbdc_ielts_core_phrases_0612"
+    term: "take/do a course"
+    term_key: "take/do a course"
+    meaning: "collocation. 参加课程,上课"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 612
+  - id: "bbdc_ielts_core_phrases_0613"
+    term: "a burning issue"
+    term_key: "a burning issue"
+    meaning: "usage. 迫在眉睫的问题"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 613
+  - id: "bbdc_ielts_core_phrases_0614"
+    term: "a comment on sth"
+    term_key: "a comment on sth"
+    meaning: "usage. 对...的评论"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 614
+  - id: "bbdc_ielts_core_phrases_0615"
+    term: "a wealth of sth"
+    term_key: "a wealth of sth"
+    meaning: "usage. 大量的某物"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 615
+  - id: "bbdc_ielts_core_phrases_0616"
+    term: "aim to do"
+    term_key: "aim to do"
+    meaning: "usage. 力求做成某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 616
+  - id: "bbdc_ielts_core_phrases_0617"
+    term: "an approach to sth"
+    term_key: "an approach to sth"
+    meaning: "usage. 对...的方法,对...的态度"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 617
+  - id: "bbdc_ielts_core_phrases_0618"
+    term: "an insight into sth"
+    term_key: "an insight into sth"
+    meaning: "usage. 对...的洞悉"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 618
+  - id: "bbdc_ielts_core_phrases_0619"
+    term: "an objection to sth"
+    term_key: "an objection to sth"
+    meaning: "usage. 对...的反对"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 619
+  - id: "bbdc_ielts_core_phrases_0620"
+    term: "as a result"
+    term_key: "as a result"
+    meaning: "idm. 结果,因此"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 620
+  - id: "bbdc_ielts_core_phrases_0621"
+    term: "as if/though"
+    term_key: "as if/though"
+    meaning: "idm. 似乎,好像,仿佛"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 621
+  - id: "bbdc_ielts_core_phrases_0622"
+    term: "be attached to"
+    term_key: "be attached to"
+    meaning: "usage. 为...所附的 usage. 附属于...的,为...工作的 usage. 依恋...的,爱慕...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 622
+  - id: "bbdc_ielts_core_phrases_0623"
+    term: "be available to"
+    term_key: "be available to"
+    meaning: "usage. 可被...获得的,可被...买到的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 623
+  - id: "bbdc_ielts_core_phrases_0624"
+    term: "be concerned about sth"
+    term_key: "be concerned about sth"
+    meaning: "usage. 对...担心的 usage. 对...感兴趣的,对...关心的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 624
+  - id: "bbdc_ielts_core_phrases_0625"
+    term: "be dependent on"
+    term_key: "be dependent on"
+    meaning: "usage. 依赖...的;取决于...的;有瘾的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 625
+  - id: "bbdc_ielts_core_phrases_0626"
+    term: "be devoid of sth"
+    term_key: "be devoid of sth"
+    meaning: "usage. 毫无...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 626
+  - id: "bbdc_ielts_core_phrases_0627"
+    term: "be eligible for sth"
+    term_key: "be eligible for sth"
+    meaning: "usage. 有资格...的,符合...条件的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 627
+  - id: "bbdc_ielts_core_phrases_0628"
+    term: "be equivalent to sth"
+    term_key: "be equivalent to sth"
+    meaning: "usage. 与...相等的,与...相同的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 628
+  - id: "bbdc_ielts_core_phrases_0629"
+    term: "be exclusive of"
+    term_key: "be exclusive of"
+    meaning: "usage. 不包括,除...外"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 629
+  - id: "bbdc_ielts_core_phrases_0630"
+    term: "be inferior to"
+    term_key: "be inferior to"
+    meaning: "usage. 比...差的,较...次的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 630
+  - id: "bbdc_ielts_core_phrases_0631"
+    term: "be instrumental in sth"
+    term_key: "be instrumental in sth"
+    meaning: "usage. 对...起重要作用的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 631
+  - id: "bbdc_ielts_core_phrases_0632"
+    term: "be noted for sth"
+    term_key: "be noted for sth"
+    meaning: "usage. 以...闻名"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 632
+  - id: "bbdc_ielts_core_phrases_0633"
+    term: "be parallel to sth"
+    term_key: "be parallel to sth"
+    meaning: "usage. 与...平行的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 633
+  - id: "bbdc_ielts_core_phrases_0634"
+    term: "be preferable to sth"
+    term_key: "be preferable to sth"
+    meaning: "usage. 较...而言更好的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 634
+  - id: "bbdc_ielts_core_phrases_0635"
+    term: "prior to sth"
+    term_key: "prior to sth"
+    meaning: "usage. 在...之前,先于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 635
+  - id: "bbdc_ielts_core_phrases_0636"
+    term: "be sensitive to sth"
+    term_key: "be sensitive to sth"
+    meaning: "usage. 对...灵敏的;对...敏感的 usage. 对...体贴的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 636
+  - id: "bbdc_ielts_core_phrases_0637"
+    term: "be separate from"
+    term_key: "be separate from"
+    meaning: "usage. 独立于...的,与...分开的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 637
+  - id: "bbdc_ielts_core_phrases_0638"
+    term: "be something of a..."
+    term_key: "be something of a..."
+    meaning: "idm. 算得上,多多少少"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 638
+  - id: "bbdc_ielts_core_phrases_0639"
+    term: "be superior to"
+    term_key: "be superior to"
+    meaning: "usage. 比...更好的 usage. (在级别或重要性上) 比...更高的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 639
+  - id: "bbdc_ielts_core_phrases_0640"
+    term: "be used to sth/doing sth"
+    term_key: "be used to sth/doing sth"
+    meaning: "usage. 习惯于...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 640
+  - id: "bbdc_ielts_core_phrases_0641"
+    term: "compensation for sth"
+    term_key: "compensation for sth"
+    meaning: "usage. 对...的赔偿"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 641
+  - id: "bbdc_ielts_core_phrases_0642"
+    term: "convince sb of sth"
+    term_key: "convince sb of sth"
+    meaning: "usage. 使某人相信某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 642
+  - id: "bbdc_ielts_core_phrases_0643"
+    term: "correspond to sth"
+    term_key: "correspond to sth"
+    meaning: "usage. 与...相符合,与...一致;相当于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 643
+  - id: "bbdc_ielts_core_phrases_0644"
+    term: "debate about sth"
+    term_key: "debate about sth"
+    meaning: "usage. 关于...的辩论"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 644
+  - id: "bbdc_ielts_core_phrases_0645"
+    term: "draw a conclusion"
+    term_key: "draw a conclusion"
+    meaning: "collocation. 得出结论,下结论"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 645
+  - id: "bbdc_ielts_core_phrases_0646"
+    term: "embark on sth"
+    term_key: "embark on sth"
+    meaning: "phrv. 从事,着手,开始做"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 646
+  - id: "bbdc_ielts_core_phrases_0647"
+    term: "emerge from sth"
+    term_key: "emerge from sth"
+    meaning: "usage. (从暗处或隐蔽处) 出现 usage. (从困境中) 摆脱出来"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 647
+  - id: "bbdc_ielts_core_phrases_0648"
+    term: "establish oneself"
+    term_key: "establish oneself"
+    meaning: "usage. 使自己立足,确立自己的地位"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 648
+  - id: "bbdc_ielts_core_phrases_0649"
+    term: "give rise to sth"
+    term_key: "give rise to sth"
+    meaning: "idm. 导致,引起,使...发生"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 649
+  - id: "bbdc_ielts_core_phrases_0650"
+    term: "in light of sth"
+    term_key: "in light of sth"
+    meaning: "idm. 考虑到,鉴于"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 650
+  - id: "bbdc_ielts_core_phrases_0651"
+    term: "in sum"
+    term_key: "in sum"
+    meaning: "idm. 总而言之,总之"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 651
+  - id: "bbdc_ielts_core_phrases_0652"
+    term: "in the case of sth"
+    term_key: "in the case of sth"
+    meaning: "usage. 在...的情况下,就...而言"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 652
+  - id: "bbdc_ielts_core_phrases_0653"
+    term: "in view of sth"
+    term_key: "in view of sth"
+    meaning: "idm. 鉴于,考虑到"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 653
+  - id: "bbdc_ielts_core_phrases_0654"
+    term: "invest in sth"
+    term_key: "invest in sth"
+    meaning: "usage. 投资"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 654
+  - id: "bbdc_ielts_core_phrases_0655"
+    term: "look to sb to do"
+    term_key: "look to sb to do"
+    meaning: "phrv. 指望某人做某事"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 655
+  - id: "bbdc_ielts_core_phrases_0656"
+    term: "nowhere near"
+    term_key: "nowhere near"
+    meaning: "idm. 远非,绝不是"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 656
+  - id: "bbdc_ielts_core_phrases_0657"
+    term: "owing to"
+    term_key: "owing to"
+    meaning: "usage. 因为,由于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 657
+  - id: "bbdc_ielts_core_phrases_0658"
+    term: "point to sth"
+    term_key: "point to sth"
+    meaning: "phrv. 提出,指出 (重要的事或理由) phrv. 暗示,预示,表明"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 658
+  - id: "bbdc_ielts_core_phrases_0659"
+    term: "relate to"
+    term_key: "relate to"
+    meaning: "phrv. 涉及,关于;产生共鸣,有同感"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 659
+  - id: "bbdc_ielts_core_phrases_0660"
+    term: "resort to sth"
+    term_key: "resort to sth"
+    meaning: "phrv. 诉诸,求助于"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 660
+  - id: "bbdc_ielts_core_phrases_0661"
+    term: "set about sth"
+    term_key: "set about sth"
+    meaning: "phrv. 开始做,着手做"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 661
+  - id: "bbdc_ielts_core_phrases_0662"
+    term: "shed light on sth"
+    term_key: "shed light on sth"
+    meaning: "idm. 使 (问题等) 较容易理解"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 662
+  - id: "bbdc_ielts_core_phrases_0663"
+    term: "the advent of..."
+    term_key: "the advent of..."
+    meaning: "usage. (重要人物、事件的) 到来,出现"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 663
+  - id: "bbdc_ielts_core_phrases_0664"
+    term: "trace sth to sth"
+    term_key: "trace sth to sth"
+    meaning: "usage. 追溯到,追查到"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 664
+  - id: "bbdc_ielts_core_phrases_0665"
+    term: "on land"
+    term_key: "on land"
+    meaning: "collocation. 在陆地上"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 665
+  - id: "bbdc_ielts_core_phrases_0666"
+    term: "a demand for"
+    term_key: "a demand for"
+    meaning: "usage. 对...的坚决要求 usage. (对商品、服务等的) 需要,要求"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 666
+  - id: "bbdc_ielts_core_phrases_0667"
+    term: "a majority of"
+    term_key: "a majority of"
+    meaning: "usage. ...的大多数"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 667
+  - id: "bbdc_ielts_core_phrases_0668"
+    term: "a range of sth"
+    term_key: "a range of sth"
+    meaning: "usage. 一系列的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 668
+  - id: "bbdc_ielts_core_phrases_0669"
+    term: "a set of sth"
+    term_key: "a set of sth"
+    meaning: "usage. 一套,一副,一组 (类似的东西)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 669
+  - id: "bbdc_ielts_core_phrases_0670"
+    term: "a variation in/of sth"
+    term_key: "a variation in/of sth"
+    meaning: "usage. ...的差异,...的变化"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 670
+  - id: "bbdc_ielts_core_phrases_0671"
+    term: "a variety of sth"
+    term_key: "a variety of sth"
+    meaning: "usage. 各种各样的某事物"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 671
+  - id: "bbdc_ielts_core_phrases_0672"
+    term: "account for sth"
+    term_key: "account for sth"
+    meaning: "phrv. 是...的原因;解释,说明 phrv. (数量上、比例上) 占"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 672
+  - id: "bbdc_ielts_core_phrases_0673"
+    term: "act as sth"
+    term_key: "act as sth"
+    meaning: "usage. 充当...,起...作用"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 673
+  - id: "bbdc_ielts_core_phrases_0674"
+    term: "adapt to sth"
+    term_key: "adapt to sth"
+    meaning: "usage. 适应"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 674
+  - id: "bbdc_ielts_core_phrases_0675"
+    term: "adjust to sth"
+    term_key: "adjust to sth"
+    meaning: "usage. 改变...以适应..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 675
+  - id: "bbdc_ielts_core_phrases_0676"
+    term: "advise sb on sth"
+    term_key: "advise sb on sth"
+    meaning: "usage. 在...方面给某人提供建议"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 676
+  - id: "bbdc_ielts_core_phrases_0677"
+    term: "agree on sth"
+    term_key: "agree on sth"
+    meaning: "usage. 同意某事,应允某事;约定某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 677
+  - id: "bbdc_ielts_core_phrases_0678"
+    term: "agreement on sth"
+    term_key: "agreement on sth"
+    meaning: "usage. 关于...的协议;(意见的) 一致"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 678
+  - id: "bbdc_ielts_core_phrases_0679"
+    term: "aim at/for sth"
+    term_key: "aim at/for sth"
+    meaning: "usage. 力求达到"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 679
+  - id: "bbdc_ielts_core_phrases_0680"
+    term: "an attitude towards"
+    term_key: "an attitude towards"
+    meaning: "usage. 对...的态度,对...的看法"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 680
+  - id: "bbdc_ielts_core_phrases_0681"
+    term: "apply for sth"
+    term_key: "apply for sth"
+    meaning: "usage. 申请 (工作、学校、许可等)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 681
+  - id: "bbdc_ielts_core_phrases_0682"
+    term: "arise from sth"
+    term_key: "arise from sth"
+    meaning: "phrv. 由...引起,由...产生"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 682
+  - id: "bbdc_ielts_core_phrases_0683"
+    term: "assist in/with sth"
+    term_key: "assist in/with sth"
+    meaning: "usage. 协助做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 683
+  - id: "bbdc_ielts_core_phrases_0684"
+    term: "at the end of sth"
+    term_key: "at the end of sth"
+    meaning: "collocation. 在...的结尾,在...的最后"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 684
+  - id: "bbdc_ielts_core_phrases_0685"
+    term: "be accessible to sb"
+    term_key: "be accessible to sb"
+    meaning: "usage. 某人可到达的,可得的,可用的 usage. 对某人来说易于理解的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 685
+  - id: "bbdc_ielts_core_phrases_0686"
+    term: "be born with sth"
+    term_key: "be born with sth"
+    meaning: "collocation. 生下来就有..."
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 686
+  - id: "bbdc_ielts_core_phrases_0687"
+    term: "be central to sth"
+    term_key: "be central to sth"
+    meaning: "collocation. 对...是核心的,对...是最重 要的"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 687
+  - id: "bbdc_ielts_core_phrases_0688"
+    term: "be composed of sth"
+    term_key: "be composed of sth"
+    meaning: "usage. 由...组成"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 688
+  - id: "bbdc_ielts_core_phrases_0689"
+    term: "be concerned with sth"
+    term_key: "be concerned with sth"
+    meaning: "usage. 对...感兴趣的,对...关心的 usage. 与...有关的,与...有牵连的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 689
+  - id: "bbdc_ielts_core_phrases_0690"
+    term: "be conscious of sth"
+    term_key: "be conscious of sth"
+    meaning: "usage. 注意到...的,意识到...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 690
+  - id: "bbdc_ielts_core_phrases_0691"
+    term: "be crucial to sth"
+    term_key: "be crucial to sth"
+    meaning: "usage. 对...极其重要的,对...关键的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 691
+  - id: "bbdc_ielts_core_phrases_0692"
+    term: "be enthusiastic about"
+    term_key: "be enthusiastic about"
+    meaning: "usage. 对...充满热情的,对...热心的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 692
+  - id: "bbdc_ielts_core_phrases_0693"
+    term: "be essential to/for sth"
+    term_key: "be essential to/for sth"
+    meaning: "usage. 对...来说是必不可少的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 693
+  - id: "bbdc_ielts_core_phrases_0694"
+    term: "be famous for sth"
+    term_key: "be famous for sth"
+    meaning: "usage. 因...而著名的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 694
+  - id: "bbdc_ielts_core_phrases_0695"
+    term: "be free from sth"
+    term_key: "be free from sth"
+    meaning: "usage. 无...的,不受...伤害 (或影响)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 695
+  - id: "bbdc_ielts_core_phrases_0696"
+    term: "be good at sth"
+    term_key: "be good at sth"
+    meaning: "usage. 擅长...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 696
+  - id: "bbdc_ielts_core_phrases_0697"
+    term: "be identical to/with"
+    term_key: "be identical to/with"
+    meaning: "usage. 与...完全相同的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 697
+  - id: "bbdc_ielts_core_phrases_0698"
+    term: "be involved in sth"
+    term_key: "be involved in sth"
+    meaning: "usage. 参与...的,与...有密切关联的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 698
+  - id: "bbdc_ielts_core_phrases_0699"
+    term: "be known as sth"
+    term_key: "be known as sth"
+    meaning: "usage. 被称为,被称作"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 699
+  - id: "bbdc_ielts_core_phrases_0700"
+    term: "be known for sth"
+    term_key: "be known for sth"
+    meaning: "usage. 以...知名,以...闻名"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 700
+  - id: "bbdc_ielts_core_phrases_0701"
+    term: "be linked to/with sth"
+    term_key: "be linked to/with sth"
+    meaning: "usage. 与...相关联的,与...有联系的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 701
+  - id: "bbdc_ielts_core_phrases_0702"
+    term: "be located in"
+    term_key: "be located in"
+    meaning: "phrv. 位于某处"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 702
+  - id: "bbdc_ielts_core_phrases_0703"
+    term: "be made from sth"
+    term_key: "be made from sth"
+    meaning: "usage. 由...制成的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 703
+  - id: "bbdc_ielts_core_phrases_0704"
+    term: "be nervous about sth"
+    term_key: "be nervous about sth"
+    meaning: "usage. 对...紧张的,对...担忧的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 704
+  - id: "bbdc_ielts_core_phrases_0705"
+    term: "be popular with/among sb"
+    term_key: "be popular with/among sb"
+    meaning: "usage. 受某人喜爱的,受某人欢迎的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 705
+  - id: "bbdc_ielts_core_phrases_0706"
+    term: "be prepared for sth"
+    term_key: "be prepared for sth"
+    meaning: "usage. 准备好的,为...做好准备"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 706
+  - id: "bbdc_ielts_core_phrases_0707"
+    term: "be ready to do"
+    term_key: "be ready to do"
+    meaning: "usage. 准备好做某事;愿意做某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 707
+  - id: "bbdc_ielts_core_phrases_0708"
+    term: "be resistant to sth"
+    term_key: "be resistant to sth"
+    meaning: "usage. 对...有抵抗力的,不受...损害的 usage. (对变化和新思想等) 抵制的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 708
+  - id: "bbdc_ielts_core_phrases_0709"
+    term: "be rich in sth"
+    term_key: "be rich in sth"
+    meaning: "usage. 富含...的,含有大量...的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 709
+  - id: "bbdc_ielts_core_phrases_0710"
+    term: "be unfamiliar with sth"
+    term_key: "be unfamiliar with sth"
+    meaning: "usage. 对...不了解的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 710
+  - id: "bbdc_ielts_core_phrases_0711"
+    term: "be welcome to do"
+    term_key: "be welcome to do"
+    meaning: "usage. 可随意做某事 (用于邀请)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 711
+  - id: "bbdc_ielts_core_phrases_0712"
+    term: "be worth doing sth"
+    term_key: "be worth doing sth"
+    meaning: "usage. 值得做的"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 712
+  - id: "bbdc_ielts_core_phrases_0713"
+    term: "bear in mind"
+    term_key: "bear in mind"
+    meaning: "idm. 把 (某事) 记在心里"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 713
+  - id: "bbdc_ielts_core_phrases_0714"
+    term: "belong to"
+    term_key: "belong to"
+    meaning: "phrv. 属于"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 714
+  - id: "bbdc_ielts_core_phrases_0715"
+    term: "benefit from/by sth"
+    term_key: "benefit from/by sth"
+    meaning: "usage. 得益于"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 715
+  - id: "bbdc_ielts_core_phrases_0716"
+    term: "blame... for sth"
+    term_key: "blame... for sth"
+    meaning: "usage. 因...而责怪...,把...归咎于..."
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 716
+  - id: "bbdc_ielts_core_phrases_0717"
+    term: "bring together"
+    term_key: "bring together"
+    meaning: "phrv. 使联合,使走到一起 phr. 把...召集起来"
+    labels:
+      - "phr."
+      - "phrv."
+    source_orders:
+      canonical:
+        - 717
+  - id: "bbdc_ielts_core_phrases_0718"
+    term: "by means of sth"
+    term_key: "by means of sth"
+    meaning: "idm. 借助...手段,依靠...方法"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 718
+  - id: "bbdc_ielts_core_phrases_0719"
+    term: "care about"
+    term_key: "care about"
+    meaning: "usage. 在意,关心"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 719
+  - id: "bbdc_ielts_core_phrases_0720"
+    term: "cater for"
+    term_key: "cater for"
+    meaning: "usage. 为...提供饮食,承办...的酒席 usage. 满足,迎合 (某群人的需要)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 720
+  - id: "bbdc_ielts_core_phrases_0721"
+    term: "compare A with B"
+    term_key: "compare a with b"
+    meaning: "usage. 将 A 和 B 作比较"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 721
+  - id: "bbdc_ielts_core_phrases_0722"
+    term: "comply with sth"
+    term_key: "comply with sth"
+    meaning: "usage. 服从某事,遵守某事"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 722
+  - id: "bbdc_ielts_core_phrases_0723"
+    term: "concentrate on sth"
+    term_key: "concentrate on sth"
+    meaning: "usage. 全神贯注于,集中心思在"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 723
+  - id: "bbdc_ielts_core_phrases_0724"
+    term: "contribute to sth"
+    term_key: "contribute to sth"
+    meaning: "usage. 向...捐献,向...捐助 usage. 促使,是导致...的原因之一 usage. 为...做贡献"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 724
+  - id: "bbdc_ielts_core_phrases_0725"
+    term: "divide into sth"
+    term_key: "divide into sth"
+    meaning: "usage. (使) 分开,分成"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 725
+  - id: "bbdc_ielts_core_phrases_0726"
+    term: "evolve from sth"
+    term_key: "evolve from sth"
+    meaning: "usage. 从...进化,自...演变 usage. 从...逐步发展"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 726
+  - id: "bbdc_ielts_core_phrases_0727"
+    term: "far from sth"
+    term_key: "far from sth"
+    meaning: "usage. 远离... idm. 远非...,完全不..."
+    labels:
+      - "idm."
+      - "usage."
+    source_orders:
+      canonical:
+        - 727
+  - id: "bbdc_ielts_core_phrases_0728"
+    term: "form the basis for sth"
+    term_key: "form the basis for sth"
+    meaning: "collocation. 构成...的基础"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 728
+  - id: "bbdc_ielts_core_phrases_0729"
+    term: "from a... perspective"
+    term_key: "from a... perspective"
+    meaning: "collocation. 从...的角度来看"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 729
+  - id: "bbdc_ielts_core_phrases_0730"
+    term: "give off sth"
+    term_key: "give off sth"
+    meaning: "phrv. 发出,放出 (气味、热、光等)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 730
+  - id: "bbdc_ielts_core_phrases_0731"
+    term: "give out"
+    term_key: "give out"
+    meaning: "phrv. 发出,放出 (气味、热、光等) phrv. 用完,耗尽;停止运行或运转 phrv. 分发,散发;公布,宣布"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 731
+  - id: "bbdc_ielts_core_phrases_0732"
+    term: "go with sth"
+    term_key: "go with sth"
+    meaning: "phrv. 同意,接受 (计划、报价等) phrv. 与某物相配;与某事同时发生"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 732
+  - id: "bbdc_ielts_core_phrases_0733"
+    term: "have something to do with"
+    term_key: "have something to do with"
+    meaning: "idm. 与...有关"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 733
+  - id: "bbdc_ielts_core_phrases_0734"
+    term: "impose sth on..."
+    term_key: "impose sth on..."
+    meaning: "usage. 强制实行,强加 usage. 把 (看法、信仰) 强加于某人"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 734
+  - id: "bbdc_ielts_core_phrases_0735"
+    term: "in case of sth"
+    term_key: "in case of sth"
+    meaning: "idm. 如果,假使"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 735
+  - id: "bbdc_ielts_core_phrases_0736"
+    term: "in respect of sth"
+    term_key: "in respect of sth"
+    meaning: "idm. 关于,就...而言"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 736
+  - id: "bbdc_ielts_core_phrases_0737"
+    term: "in spite of sth"
+    term_key: "in spite of sth"
+    meaning: "idm. 尽管,不顾"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 737
+  - id: "bbdc_ielts_core_phrases_0738"
+    term: "in terms of sth"
+    term_key: "in terms of sth"
+    meaning: "idm. 就...而言,在...方面"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 738
+  - id: "bbdc_ielts_core_phrases_0739"
+    term: "in the middle of sth"
+    term_key: "in the middle of sth"
+    meaning: "usage. 在...的中间 idm. 在...期间,在...过程中"
+    labels:
+      - "idm."
+      - "usage."
+    source_orders:
+      canonical:
+        - 739
+  - id: "bbdc_ielts_core_phrases_0740"
+    term: "inquire about"
+    term_key: "inquire about"
+    meaning: "usage. 询问,打听 (某事)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 740
+  - id: "bbdc_ielts_core_phrases_0741"
+    term: "involve sb in sth"
+    term_key: "involve sb in sth"
+    meaning: "phrv. 把某人牵扯到某事里 usage. 使某人参与 (或介入)"
+    labels:
+      - "phrv."
+      - "usage."
+    source_orders:
+      canonical:
+        - 741
+  - id: "bbdc_ielts_core_phrases_0742"
+    term: "job offer"
+    term_key: "job offer"
+    meaning: "n. 工作邀约,工作机会"
+    labels:
+      - "n."
+    source_orders:
+      canonical:
+        - 742
+  - id: "bbdc_ielts_core_phrases_0743"
+    term: "judging by/from sth"
+    term_key: "judging by/from sth"
+    meaning: "usage. 依据...来判断"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 743
+  - id: "bbdc_ielts_core_phrases_0744"
+    term: "lack of sth"
+    term_key: "lack of sth"
+    meaning: "usage. ...的短缺,...的不足"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 744
+  - id: "bbdc_ielts_core_phrases_0745"
+    term: "major in sth"
+    term_key: "major in sth"
+    meaning: "phrv. 主修"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 745
+  - id: "bbdc_ielts_core_phrases_0746"
+    term: "make sense of sth"
+    term_key: "make sense of sth"
+    meaning: "idm. 弄懂 (不易理解的事物)"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 746
+  - id: "bbdc_ielts_core_phrases_0747"
+    term: "on the basis of sth"
+    term_key: "on the basis of sth"
+    meaning: "collocation. 基于...,在...的基础上"
+    labels:
+      - "collocation."
+    source_orders:
+      canonical:
+        - 747
+  - id: "bbdc_ielts_core_phrases_0748"
+    term: "plan on sth"
+    term_key: "plan on sth"
+    meaning: "usage. 打算做某事,有...的计划"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 748
+  - id: "bbdc_ielts_core_phrases_0749"
+    term: "serve as sth"
+    term_key: "serve as sth"
+    meaning: "usage. 可用作...,可当...使 usage. 产生...的效果;担任 (某一职位)"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 749
+  - id: "bbdc_ielts_core_phrases_0750"
+    term: "so as to do"
+    term_key: "so as to do"
+    meaning: "idm. 为了做某事,以便做某事"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 750
+  - id: "bbdc_ielts_core_phrases_0751"
+    term: "stick to sth"
+    term_key: "stick to sth"
+    meaning: "phrv. 坚持;信守,遵守 (信念、规则等)"
+    labels:
+      - "phrv."
+    source_orders:
+      canonical:
+        - 751
+  - id: "bbdc_ielts_core_phrases_0752"
+    term: "take a risk"
+    term_key: "take a risk"
+    meaning: "idm. 冒险"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 752
+  - id: "bbdc_ielts_core_phrases_0753"
+    term: "the potential for sth"
+    term_key: "the potential for sth"
+    meaning: "usage. ...的可能性"
+    labels:
+      - "usage."
+    source_orders:
+      canonical:
+        - 753
+  - id: "bbdc_ielts_core_phrases_0754"
+    term: "with respect to sth"
+    term_key: "with respect to sth"
+    meaning: "idm. 关于,就...而言"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 754
+  - id: "bbdc_ielts_core_phrases_0755"
+    term: "as to"
+    term_key: "as to"
+    meaning: "idm. 关于,至于"
+    labels:
+      - "idm."
+    source_orders:
+      canonical:
+        - 755

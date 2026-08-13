@@ -60,7 +60,7 @@ reading:
     card: reading.md#matching-features
     status: learned
     error_tags: [rule_misunderstanding]
-    evidence: "cam15-T1 P3 因误解一次丢 6 题，已纠正认知"
+    evidence: "cam15-T1 P3 Matching Features 5题错3题；复盘发现NB规则误解，已纠正认知"
     note: "规则已懂，但还没在新题里验证 → 下次做 Matching 题后升级为 applied"
     priority: 1
 
@@ -110,7 +110,7 @@ writing:
     card: writing.md#overview-是-tr-的生命线
     status: unknown
     error_tags: [no_overview]
-    evidence: "1 次，直接封顶 Band 5"
+    evidence: "1 次；缺少清晰 Overview 通常会把 Task Achievement 限制在 Band 5 左右"
     priority: 1
 
   - id: formal_register

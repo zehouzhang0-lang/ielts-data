@@ -8,7 +8,7 @@ user_weak_points: [spelling, no_overview, informal_register]
 # 写作技巧卡
 
 > 用户现状：W5.0 → 目标 6.0（这是总分 7.0 的硬门槛）。
-> **拼写 11 次 / 篇是当前第一失分点**，不是词汇不够高级。
+> **现有两篇写作 frontmatter 合计记录拼写 11 次（Task 1: 2；Task 2: 9）**，仍是当前第一失分点；样本不足，不能写成“每篇 11 次”。
 > 深度技巧库：`~/.claude/skills/ielts-writing/task1-course.md`（含四维 Band 对照表 + 七大图表公式 + 剑16/20 范文）
 
 ---
@@ -35,7 +35,7 @@ user_weak_points: [spelling, no_overview, informal_register]
 | 段落 | 内容 | 关键 |
 |------|------|------|
 | 1. 开头段 | 改写题目 | 换图表词 + 换动词 + 换关键词，**不能抄题** |
-| 2. **概述段** | `Overall,` + 1-2 个最突出的总体趋势 | **不写具体数字**；没这段直接封顶 Band 5 |
+| 2. **概述段** | `Overall,` + 1-2 个最突出的总体趋势 | 通常不写细碎数字；缺少清晰 Overview 往往把 TA 限制在 Band 5 左右，不等于整篇 Overall 必然封顶 5 |
 | 3. 主体段1 | 数据组 A：起点 → 变化 → 终点/极值 | 按逻辑分组，不按图表顺序罗列 |
 | 4. 主体段2 | 数据组 B + 对比 | 用 `whereas / while / by contrast` 做对比 |
 
@@ -73,7 +73,7 @@ user_weak_points: [spelling, no_overview, informal_register]
 - 有清晰的段落划分
 - 论点有解释和例子支撑
 - 语法错误不影响理解
-- **250 词以上**（不够字数直接扣分）
+- 目标至少 250 词并完整展开论证；字数明显不足通常反映 Task Response 展开不够，不表述成独立的机械扣分
 
 ---
 

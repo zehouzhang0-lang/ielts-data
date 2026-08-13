@@ -30,7 +30,7 @@ user_weak_types: [note_completion_s4, multiple_choice, map]
 - 数字、拼写必须准确。`week` vs `weeks` 都算错
 
 ### Section 4 专项（学术讲座，无对话、不停顿）
-- 讲座结构固定：**引入 → 分点论述 → 举例 → 小结**。听到 `firstly / another / for example / finally` 就知道进度到哪
+- 讲座常见结构是**引入 → 分点论述 → 举例 → 小结**，但并非固定；用 `firstly / another / for example / finally` 等信号词辅助跟踪进度
 - 跟丢时**不要回想**，立刻看下一个空的关键词，用它重新咬住音频
 - S4 常考：抽象名词、学术术语、专业概念。这些词认识但反应慢 → 靠王陆语料库或听力词汇专练
 
@@ -40,7 +40,7 @@ user_weak_types: [note_completion_s4, multiple_choice, map]
 
 ---
 
-## Multiple Choice（用户正确率 ~64%）
+## Multiple Choice（当前唯一诊断：10 题对 7 题，70%）
 
 ### 核心技巧
 - **先读选项，划出选项之间的差异点**——考的就是这个差异
