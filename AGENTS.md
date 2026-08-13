@@ -41,7 +41,7 @@
 
 ## 数据写入规范
 
-所有数据文件是带 YAML frontmatter 的 Markdown，**字段规范严格遵循本仓库 `SCHEMA.md`**。核心目录：
+训练记录通常是带 YAML frontmatter 的 Markdown；`planning/`、`vocab/banks/`、技巧状态等结构化索引使用纯 YAML。**所有字段规范严格遵循本仓库 `SCHEMA.md`**。核心目录：
 
 | 目录 | 内容 | 什么时候写 |
 |------|------|-----------|
@@ -52,6 +52,8 @@
 | `vocab/days/dayNN.md` | 每日背词 + 测试结果 | 每天词汇训练后 |
 | `speaking/stories/` | 万能故事（frontmatter 含话题覆盖） | 生成素材后 |
 | `typing/sessions/` | 打字练习（wpm/accuracy/duration_min） | 打字练习后 |
+| `planning/strategy.yaml` | 阶段、周预算和每日任务模板 | 考期、可用时间或阶段门槛改变时 |
+| `planning/days/` / `planning/events/` | 固定的每日计划与追加式状态事件 | 首页首次勾选任务及后续状态变化时 |
 | `scores.md` | 模考记录追加到 records 数组 | 每次完整模考后 |
 
 文件名格式：`YYYYMMDD_描述.md`（如 `20260812_task2_education.md`）。
@@ -63,6 +65,7 @@
 - **词汇**：间隔重复，难词池在 `vocab/difficult.yaml`，测错的词次日必复测
 - **评分换算**：听力/阅读 40 题制，30-31 对 = 7.0（听力），30-32 对 = 7.0（学术阅读）；总分 .25/.75 向上取整
 - **口语**：生成万能故事覆盖多话题；实时对话练习建议用户用语音类 AI
+- **规划**：V1 的任务完成是带用时和结果摘要的用户自报，不代表能力达标；首页必须分开展示自报执行进度和由各科记录形成的能力进度。完成事件采用追加式文件，禁止多设备共同覆写一张清单
 
 ## 真题库（就在本仓库）
 

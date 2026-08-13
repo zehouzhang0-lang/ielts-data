@@ -14,7 +14,8 @@
 ├── listening/submissions/      # 听力错题记录
 ├── speaking/stories/           # 口语万能故事
 ├── vocab/days/                 # 每日词汇记录
-└── typing/sessions/            # 打字练习记录
+├── typing/sessions/            # 打字练习记录
+└── planning/                   # 策略、每日计划快照与追加式完成事件
 ```
 
 ## 多环境同步
@@ -31,14 +32,13 @@ git add -A && git commit -m "practice: $(date +%F)" && git push
 
 或直接跑仓库里的同步脚本：`./sync.sh`（Git Bash / Codex）或 `./sync.ps1`（PowerShell）。
 
-## 真题知识库（不在本仓库）
+## 真题知识库
 
-剑桥雅思 10-20 真题知识库（825MB：人工转录 md + PDF + 扫描图）体积过大，不进 git。
-- 主力机（Windows）路径：`D:\ielts-knowledge-base\`
-- 其他环境需要真题时：自行拷贝该文件夹，并告知 AI 实际路径
-- 核心文件：`剑{N}_视觉转录.md`（含题目 + Answer Keys + Audioscripts）
+仓库 `knowledge/` 内有剑桥雅思 10–20 的人工转录文本，含题目、Answer Keys 和 Audioscripts。题目必须从这些文本定位并记录行号，不得编造。
+
+原版 PDF、扫描图和音频体积大，不进 Git。当前主力机剑15 PDF 与 Test 1–4 音频位于 `D:\IELTS\`；`D:\ielts-knowledge-base\` 主要保留扫描/转录素材。规划器只有在本机确认音频存在时才安排对应听力题；其他书目需先补齐合法音频。
 
 ## 数据规范
 
-所有 `.md` 文件带 YAML frontmatter，字段规范见 Claude skills 目录的 `SCHEMA.md`。
+所有数据字段规范见仓库根目录的 `SCHEMA.md`。
 可视化仪表板：`~/.claude/skills/ielts-dashboard/dashboard`（`npm start` → http://localhost:5173）。

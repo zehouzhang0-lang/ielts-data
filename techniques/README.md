@@ -15,6 +15,7 @@
 | [mastery.yaml](mastery.yaml) | **技巧掌握度追踪** — unknown → learned → applied → mastered |
 | [course-fast-track.md](course-fast-track.md) | **网课速通流程** — 定位片段、提炼技巧、真题验证、采纳/淘汰 |
 | [_source-xhs-6.5.md](_source-xhs-6.5.md) | 原始素材（小红书 6.5 经验帖，含 B站资源清单） |
+| [_source-planning-7.0-7.5.md](_source-planning-7.0-7.5.md) | 7.0–7.5 自学经验调研（个人经验分层 + 官方交叉验证） |
 
 ## 核心工作流
 

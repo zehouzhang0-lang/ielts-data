@@ -458,3 +458,122 @@ question_source:
 | `speaking/topic_groups.md` | 改为 `speaking/topic_groups.yaml` |
 
 V2 数据由 `migrate-v2-to-v3.js` 自动迁移。
+
+---
+
+## Planning：首页执行规划
+
+`planning/` 只保存可执行计划与完成事件，不替代各科训练记录。V1 的完成状态是用户自报：必须填写结果摘要，但系统尚不自动核验对应科目记录；它不等于达到目标分数。
+
+```text
+planning/
+├── strategy.yaml                  稳定阶段、每周预算与任务目录
+├── days/YYYY-MM-DD.yaml           当日计划快照；首次写事件时原子生成
+└── events/YYYYMMDD_UUID.yaml      追加式状态事件；多设备不改同一文件
+```
+
+### `planning/strategy.yaml`
+
+```yaml
+schema_version: 1
+id: ielts-7-foundation-2026q3-v1
+timezone: Asia/Shanghai
+week_starts_on: monday
+weekly_budget_min: 735
+exam_date_estimated: true
+target_bands: {listening: 7.5, reading: 7.5, writing: 6.0, speaking: 6.0}
+phases:
+  - id: repair
+    name: 弱项修复
+    starts_on: "2026-08-17"
+    ends_on: "2026-09-02"
+    outcomes: [Section 4 最近 3 次均值至少 6/10]
+weekly_schedule: {monday: 105, tuesday: 105, wednesday: 105, thursday: 105, friday: 105, saturday: 180, sunday: 30}
+weekly_template:
+  thursday: [listening-s4-fresh, reading-matching, writing-overview, vocab-review]
+phase_templates:
+  repair:
+    monday: [listening-s4, reading-matching, listening-recovery]
+    # 其余星期同样必须完整提供
+task_catalog:
+  - key: listening-s4-fresh
+    priority: must
+    skill: listening
+    kind: timed_practice
+    title: Section 4 新样本校准
+    planned_min: 45
+    rationale: 剑15 Test 1 Section 4 仅 3/10。
+    instructions: [使用本机剑15 Test 2 Part 4 音频限时作答，交卷后再复盘]
+    success_criteria: 产生 10 题结果和错因记录。
+    evidence_required: [10题结果, 错因标签]
+    resource:
+      route: /listening
+      ref: techniques/listening.md#section-4-专项
+      label: 剑15 Test 2 · Part 4
+      source_file: knowledge/剑15_视觉转录.md
+      start_line: 1103
+      end_line: 1138
+      audio_file: ielts15_test2_audio4.m4a
+```
+
+约束：
+
+- `weekly_schedule` 七天总和必须等于 `weekly_budget_min`。
+- `weekly_template` 只能引用 `task_catalog[].key`；每日模板分钟数不得超过当天预算。
+- `phase_templates` 可选；键必须对应 `phases[].id`，每个阶段都要给出完整七天。当前阶段存在模板时优先使用，否则回退 `weekly_template`。
+- `priority`: `must | should | optional`。
+- `skill`: `listening | reading | writing | speaking | vocab | typing | review`。
+- `kind`: `learn_technique | technique_drill | timed_practice | error_review | course_extract | mock`。
+- `resource.route` 只允许 Dashboard 内部路由；Cambridge 题目必须记录 `source_file` 与行号，禁止编造。
+- `resource.audio_file` 只记录本机合法素材的文件名，不进入 Git；听力任务只有确认音频存在时才可排入今日计划。
+- 外部课程只有完成“摘要 + 真题验证 + adopted/rejected”后才能成为必做技巧；播放完不计完成。
+
+### `planning/days/YYYY-MM-DD.yaml`
+
+```yaml
+schema_version: 1
+date: "2026-08-13"
+timezone: Asia/Shanghai
+strategy_id: ielts-7-foundation-2026q3-v1
+generated_at: "2026-08-12T16:00:00.000Z"
+budget_min: 105
+confidence: baseline_only
+tasks:
+  - id: 2026-08-13-01-listening-s4-fresh
+    order: 1
+    key: listening-s4-fresh
+    priority: must
+    skill: listening
+    kind: timed_practice
+    title: Section 4 新样本校准
+    planned_min: 45
+    rationale: 剑15 Test 1 Section 4 仅 3/10。
+    instructions: [使用本机剑15 Test 2 Part 4 音频限时作答，交卷后再复盘]
+    success_criteria: 产生 10 题结果和错因记录。
+    evidence_required: [10题结果, 错因标签]
+    resource: {route: /listening, label: 剑15 Test 2 · Part 4, audio_file: ielts15_test2_audio4.m4a}
+notes: []
+```
+
+每日计划是快照。已生成的当天计划不得因后续聚合数据变化而静默漂移。`tasks[].id`、`order` 必须唯一；任务分钟数总和不得超过 `budget_min`。
+
+### `planning/events/*.yaml`
+
+```yaml
+schema_version: 1
+event_id: 123e4567-e89b-42d3-a456-426614174000
+plan_date: "2026-08-13"
+task_id: 2026-08-13-01-listening-s4-fresh
+status: done
+recorded_at: "2026-08-13T03:15:00.123Z"
+actual_min: 44
+note: 已记录首次跟丢点和恢复点
+```
+
+- `status`: `todo | done | skipped`。`todo` 表示重新打开任务。
+- 每次变更新增事件，不改旧事件；聚合时按 `recorded_at`、再按 `event_id` 取每个任务的最后状态。
+- `event_id` 是幂等键；重复请求不能产生第二个文件。
+- 后端生成 `recorded_at` 和文件名；客户端不能提交路径。
+- `done` 必须填写正整数 `actual_min` 和非空 `note`（结果摘要）；`todo` / `skipped` 不得填写 `actual_min`。完成摘要只记录自己的分数、错因或产出位置，不存付费课程全文。
+- 首页将该状态明确标成“自报完成”；各科成绩、submission 与 mastery 才是能力证据，后续版本再自动关联。
+- 本地事件写入成功与 Git 同步成功是两个状态；同步失败不得删除本地事件。

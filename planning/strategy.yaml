@@ -1,0 +1,446 @@
+schema_version: 1
+id: ielts-7-foundation-2026q3-v1
+timezone: Asia/Shanghai
+week_starts_on: monday
+weekly_budget_min: 735
+exam_date_estimated: true
+target_bands:
+  listening: 7.5
+  reading: 7.5
+  writing: 6.0
+  speaking: 6.0
+phases:
+  - id: recalibrate
+    name: 重新校准
+    starts_on: "2026-08-13"
+    ends_on: "2026-08-16"
+    outcomes:
+      - 建立新的听力、阅读、写作样本
+      - 验证第一批 priority 1 技巧
+  - id: repair
+    name: 弱项修复
+    starts_on: "2026-08-17"
+    ends_on: "2026-09-02"
+    outcomes:
+      - Section 4 最近 3 次均值至少 6/10
+      - Task 1 Overview 出现率 100%
+      - 写作样本每 150 词已知拼写错误降至不超过 6 次
+      - 打字速度达到 30 WPM
+  - id: strengthen
+    name: 强化
+    starts_on: "2026-09-03"
+    ends_on: "2026-09-23"
+    outcomes:
+      - 听力与阅读最近 3 套均值至少 30/40
+      - Task 1 在 20 分钟内、Task 2 在 40 分钟内完成
+      - 口语连续两个样本的可评维度达到 6.0
+      - 打字速度达到 35 WPM
+  - id: integrate
+    name: 整合
+    starts_on: "2026-09-24"
+    ends_on: "2026-10-07"
+    outcomes:
+      - 连续两次模拟听力与阅读至少 33/40
+      - 写作与口语无可靠维度低于 6.0
+      - 打字速度达到 40 WPM
+  - id: taper
+    name: 收束
+    starts_on: "2026-10-08"
+    ends_on: "2026-10-14"
+    outcomes:
+      - 阶段开始后的首个周末完成最后一次整套模拟
+      - 之后只复盘、轻量口语和拼写，不开新课程
+weekly_schedule:
+  monday: 105
+  tuesday: 105
+  wednesday: 105
+  thursday: 105
+  friday: 105
+  saturday: 180
+  sunday: 30
+weekly_template:
+  monday: [listening-s4, reading-matching, listening-recovery]
+  tuesday: [listening-s4, reading-mcq, writing-technique]
+  wednesday: [listening-recovery, reading-matching, reading-synonyms, listening-spelling]
+  thursday: [listening-s4-fresh, reading-matching, writing-overview, vocab-review]
+  friday: [listening-s4, reading-mcq, speaking-part3]
+  saturday: [listening-full, reading-full, writing-rewrite, speaking-mock]
+  sunday: [weekly-review]
+phase_templates:
+  recalibrate:
+    monday: [listening-s4, reading-matching, listening-recovery]
+    tuesday: [listening-s4, reading-mcq, writing-technique]
+    wednesday: [listening-recovery, reading-matching, reading-synonyms, listening-spelling]
+    thursday: [listening-s4-fresh, reading-matching, writing-overview, vocab-review]
+    friday: [listening-s4-fresh-3, reading-mcq, speaking-part3]
+    saturday: [listening-full-fresh, reading-full-fresh, writing-rewrite, speaking-mock]
+    sunday: [weekly-review]
+  repair:
+    monday: [listening-s4, reading-matching, listening-recovery]
+    tuesday: [listening-s4, reading-mcq, writing-technique]
+    wednesday: [listening-recovery, reading-matching, reading-synonyms, typing-speed]
+    thursday: [listening-s4, reading-matching, writing-overview, vocab-review]
+    friday: [listening-s4, reading-mcq, speaking-story]
+    saturday: [listening-full, reading-full, writing-rewrite, typing-speed]
+    sunday: [weekly-review]
+  strengthen:
+    monday: [listening-s4, reading-matching, listening-recovery]
+    tuesday: [writing-timed-alternating, reading-mcq, listening-spelling, vocab-review]
+    wednesday: [listening-recovery, reading-matching, reading-synonyms, listening-spelling]
+    thursday: [listening-s4, reading-matching, speaking-part3]
+    friday: [listening-s4, reading-mcq, typing-speed, vocab-review]
+    saturday: [listening-full, reading-full, writing-rewrite, listening-spelling]
+    sunday: [weekly-review]
+  integrate:
+    monday: [listening-full, reading-matching, vocab-review]
+    tuesday: [reading-full, listening-recovery]
+    wednesday: [listening-s4, reading-mcq, typing-speed, listening-spelling]
+    thursday: [writing-timed-alternating, listening-s4, vocab-review]
+    friday: [listening-s4, reading-mcq, speaking-mock, typing-speed]
+    saturday: [listening-full, reading-full, writing-rewrite, listening-spelling]
+    sunday: [weekly-review]
+  taper:
+    monday: [listening-s4, reading-matching, listening-spelling, typing-speed]
+    tuesday: [listening-recovery, reading-mcq, reading-synonyms, vocab-review]
+    wednesday: [listening-recovery, reading-matching, reading-synonyms, speaking-mock]
+    thursday: [listening-s4, reading-matching, writing-overview, vocab-review]
+    friday: [listening-recovery, reading-mcq, listening-spelling, typing-speed]
+    saturday: [listening-full, reading-full, writing-rewrite, speaking-mock]
+    sunday: [weekly-review]
+task_catalog:
+  - key: listening-s4-fresh
+    priority: must
+    skill: listening
+    kind: timed_practice
+    title: Section 4 新样本校准
+    planned_min: 45
+    rationale: 剑15 Test 1 Section 4 仅 3/10，且该样本已过 100 天；先用本机确有音频的未做题建立新样本。
+    instructions:
+      - 先读 s4_lecture_rhythm 与 abandon_and_move_on 技巧卡，不看答案或听力原文。
+      - 使用本机 ielts15_test2_audio4.m4a，限时完成 Questions 31–40；漏一题后立刻移到下一题。
+      - 交卷后才按题目来源复盘错题与低信心答对题，记录首次跟丢点和恢复点。
+    success_criteria: 产生 10 题结果和错因记录；目标至少 6/10，且不因纠结一题再连续丢 3 题。未达标仍算完成，但进入后续专项。
+    evidence_required: [10题结果, 错因标签, 两个技巧的使用记录]
+    resource:
+      route: /listening
+      ref: techniques/listening.md#section-4-专项
+      label: 剑15 Test 2 · Part 4 · Questions 31–40
+      source_file: knowledge/剑15_视觉转录.md
+      start_line: 1103
+      end_line: 1138
+      audio_file: ielts15_test2_audio4.m4a
+  - key: listening-s4-fresh-3
+    priority: must
+    skill: listening
+    kind: timed_practice
+    title: Section 4 第二个新样本
+    planned_min: 45
+    rationale: 用第二个未做且本机音频完整的题组确认 Section 4 问题是否稳定复现，避免只凭一次样本下结论。
+    instructions:
+      - 不看答案或听力原文，使用本机 ielts15_test3_audio4.m4a 限时完成 Questions 31–40。
+      - 漏一题后立即移到下一题，交卷后才复盘错题与低信心答对题。
+      - 记录首次跟丢点、恢复点及连续失分长度。
+    success_criteria: 产生 10 题结果和错因记录；目标至少 6/10，且连续失分不超过 2 题。
+    evidence_required: [10题结果, 错因标签, 跟丢与恢复记录]
+    resource:
+      route: /listening
+      ref: techniques/listening.md#section-4-专项
+      label: 剑15 Test 3 · Part 4 · Questions 31–40
+      source_file: knowledge/剑15_视觉转录.md
+      start_line: 1985
+      end_line: 2029
+      audio_file: ielts15_test3_audio4.m4a
+  - key: listening-full-fresh
+    priority: must
+    skill: listening
+    kind: timed_practice
+    title: 完整听力新基线
+    planned_min: 65
+    rationale: 唯一完整听力样本已过 100 天；剑15 Test 4 尚未使用且四段音频已在本机核验。
+    instructions:
+      - 依次使用本机 ielts15_test4_audio1.m4a 至 audio4.m4a，严格按考试节奏完成 40 题。
+      - 不暂停、不预看答案；交卷后只复盘错题、低信心答对题和连续失分区间。
+      - 保存总分、四个 Section 分数与错因标签。
+    success_criteria: 产生 40 题分数、四个 Section 分数和错误标签；该结果作为新基线而非正式成绩。
+    evidence_required: [40题结果, Section分数, 错因标签]
+    resource:
+      route: /listening
+      ref: techniques/review-method.md#听力复盘
+      label: 剑15 Test 4 · Listening · 本机四段音频
+      source_file: knowledge/剑15_视觉转录.md
+      start_line: 2779
+      end_line: 2964
+  - key: reading-full-fresh
+    priority: must
+    skill: reading
+    kind: timed_practice
+    title: 完整阅读新基线
+    planned_min: 75
+    rationale: 目前只有一个 Passage 的细分样本且已过 100 天，需要未使用的完整 40 题重新校准。
+    instructions:
+      - 60 分钟独立完成剑15 Test 2 Reading，不预看答案。
+      - 记录三个 Passage 的用时；交卷后只复盘错题、低信心答对题和严重超时题。
+      - 保存总分、题型错误和同义替换证据。
+    success_criteria: 产生 40 题分数、各 Passage 用时和题型错误标签；该结果作为新基线而非正式成绩。
+    evidence_required: [40题结果, 各Passage用时, 错因标签]
+    resource:
+      route: /reading
+      ref: techniques/review-method.md#阅读复盘
+      label: 剑15 Test 2 · Academic Reading
+      source_file: knowledge/剑15_视觉转录.md
+      start_line: 1140
+      end_line: 1403
+  - key: listening-s4
+    priority: must
+    skill: listening
+    kind: technique_drill
+    title: Section 4 跟丢恢复专项
+    planned_min: 45
+    rationale: 剑15 Test 1 Section 4 仅 3/10；lost_in_lecture 7 次。该任务用于错题重做或有音频题组的专项，不把重做分数当新基线。
+    instructions:
+      - 先读 s4_lecture_rhythm 与 abandon_and_move_on 技巧卡。
+      - 从本机已有音频且可追溯题源的 Section 4 中选一组；可重做错题，但必须标记 reused。
+      - 漏一题后立刻移到下一题，不把重做分数计入新基线。
+      - 只复盘错题、低信心答对题的定位区间，记录首次跟丢点和恢复点。
+    success_criteria: 产生 10 题结果和错因记录；不因纠结一题再连续丢 3 题。分数未达标仍算完成，但会生成后续专项。
+    evidence_required: [10题结果, 错因标签, 两个技巧的使用记录]
+    resource:
+      route: /listening
+      ref: techniques/listening.md#section-4-专项
+      label: 本机已核验音频的 Cambridge Section 4 专项
+  - key: reading-matching
+    priority: must
+    skill: reading
+    kind: technique_drill
+    title: Matching Features 一题一字母验证
+    planned_min: 30
+    rationale: 剑15 Test 1 Matching Features 仅 2/5；规则已 learned，但尚未在新题验证。
+    instructions:
+      - 作答前复述 NB 的含义：字母可跨题复用，但每题只填一个字母。
+      - 限时完成一组 Matching Features。
+      - 错题只归为 wrong_person、negative_paraphrase 或 dual_condition 等可行动标签。
+    success_criteria: 格式错误为 0；目标至少 5/6。低于目标仍算完成并进入专项复练。
+    evidence_required: [逐题答案, 正确率, 错因标签]
+    resource:
+      route: /reading
+      ref: techniques/reading.md#matching-features
+      label: 剑16 Test 1 · Passage 3 · Questions 35–40
+      source_file: knowledge/剑16_视觉转录.md
+      start_line: 395
+      end_line: 521
+  - key: writing-overview
+    priority: must
+    skill: writing
+    kind: technique_drill
+    title: Task 1 Overview 修复
+    planned_min: 20
+    rationale: 唯一 Task 1 样本无 Overview；该技巧仍为 unknown。
+    instructions:
+      - 不看范文，先写一版只概括总体趋势和关键对比的 Overview。
+      - 对照技巧卡重写一版；不写原因，不堆细碎数字。
+      - 最后单独做拼写检查。
+    success_criteria: 有清晰 Overview；只含 1–2 个总体特征；不解释原因；已知拼写错误为 0。
+    evidence_required: [Overview原稿, Overview改稿, 拼写检查结果]
+    resource:
+      route: /writing
+      ref: techniques/writing.md#overview-是-tr-的生命线
+      label: 剑16 Test 1 · Writing Task 1
+      source_file: knowledge/剑16_视觉转录.md
+      start_line: 529
+      end_line: 563
+  - key: vocab-review
+    priority: should
+    skill: vocab
+    kind: error_review
+    title: 旧错词清账
+    planned_min: 10
+    rationale: 3 个难词连续答对为 0；Day 1 欠复习已超过 100 天。4235 个导入词条不是今日欠账。
+    instructions:
+      - 闭卷测试 exacerbate、ubiquitous、paradigm 和 increase synonyms。
+      - 再从 Day 1 随机抽 6 项。
+      - 未清旧账前不加新词。
+    success_criteria: 完成 10 项闭卷测试并记录错词；错词留在 difficult，连续 3 次正确后才出池。
+    evidence_required: [10项结果, 错词清单]
+    resource:
+      route: /vocab
+      ref: vocab/days/day02.md
+      label: Day 1–2 逾期复习
+  - key: reading-mcq
+    priority: should
+    skill: reading
+    kind: technique_drill
+    title: Reading MCQ 三陷阱专项
+    planned_min: 30
+    rationale: 唯一细分样本 MCQ 仅 3/6，让步、主语和情感干扰各失分 1 题。
+    instructions: [先按题干定位再看选项, 复盘所有错题和低信心答对题, 记录同义替换]
+    success_criteria: 完成一组 MCQ 并为每个错误写出可行动错因。
+    evidence_required: [逐题答案, 正确率, 错因]
+    resource: {route: /reading, ref: techniques/reading.md#multiple-choice, label: Cambridge 阅读 MCQ 专项}
+  - key: reading-synonyms
+    priority: should
+    skill: reading
+    kind: error_review
+    title: 同义替换复测与回填
+    planned_min: 30
+    rationale: 当前只有13组同义替换且已超过100天未复测，synonym_bank仍为applied。
+    instructions: [双向闭卷复测既有13组, 把当周错题定位句新增替换回填词库]
+    success_criteria: 完成13组复测；新增项必须来自错题定位句而非随机词表。
+    evidence_required: [复测结果, 新增同义替换]
+    resource: {route: /reading, ref: techniques/reading.md#synonym-库的用法, label: 既有13组同义替换}
+  - key: listening-recovery
+    priority: must
+    skill: listening
+    kind: technique_drill
+    title: 跟丢后重新咬题
+    planned_min: 30
+    rationale: 剑15 Test 1 Section 2 曾连续错4题，abandon_and_move_on仍为unknown。
+    instructions: [练一个连续题组, 每次漏听立即标记并跳到下一题, 记录恢复所用信号词]
+    success_criteria: 不因回想上一题造成连续3题失分；记录至少一个恢复点。
+    evidence_required: [题组结果, 首次跟丢点, 恢复点]
+    resource: {route: /listening, ref: techniques/listening.md#通用铁律所有题型通用, label: Cambridge 连续题组}
+  - key: listening-spelling
+    priority: should
+    skill: listening
+    kind: error_review
+    title: 听音拼写维护
+    planned_min: 15
+    rationale: 基线有3次spelling_or_word失分；词汇只从真实错题与定位区间提取。
+    instructions: [听写本周15个错题词或低反应词, 错词进入复测而非继续加新词]
+    success_criteria: 15项听写有分数和错词清单；错词安排下一次复测。
+    evidence_required: [15项结果, 错词清单]
+    resource: {route: /listening, ref: techniques/listening.md#note--form--table-completion用户-s4-主要失分处, label: 本周听力错词}
+  - key: writing-technique
+    priority: must
+    skill: writing
+    kind: learn_technique
+    title: 写作 priority 1 技巧转化
+    planned_min: 30
+    rationale: 拼写纪律、Overview和正式语域均为unknown；先学一项再产出短样本验证。
+    instructions: [只选一个priority1技巧, 读技巧卡后完成一个短写作样本, 对照成功条件自查]
+    success_criteria: 技巧不只被阅读，而是产生原稿、修改稿和一次使用证据。
+    evidence_required: [原稿, 修改稿, technique_id使用记录]
+    resource: {route: /writing, ref: techniques/writing.md, label: 写作技巧卡}
+  - key: writing-task1
+    priority: must
+    skill: writing
+    kind: timed_practice
+    title: Task 1 限时完整写作
+    planned_min: 45
+    rationale: 写作基线 5.0 且已过 100 天，需要新样本验证 Overview、拼写和结构。
+    instructions: [20分钟独立写完后再看技巧卡, 保留原稿并完成错误检查]
+    success_criteria: 20分钟内至少150词，清晰 Overview，完成拼写检查并提交批改。
+    evidence_required: [完整作文, 用时, 字数, 批改记录]
+    resource: {route: /writing, ref: techniques/writing.md#task-1四段式结构必须严格执行, label: Cambridge Task 1 未使用题}
+  - key: writing-timed-alternating
+    priority: must
+    skill: writing
+    kind: timed_practice
+    title: Task 1 / Task 2 交替限时写作
+    planned_min: 50
+    rationale: 在听读占约 80% 周预算的约束下，每周保留一次完整写作；按 ISO 周奇偶交替 Task 1 与 Task 2，四周覆盖两轮。
+    instructions:
+      - ISO 奇数周做 Task 1：20 分钟写作，之后 30 分钟检查、提交和记录；偶数周做 Task 2：40 分钟写作，之后 10 分钟检查与提交。
+      - 必须先独立写完再看范文或技巧卡，并保留原稿。
+      - 记录用时、字数、拼写和口语化表达数量；下一次完成针对最高频错误的改写。
+    success_criteria: Task 1 至少 150 词且有清晰 Overview，或 Task 2 至少 250 词且立场清楚；两者都在规定写作时间内完成并留有批改证据。
+    evidence_required: [完整作文, 任务类型, 用时与字数, 批改记录]
+    resource: {route: /writing, ref: techniques/writing.md, label: Cambridge 未使用写作题（按周交替 Task 1 / Task 2）}
+  - key: writing-task2
+    priority: must
+    skill: writing
+    kind: timed_practice
+    title: Task 2 限时完整写作
+    planned_min: 50
+    rationale: 基线 5.0；拼写 9 次、口语化表达 4 次，需要新样本。
+    instructions: [5分钟审题列提纲, 35分钟独立写作, 10分钟检查与提交]
+    success_criteria: 40分钟内至少250词；立场清楚；拼写和口语化表达有量化记录。
+    evidence_required: [完整作文, 用时, 字数, 批改记录]
+    resource: {route: /writing, ref: techniques/writing.md#task-2结构与立场, label: Cambridge Task 2 未使用题}
+  - key: speaking-part3
+    priority: should
+    skill: speaking
+    kind: technique_drill
+    title: Part 3 观点框架
+    planned_min: 30
+    rationale: Part 3 尚未练习；当前只有一次无转写 Part 2 录音。
+    instructions: [录制3道Part 3, 每题使用观点加原因加例子, 回听并重答最弱一题]
+    success_criteria: 3 道回答均有直接观点和展开；完成一次回听重答。
+    evidence_required: [录音, 回听问题, 重答]
+    resource: {route: /speaking, ref: techniques/speaking.md#part-3, label: Cambridge Speaking Part 3}
+  - key: speaking-story
+    priority: should
+    skill: speaking
+    kind: learn_technique
+    title: 建立第一个万能故事
+    planned_min: 30
+    rationale: 万能故事 0 篇，是 priority 1 中投入产出比最高的未做动作。
+    instructions: [选择一个真实经历, 建立90秒关键词骨架, 映射至少5个Part2话题并录音]
+    success_criteria: 生成1个可复用故事并完成一次90–120秒录音。
+    evidence_required: [故事卡, 话题映射, 录音]
+    resource: {route: /speaking, ref: techniques/speaking.md#万能故事策略尚未建立0篇, label: 万能故事工作台}
+  - key: typing-speed
+    priority: optional
+    skill: typing
+    kind: technique_drill
+    title: 机考打字提速
+    planned_min: 15
+    rationale: 平均约23 WPM、最好25，距45 WPM目标仍远；正确率已接近100%。
+    instructions: [完成3轮各3分钟练习, 以速度为主但准确率不低于97%]
+    success_criteria: 记录3轮WPM；本阶段目标稳定达到30 WPM。
+    evidence_required: [3轮WPM, 准确率]
+    resource: {route: /typing, label: 内置机考打字训练}
+  - key: listening-full
+    priority: must
+    skill: listening
+    kind: timed_practice
+    title: 完整听力诊断与复盘
+    planned_min: 65
+    rationale: 唯一完整听力样本已过100天，需要新基线。
+    instructions: [只选本机音频齐全且题源可追溯的整套；没有未使用套题时标记跳过并说明素材缺口, 严格计时完成后只复盘错题低信心题和连续失分区间, 重做套题必须标记reused且不计新基线]
+    success_criteria: 产生40题分数、四个Section分数和错误标签；只有首次作答可进入能力趋势。
+    evidence_required: [40题结果, Section分数, 错因]
+    resource: {route: /listening, ref: techniques/review-method.md#听力复盘, label: Cambridge 未使用完整听力}
+  - key: reading-full
+    priority: must
+    skill: reading
+    kind: timed_practice
+    title: 完整阅读诊断与复盘
+    planned_min: 75
+    rationale: 只有一个Passage细分样本且已过100天，需要完整40题新基线。
+    instructions: [60分钟完成一套未使用完整阅读并记录题源, 只复盘错题低信心题和严重超时题, 重做套题必须标记reused且不计新基线]
+    success_criteria: 产生40题分数、各Passage用时和题型错误标签。
+    evidence_required: [40题结果, 各Passage用时, 错因]
+    resource: {route: /reading, ref: techniques/review-method.md#阅读复盘, label: Cambridge 未使用完整阅读}
+  - key: writing-rewrite
+    priority: should
+    skill: writing
+    kind: error_review
+    title: 本周作文证据化改写
+    planned_min: 25
+    rationale: 写作必须通过原稿与改稿对比验证修复，不把看范文算进度。
+    instructions: [从本周作文选3个最高频错误句, 先独立改写再对照批改]
+    success_criteria: 3句均保留原句、改句和错误标签。
+    evidence_required: [3组原句与改句]
+    resource: {route: /writing, ref: techniques/review-method.md#写作复盘, label: 本周作文批改}
+  - key: speaking-mock
+    priority: should
+    skill: speaking
+    kind: timed_practice
+    title: 11–14 分钟口语模拟
+    planned_min: 15
+    rationale: 口语只有Part2时长证据，没有完整三部分样本。
+    instructions: [按Part1到Part3完成一次不中断录音]
+    success_criteria: 录音覆盖三部分且总长11–14分钟；回听与重答放入下一次口语专项。
+    evidence_required: [完整录音]
+    resource: {route: /speaking, label: Cambridge Speaking 全套}
+  - key: weekly-review
+    priority: must
+    skill: review
+    kind: error_review
+    title: 周复盘与下周调度
+    planned_min: 30
+    rationale: 完成量和能力变化必须分开；未复盘任务不计有效训练。
+    instructions: [核对本周完成证据, 统计未达标技能, 优先复盘听读, 下周只滚入一个最高优先级欠账]
+    success_criteria: 形成本周数字摘要、一个主要瓶颈和下周首要动作。
+    evidence_required: [分钟数, 训练产出, 达标与未达标, 下周首要动作]
+    resource: {route: /timeline, ref: techniques/review-method.md, label: 本周全部训练记录}
