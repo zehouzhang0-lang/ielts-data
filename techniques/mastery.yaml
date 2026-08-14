@@ -11,23 +11,23 @@
 #   - 若某技巧状态是 learned/applied 却仍错 → 说明"知道但做不到"，需要专项练
 #   - 若某技巧 unknown 却错了 → 先学技巧卡，再练题（这就是"技巧先行"）
 
-updated_at: "2026-08-13"
+updated_at: "2026-08-14"
 
 listening:
   - id: s4_lecture_rhythm
     name: Section 4 讲座节奏跟读
     card: listening.md#section-4-专项
-    status: unknown
+    status: applied
     error_tags: [lost_in_lecture]
-    evidence: "cam15-T1 S4 错 7 题"
+    evidence: "cam15-T1 S4 3/10；2026-08-13 cam15-T2 S4 3/10，已完成定位句与原文回映复盘，仍有 6 题因跟丢失分"
     priority: 1
 
   - id: abandon_and_move_on
     name: 跟丢立刻放弃下一题
     card: listening.md#通用铁律
-    status: unknown
+    status: applied
     error_tags: [lost_track_chain]
-    evidence: "cam15-T1 S2 Q17-20 连错 4 题"
+    evidence: "cam15-T1 S2 Q17-20 连错 4 题；2026-08-13 cam15-T2 S4 跟丢后两次重新定位，但恢复仍不稳定"
     priority: 1
 
   - id: mc_distractor_traps

@@ -93,7 +93,7 @@ user_weak_types: [note_completion_s4, multiple_choice, map]
 
 | 错误标签 | 出现次数 | 对应技巧卡 | 状态 |
 |---------|---------|-----------|------|
-| lost_in_lecture | 7 | Section 4 专项 | 🔴 未攻克 |
+| lost_in_lecture | 13 | Section 4 专项 | 🟠 已应用，仍未攻克 |
 | lost_track_chain | 4 | 通用铁律 #4 | 🔴 未攻克 |
 | mc_distractor | 3 | Multiple Choice 三陷阱 | 🟡 已知未练 |
 | spelling_or_word | 3 | Completion 字数与拼写 | 🟡 已知未练 |
